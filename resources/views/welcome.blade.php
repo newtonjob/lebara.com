@@ -41,7 +41,7 @@
     <link rel="stylesheet" media="screen" href="assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
 
     <!-- Main Theme Styles + Bootstrap -->
-    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css?v={{ time() }}">
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
 
     <!-- Page loading styles -->
     <style>
