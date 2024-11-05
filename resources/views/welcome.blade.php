@@ -5,9 +5,17 @@
     <title>Great Value Prepaid Mobile Plans | Lebara Nigeria</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Great Value Prepaid Mobile Plans | Lebara Nigeria">
+    <meta name="description" content="Don't take our word for it!">
     <meta name="keywords" content="lebara">
     <meta name="author" content="VAS2Nets">
+
+    <meta property="og:title" content="Great Value Prepaid Mobile Plans | Lebara Nigeria" />
+    <meta property="og:description" content="Don't take our word for it!" />
+    <meta property="og:image" content="{{ asset('og.jpg') }}" />
+
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@_newtonjob"/>
+    <meta name="twitter:creator" content="@_newtonjob"/>
 
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
