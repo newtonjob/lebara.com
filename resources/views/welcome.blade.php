@@ -188,7 +188,7 @@
                     <a href="javascript:"
                        class="btn btn-primary w-100" target="_blank" rel="noopener">
                         <i class="bx bx-cart fs-4 lh-1 me-1"></i>
-                        &nbsp;Buy now
+                        &nbsp;Recharge
                     </a>
                 </div>
             </div>
@@ -204,7 +204,7 @@
             <a href="javascript:"
                class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
                 <i class="bx bx-cart fs-5 lh-1 me-1"></i>
-                &nbsp;Buy now
+                &nbsp;Recharge
             </a>
         </div>
     </header>
