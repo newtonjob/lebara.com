@@ -199,7 +199,7 @@
                 <img src="assets/img/landing/conference/hero-bg.png" class="position-absolute top-50 translate-middle-y ms-lg-n4" width="866" alt="Background shapes">
                 <div class="position-relative zindex-5 text-center text-lg-start px-3 px-lg-0 py-xl-4 py-xxl-5 mt-lg-3 mx-auto mx-lg-0" style="max-width: 530px;">
                     <h2 class="h6 text-primary">
-                        THE SABI NETWORK
+                        Reliable. Affordable and premium service
                     </h2>
 
                     <h1 class="display-1 pb-lg-3 mb-3">Lebara is in Nigeria</h1>
@@ -233,14 +233,14 @@
 
                     <div class="d-flex justify-content-center justify-content-lg-start text-start mt-5">
                         <i class="bx bx-message fs-4 text-primary me-2"></i>
-                        <div class="fs-xl">The smarter way to connect. Join the waitlist!</div>
+                        <div class="fs-xl">Subscribe to get the insider gist of our launch and other premium offers.</div>
                     </div>
 
                     <form
                         action="/join"
                         x-data="{ form: $form() }"
                         @submit.prevent="form.submit()"
-                        @then="swal('You sabi!', 'We\'ll be in touch.', 'success'); $el.reset()"
+                        @then="swal('Well done!', 'We\'ll be in touch.', 'success'); $el.reset()"
                     >
                         <div class="mt-4">
                             <div class="form-floating">
