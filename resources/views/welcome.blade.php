@@ -21,27 +21,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Theme switcher (color modes) -->
-    <script src="assets/js/theme-switcher.js"></script>
+    <script src="/assets/js/theme-switcher.js"></script>
 
     <!-- Favicon and Touch Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('logo.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('logo.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('logo.png') }}">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#6366f1">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
     <meta name="msapplication-TileColor" content="#080032">
-    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Vendor Styles -->
-    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
-    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" media="screen" href="assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
 
     <!-- Main Theme Styles + Bootstrap -->
-    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css">
 
     <!-- Page loading styles -->
     <style>
@@ -243,15 +243,15 @@
                         class="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start pt-2 mt-4 mt-md-5">
                         <a href="https://apps.apple.com/gb/app/mylebara/id1122491914"
                            class="btn btn-dark btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3">
-                            <img src="assets/img/market/appstore-light.svg" class="light-mode-img" width="124"
+                            <img src="/assets/img/market/appstore-light.svg" class="light-mode-img" width="124"
                                  alt="App Store">
-                            <img src="assets/img/market/appstore-dark.svg" class="dark-mode-img" width="124"
+                            <img src="/assets/img/market/appstore-dark.svg" class="dark-mode-img" width="124"
                                  alt="App Store">
                         </a>
                         <a href="https://play.google.com/store/apps/details?id=com.lebara.wallet&hl=en&pli=1" class="btn btn-dark btn-lg px-3 py-2 mb-3">
-                            <img src="assets/img/market/googleplay-light.svg" class="light-mode-img" width="139"
+                            <img src="/assets/img/market/googleplay-light.svg" class="light-mode-img" width="139"
                                  alt="Google Play">
-                            <img src="assets/img/market/googleplay-dark.svg" class="dark-mode-img" width="139"
+                            <img src="/assets/img/market/googleplay-dark.svg" class="dark-mode-img" width="139"
                                  alt="Google Play">
                         </a>
                     </div>
@@ -302,7 +302,7 @@
                     <div class="d-lg-table-cell align-middle h4 border-bottom py-3 py-lg-4 mb-0">N3,000</div>
 
                     <div class="d-lg-table-cell align-middle border-bottom-lg py-3 py-lg-4">
-                        <img src="assets/img/landing/app-showcase-2/crypto/graphs/btc.svg" width="108" alt="BTC graph">
+                        <img src="/assets/img/landing/app-showcase-2/crypto/graphs/btc.svg" width="108" alt="BTC graph">
                     </div>
                     <div class="d-lg-table-cell align-middle border-bottom-lg text-lg-end pt-2 pb-3 py-lg-4">
                         <button type="button" class="btn btn-sm btn-outline-secondary fs-sm w-100 w-lg-auto">Buy
@@ -323,7 +323,7 @@
                     <div class="d-lg-table-cell align-middle h4 border-bottom py-3 py-lg-4 mb-0">N10,000</div>
 
                     <div class="d-lg-table-cell align-middle border-bottom-lg py-3 py-lg-4">
-                        <img src="assets/img/landing/app-showcase-2/crypto/graphs/usdt.svg" width="108"
+                        <img src="/assets/img/landing/app-showcase-2/crypto/graphs/usdt.svg" width="108"
                              alt="USDT graph">
                     </div>
                     <div class="d-lg-table-cell align-middle border-bottom-lg text-lg-end pt-2 pb-3 py-lg-4">
@@ -345,7 +345,7 @@
                     <div class="d-lg-table-cell align-middle h4 border-bottom py-3 py-lg-4 mb-0">N28,000</div>
 
                     <div class="d-lg-table-cell align-middle border-bottom-lg py-3 py-lg-4">
-                        <img src="assets/img/landing/app-showcase-2/crypto/graphs/eth.svg" width="108" alt="ETH graph">
+                        <img src="/assets/img/landing/app-showcase-2/crypto/graphs/eth.svg" width="108" alt="ETH graph">
                     </div>
                     <div class="d-lg-table-cell align-middle border-bottom-lg text-lg-end pt-2 pb-3 py-lg-4">
                         <button type="button" class="btn btn-sm btn-outline-secondary fs-sm w-100 w-lg-auto">Buy
@@ -365,7 +365,7 @@
                     <div class="d-lg-table-cell align-middle h4 border-bottom py-3 py-lg-4 mb-0">N120,000</div>
 
                     <div class="d-lg-table-cell align-middle border-bottom-lg py-3 py-lg-4">
-                        <img src="assets/img/landing/app-showcase-2/crypto/graphs/dot.svg" width="108" alt="DOT graph">
+                        <img src="/assets/img/landing/app-showcase-2/crypto/graphs/dot.svg" width="108" alt="DOT graph">
                     </div>
                     <div class="d-lg-table-cell align-middle border-bottom-lg text-lg-end pt-2 pb-3 py-lg-4">
                         <button type="button" class="btn btn-sm btn-outline-secondary fs-sm w-100 w-lg-auto">Buy
@@ -386,7 +386,7 @@
                     <div class="row row-cols-1 row-cols-sm-2 gx-lg-5 g-4">
                         <div class="col d-md-flex d-xl-block align-items-center pt-1 pt-sm-2 pt-md-0 pt-xl-3">
                             <div class="d-table bg-secondary rounded flex-shrink-0 p-2 mb-3 me-md-3 me-xl-0">
-                                <img src="assets/img/landing/app-showcase-2/features/payments.svg" width="19"
+                                <img src="/assets/img/landing/app-showcase-2/features/payments.svg" width="19"
                                      class="d-block m-1" alt="Icon">
                             </div>
                             <h3 class="h5 pb-sm-1 mb-2">
@@ -399,7 +399,7 @@
                         </div>
                         <div class="col d-md-flex d-xl-block align-items-center pt-1 pt-sm-2 pt-md-0 pt-xl-3">
                             <div class="d-table bg-secondary rounded flex-shrink-0 p-2 mb-3 me-md-3 me-xl-0">
-                                <img src="assets/img/landing/app-showcase-2/features/cashback.svg" width="19"
+                                <img src="/assets/img/landing/app-showcase-2/features/cashback.svg" width="19"
                                      class="d-block m-1" alt="Icon">
                             </div>
                             <h3 class="h5 pb-sm-1 mb-2">
@@ -412,7 +412,7 @@
                         </div>
                         <div class="col d-md-flex d-xl-block align-items-center pt-1 pt-sm-2 pt-md-0 pt-xl-3">
                             <div class="d-table bg-secondary rounded flex-shrink-0 p-2 mb-3 me-md-3 me-xl-0">
-                                <img src="assets/img/landing/app-showcase-2/features/statistics.svg" width="19"
+                                <img src="/assets/img/landing/app-showcase-2/features/statistics.svg" width="19"
                                      class="d-block m-1" alt="Icon">
                             </div>
                             <h3 class="h5 pb-sm-1 mb-2">
@@ -425,7 +425,7 @@
                         </div>
                         <div class="col d-md-flex d-xl-block align-items-center pt-1 pt-sm-2 pt-md-0 pt-xl-3">
                             <div class="d-table bg-secondary rounded flex-shrink-0 p-2 mb-3 me-md-3 me-xl-0">
-                                <img src="assets/img/landing/app-showcase-2/features/security.svg" width="19"
+                                <img src="/assets/img/landing/app-showcase-2/features/security.svg" width="19"
                                      class="d-block m-1" alt="Icon">
                             </div>
                             <h3 class="h5 pb-sm-1 mb-2">
@@ -739,9 +739,9 @@
                             <div class="col d-xl-flex justify-content-end">
                                 <a href="https://apps.apple.com/gb/app/mylebara/id1122491914"
                                    class="btn btn-dark btn-lg w-xl-100 px-3 py-2 ms-xl-3 mt-3 mt-lg-0">
-                                    <img src="assets/img/market/appstore-light.svg" class="light-mode-img" width="124"
+                                    <img src="/assets/img/market/appstore-light.svg" class="light-mode-img" width="124"
                                          alt="App Store">
-                                    <img src="assets/img/market/appstore-dark.svg" class="dark-mode-img" width="124"
+                                    <img src="/assets/img/market/appstore-dark.svg" class="dark-mode-img" width="124"
                                          alt="App Store">
                                 </a>
                             </div>
@@ -760,9 +760,9 @@
                             <div class="col d-xl-flex justify-content-end">
                                 <a href="https://play.google.com/store/apps/details?id=com.lebara.wallet&hl=en_GB&gl=US"
                                    class="btn btn-dark btn-lg w-xl-100 px-3 py-2 ms-xl-3 mt-3 mt-lg-0">
-                                    <img src="assets/img/market/googleplay-light.svg" class="light-mode-img" width="139"
+                                    <img src="/assets/img/market/googleplay-light.svg" class="light-mode-img" width="139"
                                          alt="Google Play">
-                                    <img src="assets/img/market/googleplay-dark.svg" class="dark-mode-img" width="139"
+                                    <img src="/assets/img/market/googleplay-dark.svg" class="dark-mode-img" width="139"
                                          alt="Google Play">
                                 </a>
                             </div>
@@ -855,12 +855,12 @@
         </ul>
         <div class="d-flex flex-column flex-sm-row justify-content-center">
             <a href="https://apps.apple.com/gb/app/mylebara/id1122491914" class="btn btn-dark btn-lg px-3 py-2 me-sm-4 mb-3">
-                <img src="assets/img/market/appstore-light.svg" class="light-mode-img" width="124" alt="App Store">
-                <img src="assets/img/market/appstore-dark.svg" class="dark-mode-img" width="124" alt="App Store">
+                <img src="/assets/img/market/appstore-light.svg" class="light-mode-img" width="124" alt="App Store">
+                <img src="/assets/img/market/appstore-dark.svg" class="dark-mode-img" width="124" alt="App Store">
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.lebara.wallet&hl=en_GB&gl=US" class="btn btn-dark btn-lg px-3 py-2 mb-3">
-                <img src="assets/img/market/googleplay-light.svg" class="light-mode-img" width="139" alt="Google Play">
-                <img src="assets/img/market/googleplay-dark.svg" class="dark-mode-img" width="139" alt="Google Play">
+                <img src="/assets/img/market/googleplay-light.svg" class="light-mode-img" width="139" alt="Google Play">
+                <img src="/assets/img/market/googleplay-dark.svg" class="dark-mode-img" width="139" alt="Google Play">
             </a>
         </div>
         <div class="d-flex justify-content-center pt-4 mt-lg-3">
@@ -902,7 +902,7 @@
 <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 <script src="/assets/vendor/lightgallery/plugins/video/lg-video.min.js"></script>
-<script src="assets/vendor/lightgallery/lightgallery.min.js"></script>
+<script src="/assets/vendor/lightgallery/lightgallery.min.js"></script>
 
 <!-- Main Theme Script -->
 <script src="/assets/js/theme.min.js"></script>
