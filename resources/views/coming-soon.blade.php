@@ -130,6 +130,10 @@
                 transform: rotate(360deg);
             }
         }
+
+        .swal-button {
+            background-color: #00a6eb !important;
+        }
     </style>
 
     <!-- Page loading scripts -->
