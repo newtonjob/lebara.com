@@ -47,7 +47,7 @@
                                         </p>
                                     </div>
                                     <div class="scale-up delay-1">
-                                        <a href="#" class="btn btn-primary shadow-primary btn-lg">Start your project</a>
+                                        <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
                                     </div>
 
                                 </div>
