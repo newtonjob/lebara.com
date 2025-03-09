@@ -182,7 +182,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="javascript:" class="nav-link">Product/Service</a>
+                            <a href="/products" class="nav-link">Product/Service</a>
                         </li>
 
                         <li class="nav-item">

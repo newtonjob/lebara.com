@@ -9,6 +9,7 @@ Route::view('/', 'coming-soon');
 Route::view('/home', 'home');
 Route::view('/about', 'about');
 Route::view('/contact', 'contact');
+Route::view('/products', 'products');
 
 Route::view('/old', 'welcome');
 
