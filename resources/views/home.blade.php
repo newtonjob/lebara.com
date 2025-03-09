@@ -1,312 +1,12 @@
-
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-<head>
-    <meta charset="utf-8">
-    <title>Silicon | Software Dev Agency Landing v.1</title>
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Silicon - Multipurpose Technology Bootstrap Template">
-    <meta name="keywords" content="bootstrap, business, creative agency, mobile app showcase, saas, fintech, finance, online courses, software, medical, conference landing, services, e-commerce, shopping cart, multipurpose, shop, ui kit, marketing, seo, landing, blog, portfolio, html5, css3, javascript, gallery, slider, touch, creative">
-    <meta name="author" content="Createx Studio">
-
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Theme switcher (color modes) -->
-    <script src="assets/js/theme-switcher.js"></script>
-
-    <!-- Favicon and Touch Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#6366f1">
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#080032">
-    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Vendor Styles -->
-    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
-    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
-
-    <!-- Main Theme Styles + Bootstrap -->
-    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
-
-    <!-- Page loading styles -->
-    <style>
-        .page-loading {
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            -webkit-transition: all .4s .2s ease-in-out;
-            transition: all .4s .2s ease-in-out;
-            background-color: #fff;
-            opacity: 0;
-            visibility: hidden;
-            z-index: 9999;
-        }
-        [data-bs-theme="dark"] .page-loading {
-            background-color: #0b0f19;
-        }
-        .page-loading.active {
-            opacity: 1;
-            visibility: visible;
-        }
-        .page-loading-inner {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-            -webkit-transition: opacity .2s ease-in-out;
-            transition: opacity .2s ease-in-out;
-            opacity: 0;
-        }
-        .page-loading.active > .page-loading-inner {
-            opacity: 1;
-        }
-        .page-loading-inner > span {
-            display: block;
-            font-size: 1rem;
-            font-weight: normal;
-            color: #9397ad;
-        }
-        [data-bs-theme="dark"] .page-loading-inner > span {
-            color: #fff;
-            opacity: .6;
-        }
-        .page-spinner {
-            display: inline-block;
-            width: 2.75rem;
-            height: 2.75rem;
-            margin-bottom: .75rem;
-            vertical-align: text-bottom;
-            border: .15em solid #b4b7c9;
-            border-right-color: transparent;
-            border-radius: 50%;
-            -webkit-animation: spinner .75s linear infinite;
-            animation: spinner .75s linear infinite;
-        }
-        [data-bs-theme="dark"] .page-spinner {
-            border-color: rgba(255,255,255,.4);
-            border-right-color: transparent;
-        }
-        @-webkit-keyframes spinner {
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-        @keyframes spinner {
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-    </style>
-
-    <!-- Page loading scripts -->
-    <script>
-        (function () {
-            window.onload = function () {
-                const preloader = document.querySelector('.page-loading');
-                preloader.classList.remove('active');
-                setTimeout(function () {
-                    preloader.remove();
-                }, 1000);
-            };
-        })();
-    </script>
-</head>
-
-
-<!-- Body -->
-<body>
-<!-- Page loading spinner -->
-<div class="page-loading active">
-    <div class="page-loading-inner">
-        <div class="page-spinner"></div><span>Loading...</span>
-    </div>
-</div>
-
-
-<!-- Page wrapper for sticky footer -->
-<!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
-<main class="page-wrapper">
-
-
-    <!-- Navbar -->
-    <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
-    <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
-        <div class="container px-3">
-            <a href="index.html" class="navbar-brand pe-3">
-                <img src="{{ asset('logo.svg') }}" width="120" alt="Lebara">
-            </a>
-            <div id="navbarNav" class="offcanvas offcanvas-end">
-                <div class="offcanvas-header border-bottom">
-                    <h5 class="offcanvas-title">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a href="/" class="nav-link">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="javascript:" class="nav-link">Roaming</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="javascript:" class="nav-link">Top up</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="offcanvas-header border-top">
-                    <a href="javascript:"
-                       class="btn btn-primary w-100" target="_blank" rel="noopener">
-                        <i class="bx bx-cart fs-4 lh-1 me-1"></i>
-                        &nbsp;Recharge
-                    </a>
-                </div>
-            </div>
-            <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
-                <input type="checkbox" class="form-check-input" id="theme-mode">
-                <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
-                <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
-            </div>
-            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="javascript:"
-               class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
-                <i class="bx bx-cart fs-5 lh-1 me-1"></i>
-                &nbsp;Recharge
-            </a>
-        </div>
-    </header>
-
-    <section class="container-fluid position-relative px-0">
-        <div class="d-flex flex-column text-white" style="height: 100vh">
-            <video class="w-100 position-absolute" autoplay="" muted="" loop="" style="object-fit: cover; height: 100vh">
-                <source src="/lekki-video.mp4" type="video/mp4">
-            </video>
-
-            <div class="position-relative zindex-5 text-center px-3 px-lg-0 py-xl-4 py-xxl-5 mt-lg-3 mx-auto mx-lg-0 d-flex flex-column justify-content-center" style="height: 100vh">
-                <h2 class="h6 text-primary">
-                    Reliable. Affordable and premium service
-                </h2>
-
-                <h1 class="display-1 pb-lg-3 mb-3 text-white">Welcome to Lebara Nigeria</h1>
-            </div>
-
-            <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
-
-                <!-- Slider controls (Prev / next) -->
-                <button type="button" id="hero-prev" class="btn btn-prev btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 start-0 translate-middle-y d-none d-md-inline-flex ms-n3 ms-lg-2" aria-label="Previous">
-                    <i class="bx bx-chevron-left fs-1"></i>
-                </button>
-                <button type="button" id="hero-next" class="btn btn-next btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 end-0 translate-middle-y d-none d-md-inline-flex me-n3 me-lg-2" aria-label="Next">
-                    <i class="bx bx-chevron-right fs-1"></i>
-                </button>
-
-                <!-- Slider -->
-                <div class="container text-center py-xl-5">
-                    <div class="row justify-content-center pt-lg-5">
-                        <div class="col-xl-8 col-lg-9 col-md-10 col-11">
-                            <div class="swiper pt-5 pb-4 py-md-5" data-swiper-options='{
-                          "effect": "fade",
-                          "speed": 500,
-                          "autoplay": {
-                            "delay": 5500,
-                            "disableOnInteraction": false
-                          },
-                          "pagination": {
-                            "el": ".swiper-pagination",
-                            "clickable": true
-                          },
-                          "navigation": {
-                            "prevEl": "#hero-prev",
-                            "nextEl": "#hero-next"
-                          }
-                        }'>
-                                <div class="swiper-wrapper">
-                                    <!-- Item -->
-                                    <div class="swiper-slide">
-                                        <h2 class="display-2 from-start mb-lg-4">The Best IT Solutions for Your Business</h2>
-                                        <div class="from-end">
-                                            <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We provide the wide range of high quality IT services and best practices solutions to our customers making their business better.</p>
-                                        </div>
-                                        <div class="scale-up delay-1">
-                                            <a href="#" class="btn btn-primary shadow-primary btn-lg">Start your project</a>
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Item -->
-                                    <div class="swiper-slide">
-                                        <h2 class="display-2 from-start mb-lg-4">Award-Winning Software Development</h2>
-                                        <div class="from-end">
-                                            <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We build complex web, desktop and mobile applications. With us you get quality software and perfect service every time.</p>
-                                        </div>
-                                        <div class="scale-up delay-1">
-                                            <a href="#" class="btn btn-primary shadow-primary btn-lg">View case studies</a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Item -->
-                                    <div class="swiper-slide">
-                                        <h2 class="display-2 from-start mb-lg-4">24/7 Tech &amp; Business Support</h2>
-                                        <div class="from-end">
-                                            <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We ensure lifetime support of all applications we've built. Our support department is a team of professionals who will assist you 24/7.</p>
-                                        </div>
-                                        <div class="scale-up delay-1">
-                                            <a href="#" class="btn btn-primary shadow-primary btn-lg">Work with us</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Pagination (bullets) -->
-                                <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
-    @if(false)
-            <div class="position-absolute d-none d-lg-block bottom-0 start-0 w-100 zindex-5 pb-xxl-5">
-                <div class="container pb-4 mb-3 mb-xxl-0">
-                    <a href="" class="d-table text-light opacity-80 text-decoration-none w-auto py-4" data-scroll="" data-scroll-offset="70">
-                        <span class="d-flex align-items-center">
-                            Scroll for more
-                            <i class="bx bx-down-arrow-circle fs-3 ms-2"></i>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        @endif
-    </section>
-
-
-
+<x-layouts.site>
     <!-- Hero slider + BG parallax -->
-    <section class="jarallax bg-dark py-xxl-5" data-jarallax data-speed="0.4" data-bs-theme="dark">
-        <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent"></span>
-        <div class="jarallax-img" style="background-image: url('assets/img/landing/software-agency-1/hero-bg.jpg');"></div>
+    <section class="jarallax vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
+        <span class="position-absolute top-0 start-0 w-100 vh-100 bg-gradient-primary-translucent d-none"></span>
+
+        <video class="w-100 position-absolute object-fit-cover vh-100" autoplay muted loop>
+            <source src="/lekki-video.mp4" type="video/mp4">
+        </video>
+
         <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
 
             <!-- Slider controls (Prev / next) -->
@@ -340,9 +40,11 @@
                             <div class="swiper-wrapper">
                                 <!-- Item -->
                                 <div class="swiper-slide">
-                                    <h2 class="display-2 from-start mb-lg-4">The Best IT Solutions for Your Business</h2>
+                                    <h2 class="display-2 from-start mb-lg-4">Welcome to Lebara Nigeria</h2>
                                     <div class="from-end">
-                                        <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We provide the wide range of high quality IT services and best practices solutions to our customers making their business better.</p>
+                                        <p class="fs-xl text-white pb-2 mb-lg-5">
+                                            Reliable. Affordable and premium service.
+                                        </p>
                                     </div>
                                     <div class="scale-up delay-1">
                                         <a href="#" class="btn btn-primary shadow-primary btn-lg">Start your project</a>
@@ -354,7 +56,7 @@
                                 <div class="swiper-slide">
                                     <h2 class="display-2 from-start mb-lg-4">Award-Winning Software Development</h2>
                                     <div class="from-end">
-                                        <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We build complex web, desktop and mobile applications. With us you get quality software and perfect service every time.</p>
+                                        <p class="fs-xl text-white pb-2 mb-lg-5">We build complex web, desktop and mobile applications. With us you get quality software and perfect service every time.</p>
                                     </div>
                                     <div class="scale-up delay-1">
                                         <a href="#" class="btn btn-primary shadow-primary btn-lg">View case studies</a>
@@ -365,7 +67,7 @@
                                 <div class="swiper-slide">
                                     <h2 class="display-2 from-start mb-lg-4">24/7 Tech &amp; Business Support</h2>
                                     <div class="from-end">
-                                        <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">We ensure lifetime support of all applications we've built. Our support department is a team of professionals who will assist you 24/7.</p>
+                                        <p class="fs-xl text-white pb-2 mb-lg-5">We ensure lifetime support of all applications we've built. Our support department is a team of professionals who will assist you 24/7.</p>
                                     </div>
                                     <div class="scale-up delay-1">
                                         <a href="#" class="btn btn-primary shadow-primary btn-lg">Work with us</a>
@@ -403,14 +105,13 @@
         </div>
     </section>
 
-
     <!-- About -->
     <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
         <div class="row pt-xl-3">
             <div class="col-md-5 text-center text-md-start pb-5">
-                <h1 class="mb-4">Award-Winning Software Company</h1>
+                <h1 class="mb-4">We are Lebara</h1>
                 <p class="fs-lg pb-lg-3 mb-4">We create diverse, complex, web and mobile solutions for any business need. With us you get quality software and perfect service every time.</p>
-                <a href="about-v2.html" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
+                <a href="/about" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
                 <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
                     <h2 class="h6 mb-4">Some of our awards:</h2>
                     <img src="assets/img/landing/software-agency-1/awards.svg" alt="Awards">
@@ -422,737 +123,391 @@
         </div>
     </section>
 
+    <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
+        <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
+            <h2 class="h1">How to get a sim/esim?</h2>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat mollis egestas nam luctus facilisis ultrices</p>
+        </div>
 
-    <!-- Services -->
-    <section class="bg-secondary pb-md-2 pb-lg-5">
-        <div class="d-none d-lg-block" style="margin-top: -60px; padding-top: 60px;"></div>
-        <div class="container pb-4 pt-5">
-            <h2 class="h1 text-center text-md-start mb-lg-4 pt-1 pt-md-4">Our Services</h2>
-            <div class="row align-items-center pb-5 mb-lg-2">
-                <div class="col-md-8 text-center text-md-start">
-                    <p class="fs-lg text-muted mb-md-0">We are focused on helping brands grow through digital transformation services. We bring real solutions to each client’s problems through a deep understanding of their market, solution, and vision.</p>
+        <!-- Steps -->
+        <div class="steps steps-sm steps-horizontal-md steps-center pb-5 mb-md-2 mb-lg-3">
+            <div class="step">
+                <div class="step-number">
+                    <div class="step-number-inner">1</div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
-                    <a href="services-v1.html" class="btn btn-outline-primary btn-lg">See all services</a>
+                <div class="step-body">
+                    <h3 class="h4 mb-3">Registration </h3>
+                    <p class="mb-0">Massa enim libero dictumst consectetur in convallis lobortis</p>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-2">
-
-                <!-- Item -->
-                <div class="col py-4 my-2 my-sm-3">
-                    <a href="services-single-v1.html" class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
-                        <div class="card-body pt-3">
-                            <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-                                <img src="assets/img/services/icons/cms.svg" class="d-block m-1" width="40" alt="Icon">
-                            </div>
-                            <h2 class="h4 d-inline-flex align-items-center">
-                                Custom Software Development
-                                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-                            </h2>
-                            <p class="fs-sm text-body mb-0">Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.</p>
-                        </div>
-                    </a>
+            <div class="step">
+                <div class="step-number">
+                    <div class="step-number-inner">2</div>
                 </div>
-
-                <!-- Item -->
-                <div class="col py-4 my-2 my-sm-3">
-                    <a href="services-single-v1.html" class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
-                        <div class="card-body pt-3">
-                            <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-                                <img src="assets/img/services/icons/rocket.svg" class="d-block m-1" width="40" alt="Icon">
-                            </div>
-                            <h2 class="h4 d-inline-flex align-items-center">
-                                Software Integration
-                                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-                            </h2>
-                            <p class="fs-sm text-body mb-0">Id eget blandit sapien cras massa lectus lorem placerat. Quam dolor commodo fermentum bibendum dictumst. Risus pretium eget at viverra eget. Sit neque adipiscing malesuada blandit justo, quam.</p>
-                        </div>
-                    </a>
+                <div class="step-body">
+                    <h3 class="h4 mb-3">Identity verification</h3>
+                    <p class="mb-0">At ultricies id non quisque integer eget velit. Facilisis enim</p>
                 </div>
-
-                <!-- Item -->
-                <div class="col py-4 my-2 my-sm-3">
-                    <a href="services-single-v1.html" class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
-                        <div class="card-body pt-3">
-                            <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-                                <img src="assets/img/services/icons/mobile-app.svg" class="d-block m-1" width="40" alt="Icon">
-                            </div>
-                            <h2 class="h4 d-inline-flex align-items-center">
-                                Mobile App Development
-                                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-                            </h2>
-                            <p class="fs-sm text-body mb-0">Nunc, justo, diam orci, dictum purus convallis risus. Suscipit hendrerit at egestas id id blandit interdum est. Integer fames placerat turpis pretium quis hac leo lacus. Orci, dictum nunc mus quis semper eu bibendum enim, morbi.</p>
-                        </div>
-                    </a>
+            </div>
+            <div class="step">
+                <div class="step-number">
+                    <div class="step-number-inner">3</div>
                 </div>
-
-                <!-- Item -->
-                <div class="col py-4 my-2 my-sm-3">
-                    <a href="services-single-v1.html" class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
-                        <div class="card-body pt-3">
-                            <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-                                <img src="assets/img/services/icons/analytics.svg" class="d-block m-1" width="40" alt="Icon">
-                            </div>
-                            <h2 class="h4 d-inline-flex align-items-center">
-                                Business Analytics
-                                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-                            </h2>
-                            <p class="fs-sm text-body mb-0">Gravida eget euismod tempus diam dignissim quam. Dignissim magnis blandit faucibus convallis augue nisl, etiam. Feugiat ut molestie non arcu senectus sed. Diam pellentesque sit mattis nec amet varius nunc a sed.</p>
-                        </div>
-                    </a>
+                <div class="step-body">
+                    <h3 class="h4 mb-3">Start browsing</h3>
+                    <p class="mb-0">Pellentesque rhoncus viverra vestibulum, purus purus</p>
                 </div>
-
-                <!-- Item -->
-                <div class="col py-4 my-2 my-sm-3">
-                    <a href="services-single-v1.html" class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
-                        <div class="card-body pt-3">
-                            <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-                                <img src="assets/img/services/icons/web-search.svg" class="d-block m-1" width="40" alt="Icon">
-                            </div>
-                            <h2 class="h4 d-inline-flex align-items-center">
-                                Software Testing
-                                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-                            </h2>
-                            <p class="fs-sm text-body mb-0">Quis rhoncus quam venenatis facilisi. Risus dis libero nisl condimentum quis. Tincidunt ultricies vulputate ornare nunc rhoncus in. Ultrices dolor eu natoque volutpat praesent curabitur ultricies.</p>
-                        </div>
-                    </a>
+            </div>
+            <div class="step">
+                <div class="step-number">
+                    <div class="step-number-inner">4</div>
                 </div>
-
-                <!-- Item -->
-                <div class="col py-4 my-2 my-sm-3">
-                    <a href="services-single-v1.html" class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
-                        <div class="card-body pt-3">
-                            <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-                                <img src="assets/img/services/icons/timer.svg" class="d-block m-1" width="40" alt="Icon">
-                            </div>
-                            <h2 class="h4 d-inline-flex align-items-center">
-                                Project Management
-                                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-                            </h2>
-                            <p class="fs-sm text-body mb-0">Massa dis morbi sagittis, tellus sit gravida. Id ut non ut in faucibus eu, ac. Tempus feugiat enim id pellentesque a sagittis vitae, convallis. Nunc, arcu enim orci ullamcorper aenean. Scelerisque eget a nibh bibendum commodo.</p>
-                        </div>
-                    </a>
+                <div class="step-body">
+                    <h3 class="h4 mb-3">Earn with Lebara</h3>
+                    <p class="mb-0">Massa enim libero dictumst consectetur in convallis lobortis</p>
                 </div>
+            </div>
+        </div>
+
+        <!-- Video -->
+        <div class="bg-secondary position-relative rounded-3 overflow-hidden px-4 px-sm-5">
+            <div class="position-absolute top-50 start-50 w-75 h-75 translate-middle d-flex align-items-center justify-content-center zindex-5">
+                <a href="https://www.youtube.com/watch?v=wODsNtortYw" class="btn btn-video btn-icon btn-xl bg-white stretched-link" data-bs-toggle="video" aria-label="Play video" data-lg-id="66ba1219-7dab-496e-b976-de5af0fbab10">
+                    <i class="bx bx-play"></i>
+                </a>
+            </div>
+            <div class="pt-4 mt-sm-3 px-3 px-sm-5 mx-md-5">
+                <img src="assets/img/landing/saas-3/video-cover.png" width="786" class="rellax d-block mx-auto mt-lg-4" alt="Card" data-rellax-percentage="0.5" data-rellax-speed="1.1" data-disable-parallax-down="lg" style="transform: translate3d(0px, 42px, 0px);">
             </div>
         </div>
     </section>
 
-
-    <!-- Case studies -->
-    <section class="bg-secondary pt-1">
-        <div class="container">
-            <h2 class="h1 text-center text-md-start mb-lg-4">Case Studies</h2>
-            <div class="row align-items-center pb-5">
-                <div class="col-md-8 col-lg-7 col-xl-6 text-center text-md-start">
-                    <p class="fs-lg text-muted mb-md-0">We bring real solutions to each client’s problems through a deep understanding of their market, solution, and vision.</p>
-                </div>
-                <div class="col-md-4 col-lg-5 col-xl-6 d-flex justify-content-center justify-content-md-end">
-                    <a href="#" class="btn btn-outline-primary btn-lg">See all case studies</a>
-                </div>
+    <section class="container py-5 my-md-2 my-lg-4 my-xl-5">
+        <h2 class="h1 text-center pb-3 pb-md-4">Transparent Pricing for You</h2>
+        <div class="price-switch-wrapper mb-n2">
+            <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4" data-bs-toggle="price">
+                <input type="checkbox" class="form-check-input" id="pricing">
+                <label class="form-check-label" for="pricing">Monthly</label>
+                <label class="form-check-label d-flex align-items-start" for="pricing">Annually <span class="text-danger fs-xs fw-semibold mt-n2 ms-2">-10%</span></label>
             </div>
-        </div>
-
-        <div class="position-relative py-lg-4 py-xl-5">
-
-            <!-- Swiper tabs -->
-            <div class="swiper-tabs position-absolute top-0 start-0 w-100 h-100">
-                <div id="image-1" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab active" data-jarallax data-speed="0.4">
-                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
-                    <div class="jarallax-img" style="background-image: url('assets/img/landing/software-agency-1/case-study01.jpg');"></div>
-                </div>
-                <div id="image-2" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab" data-jarallax data-speed="0.4">
-                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
-                    <div class="jarallax-img" style="background-image: url('assets/img/landing/software-agency-1/case-study02.jpg');"></div>
-                </div>
-            </div>
-
-            <!-- Swiper slider -->
-            <div class="container position-relative zindex-5 py-5">
-                <div class="row py-2 py-md-3">
-                    <div class="col-xl-5 col-lg-7 col-md-9">
-
-                        <!-- Slider controls (Prev / next) -->
-                        <div class="d-flex justify-content-center justify-content-md-start pb-3 mb-3">
-                            <button type="button" id="case-study-prev" class="btn btn-prev btn-icon btn-sm bg-white me-2" aria-label="Previous">
-                                <i class="bx bx-chevron-left"></i>
-                            </button>
-                            <button type="button" id="case-study-next" class="btn btn-next btn-icon btn-sm bg-white ms-2" aria-label="Next">
-                                <i class="bx bx-chevron-right"></i>
-                            </button>
-                        </div>
-
-                        <!-- Card -->
-                        <div class="card bg-white shadow-sm p-3">
+            <div class="table-responsive-xxl pt-md-3">
+                <div class="row flex-nowrap pb-4">
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
                             <div class="card-body">
-                                <div class="swiper" data-swiper-options='{
-                      "spaceBetween": 30,
-                      "loop": true,
-                      "tabs": true,
-                      "pagination": {
-                        "el": "#case-study-pagination",
-                        "clickable": true
-                      },
-                      "navigation": {
-                        "prevEl": "#case-study-prev",
-                        "nextEl": "#case-study-next"
-                      }
-                    }'>
-                                    <div class="swiper-wrapper">
-
-                                        <!-- Item -->
-                                        <div class="swiper-slide" data-swiper-tab="#image-1">
-                                            <img src="assets/img/landing/software-agency-1/case-study-logo01.png" class="d-block mb-3" width="72" alt="Logo">
-                                            <h3 class="mb-2">Cashless payment case study</h3>
-                                            <p class="fs-sm text-muted border-bottom pb-3 mb-3">Payment Service Provider Company</p>
-                                            <p class="pb-2 pb-lg-3 mb-3">Aenean dolor elit tempus tellus imperdiet. Elementum, ac convallis morbi sit est feugiat ultrices. Cras tortor maecenas pulvinar nec ac justo. Massa sem eget semper...</p>
-                                            <a href="#" class="btn btn-primary">View case study</a>
-                                        </div>
-
-                                        <!-- Item -->
-                                        <div class="swiper-slide" data-swiper-tab="#image-2">
-                                            <img src="assets/img/landing/software-agency-1/case-study-logo02.png" class="d-block mb-3" width="72" alt="Logo">
-                                            <h3 class="mb-2">Smart tech case study</h3>
-                                            <p class="fs-sm text-muted border-bottom pb-3 mb-3">Data Analytics Company</p>
-                                            <p class="pb-2 pb-lg-3 mb-3">Adipiscing quis a at ligula. Gravida gravida diam rhoncus cursus in. Turpis sagittis tempor gravida phasellus sapien. Faucibus donec consectetur sed id sit nisl.</p>
-                                            <a href="#" class="btn btn-primary">View case study</a>
-                                        </div>
+                                <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                    <div class="flex-shrink-0 bg-secondary rounded-3">
+                                        <img src="assets/img/landing/saas-1/pricing/basic.png" width="84" alt="Icon">
+                                    </div>
+                                    <div class="ps-4">
+                                        <h3 class="fs-lg fw-normal text-body mb-2">Basic</h3>
+                                        <h4 class="h3 lh-1 mb-0">
+                                            <span data-monthly-price="">N600.00</span>
+                                            <span class="d-none" data-annual-price="">N500.40</span>
+                                            <span class="text-body fs-sm fw-normal"> / per month</span>
+                                        </h4>
                                     </div>
                                 </div>
+                                <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                    <li class="d-flex mb-2">
+                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        Aenean neque tortor, purus faucibus
+                                    </li>
+                                    <li class="d-flex mb-2">
+                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        Nullam augue vitae et volutpat sagittis
+                                    </li>
+                                    <li class="d-flex text-muted mb-2">
+                                        <i class="bx bx-x fs-xl me-1"></i>
+                                        Mauris massa penatibus enim elit quam
+                                    </li>
+                                    <li class="d-flex text-muted mb-2">
+                                        <i class="bx bx-x fs-xl me-1"></i>
+                                        Nec ac sagittis nunc bibendum
+                                    </li>
+                                    <li class="d-flex text-muted">
+                                        <i class="bx bx-x fs-xl me-1"></i>
+                                        Odio ut orci volutpat ultricies eleifend
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-
-                        <!-- Pagination (bullets) -->
-                        <div class="pt-4 mt-3" data-bs-theme="dark">
-                            <div id="case-study-pagination" class="swiper-pagination position-relative bottom-0"></div>
+                            <div class="card-footer border-0 pt-0 pb-4">
+                                <a href="#" class="btn btn-primary w-100">Buy</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Features -->
-    <section class="container py-5 my-2 my-md-4 my-lg-5">
-        <h2 class="h1 text-center pt-1 pt-xl-2 mb-4">Why Choose Us?</h2>
-        <p class="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">We personalize how we work to fit your project needs. Our approach helps augment innovation.</p>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 pb-xl-3">
-            <div class="col text-center border-end">
-                <div class="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
-                    <img src="assets/img/landing/software-agency-1/features/01.svg" width="32" alt="Icon">
-                </div>
-                <h3 class="h5 mb-2 mb-lg-0">Build a functional prototype in 24 hrs</h3>
-            </div>
-            <div class="col text-center border-end">
-                <div class="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
-                    <img src="assets/img/landing/software-agency-1/features/02.svg" width="32" alt="Icon">
-                </div>
-                <h3 class="h5 mb-2 mb-lg-0">Create an MVP within two weeks</h3>
-            </div>
-            <div class="col text-center border-end">
-                <div class="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
-                    <img src="assets/img/landing/software-agency-1/features/03.svg" width="32" alt="Icon">
-                </div>
-                <h3 class="h5 mb-2 mb-lg-0">Kickstart software development</h3>
-            </div>
-            <div class="col text-center">
-                <div class="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
-                    <img src="assets/img/landing/software-agency-1/features/04.svg" width="32" alt="Icon">
-                </div>
-                <h3 class="h5 mb-2 mb-lg-0">Get 24/7 tech &amp; business support</h3>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Testimonials (Slider) -->
-    <section class="container pb-5 mb-md-2 mb-xl-4">
-        <div class="row pb-lg-2">
-            <div class="col-md-5 mb-4 mb-md-0">
-                <div class="card justify-content-center bg-dark h-100 p-4 p-lg-5">
-                    <div class="p-2">
-                        <h3 class="display-4 text-primary mb-1">200+</h3>
-                        <h2 class="text-light pb-5 mb-2">Clients Already Served</h2>
-                        <a href="#" class="d-inline-flex align-items-center rounded-3 text-decoration-none py-3 px-4" style="background-color: #3e4265;">
-                            <div class="pe-3">
-                                <div class="fs-xs text-light text-uppercase opaciy-70 mb-2">Reviewed on</div>
-                                <img src="assets/img/about/clutch-logo.svg" width="97" alt="Clutch">
-                            </div>
-                            <div class="ps-1">
-                                <div class="text-nowrap mb-2">
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
+                    <div class="col">
+                        <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3" style="min-width: 18rem;">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                    <div class="flex-shrink-0 rounded-3" style="background-color: rgba(255,255,255, .1);">
+                                        <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
+                                    </div>
+                                    <div class="ps-4">
+                                        <h3 class="fs-lg fw-normal text-light opacity-70 mb-2">Standard</h3>
+                                        <h4 class="h3 text-light lh-1 mb-0">
+                                            <span data-monthly-price="">N1002.00</span>
+                                            <span class="d-none" data-annual-price="">N1000.80</span>
+                                            <span class="fs-sm fw-normal opacity-70"> / per month</span>
+                                        </h4>
+                                    </div>
                                 </div>
-                                <div class="text-light opacity-70">49 reviews</div>
+                                <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                    <li class="d-flex text-light mb-2">
+                                        <i class="bx bx-check fs-xl me-1"></i>
+                                        <span class="opacity-70">Aenean neque tortor, purus faucibus</span>
+                                    </li>
+                                    <li class="d-flex text-light mb-2">
+                                        <i class="bx bx-check fs-xl me-1"></i>
+                                        <span class="opacity-70">Nullam augue vitae et volutpat sagittis</span>
+                                    </li>
+                                    <li class="d-flex text-light mb-2">
+                                        <i class="bx bx-check fs-xl me-1"></i>
+                                        <span class="opacity-70">Mauris massa penatibus enim elit quam</span>
+                                    </li>
+                                    <li class="d-flex text-light mb-2">
+                                        <i class="bx bx-check fs-xl me-1"></i>
+                                        <span class="opacity-70">Nec ac sagittis nunc bibendum</span>
+                                    </li>
+                                    <li class="d-flex text-light opacity-50">
+                                        <i class="bx bx-x fs-xl me-1"></i>
+                                        Odio ut orci volutpat ultricies eleifend
+                                    </li>
+                                </ul>
                             </div>
-                        </a>
+                            <div class="card-footer border-0 pt-0 pb-4">
+                                <a href="#" class="btn btn-light w-100">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                    <div class="flex-shrink-0 bg-secondary rounded-3">
+                                        <img src="assets/img/landing/saas-1/pricing/ultimate.png" width="84" alt="Icon">
+                                    </div>
+                                    <div class="ps-4">
+                                        <h3 class="fs-lg fw-normal text-body mb-2">Ultimate</h3>
+                                        <h4 class="h3 lh-1 mb-0">
+                                            <span data-monthly-price="">N1008.00</span>
+                                            <span class="d-none" data-annual-price="">N1006.20</span>
+                                            <span class="text-body fs-sm fw-normal"> / per month</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                    <li class="d-flex mb-2">
+                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        Aenean neque tortor, purus faucibus
+                                    </li>
+                                    <li class="d-flex mb-2">
+                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        Nullam augue vitae et volutpat sagittis
+                                    </li>
+                                    <li class="d-flex mb-2">
+                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        Mauris massa penatibus enim elit quam
+                                    </li>
+                                    <li class="d-flex mb-2">
+                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        Nec ac sagittis nunc bibendum
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        Odio ut orci volutpat ultricies eleifend
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer border-0 pt-0 pb-4">
+                                <a href="#" class="btn btn-primary w-100">Buy</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-7">
-                <div class="card border-0 shadow-sm p-4 p-xxl-5">
+        </div>
+    </section>
 
-                    <!-- Slider prev/next buttons + Quotation mark -->
-                    <div class="d-flex justify-content-between pb-4 mb-2">
-                <span class="btn btn-icon btn-primary btn-lg shadow-primary pe-none">
-                  <i class="bx bxs-quote-left"></i>
-                </span>
-                        <div class="d-flex">
-                            <button type="button" id="testimonial-prev" class="btn btn-prev btn-icon btn-sm me-2" aria-label="Previous">
-                                <i class="bx bx-chevron-left"></i>
+    <section class="container py-5 mb-lg-2">
+        <div class="row py-2 py-md-4 py-lg-5">
+            <div class="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+                <h2 class="pb-3 mb-1 mb-lg-3">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
+                <p class="fs-lg pb-3 mb-2 mb-lg-3">Still have unanswered questions and need to get in touch?</p>
+                <div class="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
+                    <div class="col">
+                        <div class="card card-hover">
+                            <div class="card-body pb-3">
+                                <i class="bx bxs-phone-call d-block fs-2 text-primary mb-2 py-1"></i>
+                                <p class="fs-sm mb-2">Still have  questions?</p>
+                                <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link stretched-link px-0">
+                                    Call us
+                                    <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-hover">
+                            <div class="card-body pb-3">
+                                <i class="bx bx-message-rounded-dots d-block fs-2 text-success mb-2 py-1"></i>
+                                <p class="fs-sm mb-2">Still have  questions?</p>
+                                <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link text-success stretched-link px-0">
+                                    Chat with us
+                                    <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 offset-xl-1">
+                <div class="accordion" id="faq">
+                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                        <h2 class="accordion-header" id="q1-heading">
+                            <button class="accordion-button shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">
+                                Is any of my personal information stored in the App?
                             </button>
-                            <button type="button" id="testimonial-next" class="btn btn-next btn-icon btn-sm ms-2" aria-label="Next">
-                                <i class="bx bx-chevron-right"></i>
+                        </h2>
+                        <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1-heading" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm pt-0">
+                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                        <h2 class="accordion-header" id="q2-heading">
+                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
+                                What formats can I download my transaction history in?
                             </button>
-                        </div>
-                    </div>
-
-                    <!-- Slider -->
-                    <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
-                "spaceBetween": 24,
-                "loop": true,
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "clickable": true
-                },
-                "navigation": {
-                  "prevEl": "#testimonial-prev",
-                  "nextEl": "#testimonial-next"
-                }
-              }'>
-                        <div class="swiper-wrapper">
-
-                            <!-- Item -->
-                            <div class="swiper-slide h-auto" data-swiper-tab="#author-1">
-                                <figure class="card h-100 position-relative border-0 bg-transparent">
-                                    <blockquote class="card-body p-0 mb-0">
-                                        <p class="fs-lg mb-0">Dolor, a eget elementum, integer nulla volutpat, nunc, sit. Quam iaculis varius mauris magna sem. Egestas sed sed suscipit dolor faucibus dui imperdiet at eget. Tincidunt imperdiet quis hendrerit aliquam feugiat neque cras sed. Dictum quam integer volutpat tellus, faucibus platea. Pulvinar turpis proin faucibus at mauris. Sagittis gravida vitae porta enim.</p>
-                                    </blockquote>
-                                    <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
-                                        <img src="assets/img/avatar/05.jpg" width="48" class="rounded-circle" alt="Ralph Edwards">
-                                        <div class="ps-3">
-                                            <h5 class="fw-semibold lh-base mb-0">Ralph Edwards</h5>
-                                            <span class="fs-sm text-muted">Head of Marketing at Lorem Company</span>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Item -->
-                            <div class="swiper-slide h-auto" data-swiper-tab="#author-2">
-                                <figure class="card h-100 position-relative border-0 bg-transparent">
-                                    <blockquote class="card-body p-0 mb-0">
-                                        <p class="fs-lg mb-0">Mi semper risus ultricies orci pulvinar in at enim orci. Quis facilisis nunc pellentesque in ullamcorper sit. Lorem blandit arcu sapien, senectus libero, amet dapibus cursus quam. Eget pellentesque eu purus volutpat adipiscing malesuada. Purus nisi, tortor vel lacus. Donec diam molestie ultrices vitae eget pulvinar fames. Velit lacus mi purus velit justo, amet.</p>
-                                    </blockquote>
-                                    <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
-                                        <img src="assets/img/avatar/06.jpg" width="48" class="rounded-circle" alt="Annette Black">
-                                        <div class="ps-3">
-                                            <h5 class="fw-semibold lh-base mb-0">Annette Black</h5>
-                                            <span class="fs-sm text-muted">Strategic Advisor at Ipsum Ltd.</span>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Item -->
-                            <div class="swiper-slide h-auto" data-swiper-tab="#author-3">
-                                <figure class="card h-100 position-relative border-0 bg-transparent">
-                                    <blockquote class="card-body p-0 mb-0">
-                                        <p class="fs-lg mb-0">Ac at sed sit senectus massa. Massa ante amet ultrices magna porta tempor. Aliquet diam in et magna ultricies mi at. Lectus enim, vel enim egestas nam pellentesque et leo. Elit mi faucibus laoreet aliquam pellentesque sed aliquet integer massa. Orci leo tortor ornare id mattis auctor aliquam volutpat aliquet. Odio lectus viverra eu blandit nunc malesuada vitae eleifend pulvinar.</p>
-                                    </blockquote>
-                                    <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
-                                        <img src="assets/img/avatar/01.jpg" width="48" class="rounded-circle" alt="Darrell Steward">
-                                        <div class="ps-3">
-                                            <h5 class="fw-semibold lh-base mb-0">Darrell Steward</h5>
-                                            <span class="fs-sm text-muted">Project Manager at Company Ltd.</span>
-                                        </div>
-                                    </figcaption>
-                                </figure>
+                        </h2>
+                        <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm pt-0">
+                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
                             </div>
                         </div>
-
-                        <!-- Pagination (bullets) -->
-                        <div class="swiper-pagination position-relative pt-3 mt-4"></div>
+                    </div>
+                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                        <h2 class="accordion-header" id="q3-heading">
+                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
+                                Can I schedule future transfers?
+                            </button>
+                        </h2>
+                        <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3-heading" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm pt-0">
+                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                        <h2 class="accordion-header" id="q4-heading">
+                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
+                                When can I use Banking App services?
+                            </button>
+                        </h2>
+                        <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4-heading" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm pt-0">
+                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                        <h2 class="accordion-header" id="q5-heading">
+                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
+                                Can I create my own password that is easy for me to remember?
+                            </button>
+                        </h2>
+                        <div id="q5" class="accordion-collapse collapse" aria-labelledby="q5-heading" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm pt-0">
+                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 rounded-3 shadow-sm">
+                        <h2 class="accordion-header" id="q6-heading">
+                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6" aria-expanded="false" aria-controls="q6">
+                                What happens if I forget or lose my password?
+                            </button>
+                        </h2>
+                        <div id="q6" class="accordion-collapse collapse" aria-labelledby="q6-heading" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm pt-0">
+                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <!-- Brands (Carousel) -->
-    <section class="container pb-5 mb-lg-2 mb-xl-4">
-        <div class="swiper mx-n2" data-swiper-options='{
-          "slidesPerView": 2,
-          "pagination": {
-            "el": ".swiper-pagination",
-            "clickable": true
-          },
-          "breakpoints": {
-            "500": {
-              "slidesPerView": 3,
-              "spaceBetween": 8
-            },
-            "650": {
-              "slidesPerView": 4,
-              "spaceBetween": 8
-            },
-            "900": {
-              "slidesPerView": 5,
-              "spaceBetween": 8
-            },
-            "1100": {
-              "slidesPerView": 6,
-              "spaceBetween": 8
-            }
-          }
-        }'>
-            <div class="swiper-wrapper">
-
-                <!-- Item -->
-                <div class="swiper-slide py-3">
-                    <a href="#" class="card card-body card-hover px-2 mx-2">
-                        <img src="assets/img/brands/01.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-3">
-                    <a href="#" class="card card-body card-hover px-2 mx-2">
-                        <img src="assets/img/brands/02.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-3">
-                    <a href="#" class="card card-body card-hover px-2 mx-2">
-                        <img src="assets/img/brands/03.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-3">
-                    <a href="#" class="card card-body card-hover px-2 mx-2">
-                        <img src="assets/img/brands/04.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-3">
-                    <a href="#" class="card card-body card-hover px-2 mx-2">
-                        <img src="assets/img/brands/05.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-3">
-                    <a href="#" class="card card-body card-hover px-2 mx-2">
-                        <img src="assets/img/brands/06.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
-                    </a>
-                </div>
-            </div>
-
-            <!-- Pagination (bullets) -->
-            <div class="swiper-pagination position-relative pt-2 mt-4"></div>
-        </div>
-    </section>
-
-
-    <!-- News slider -->
-    <section class="bg-secondary border-bottom border-light py-5">
-        <div class="container py-md-3 py-lg-5">
-            <h2 class="h1 text-center pb-2">News &amp; Insights</h2>
-            <div class="position-relative mx-md-2 px-md-5">
-
-                <!-- Slider controls (Prev / next) -->
-                <button type="button" id="news-prev" class="btn btn-prev btn-icon btn-sm position-absolute top-50 start-0 translate-middle-y mt-n4 d-none d-md-inline-flex" aria-label="Previous">
-                    <i class="bx bx-chevron-left"></i>
-                </button>
-                <button type="button" id="news-next" class="btn btn-next btn-icon btn-sm position-absolute top-50 end-0 translate-middle-y mt-n4 d-none d-md-inline-flex" aria-label="Next">
-                    <i class="bx bx-chevron-right"></i>
-                </button>
-
-                <!-- Swiper slider -->
-                <div class="swiper swiper-nav-onhover mx-n2" data-swiper-options='{
-              "slidesPerView": 1,
-              "loop": true,
-              "spaceBetween": 8,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "clickable": true
-              },
-              "navigation": {
-                "prevEl": "#news-prev",
-                "nextEl": "#news-next"
-              },
-              "breakpoints": {
-                "0": {
-                  "slidesPerView": 1
-                },
-                "560": {
-                  "slidesPerView": 2
-                },
-                "992": {
-                  "slidesPerView": 3
-                }
-              }
-            }'>
-                    <div class="swiper-wrapper">
-
-                        <!-- Item -->
-                        <div class="swiper-slide h-auto py-3">
-                            <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                                <div class="card-body pb-0">
-                                    <div class="d-flex align-items-center justify-content-between mb-3">
-                                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">Tech</a>
-                                        <span class="fs-sm text-muted">1 day ago</span>
-                                    </div>
-                                    <h3 class="h4">
-                                        <a href="blog-single.html" class="stretched-link">How the Millennial Lifestyle Changes as Service Prices Rise</a>
-                                    </h3>
-                                    <p class="mb-0">Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet. Mauris duis eleifend faucibus amet sagittis.</p>
+    <!-- Download app CTA -->
+    <section class="bg-secondary pt-lg-4 pt-xl-5 overflow-hidden">
+        <div class="container pt-5">
+            <div class="row pt-2 pt-sm-3 pt-md-4">
+                <div
+                    class="col-md-6 col-xl-5 col-xxl-4 text-center text-md-start pb-4 pb-sm-5 mb-2 mb-md-3 mb-lg-4 mb-xl-5">
+                    <h2 class="h1 mb-5">Download the app</h2>
+                    <div class="d-flex d-md-block mt-n2 mt-sm-0">
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-lg-end me-1 me-md-0 pb-md-4 mb-md-3">
+                            <div class="col">
+                                <h3 class="fs-base fw-normal opacity-60 mb-2">App Store</h3>
+                                <div class="text-nowrap text-warning pb-1 mb-2">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
                                 </div>
-                                <div class="card-footer d-flex align-items-center py-4 text-muted border-top-0">
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-like fs-lg me-1"></i>
-                                        <span class="fs-sm">2</span>
-                                    </div>
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-comment fs-lg me-1"></i>
-                                        <span class="fs-sm">0</span>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <i class="bx bx-share-alt fs-lg me-1"></i>
-                                        <span class="fs-sm">3</span>
-                                    </div>
-                                </div>
-                            </article>
+                            </div>
+                            <div class="col d-xl-flex justify-content-end">
+                                <a href="https://apps.apple.com/gb/app/mylebara/id1122491914"
+                                   class="btn btn-dark btn-lg w-xl-100 px-3 py-2 ms-xl-3 mt-3 mt-lg-0">
+                                    <img src="/assets/img/market/appstore-light.svg" class="light-mode-img" width="124"
+                                         alt="App Store">
+                                    <img src="/assets/img/market/appstore-dark.svg" class="dark-mode-img" width="124"
+                                         alt="App Store">
+                                </a>
+                            </div>
                         </div>
-
-                        <!-- Item -->
-                        <div class="swiper-slide h-auto py-3">
-                            <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                                <div class="card-body pb-0">
-                                    <div class="d-flex align-items-center justify-content-between mb-3">
-                                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">Strategy</a>
-                                        <span class="fs-sm text-muted">12 hours ago</span>
-                                    </div>
-                                    <h3 class="h4">
-                                        <a href="blog-single.html" class="stretched-link">Mobile App Generates Data for the Energy Management</a>
-                                    </h3>
-                                    <p class="mb-0">Sociis sit risus id. Sit facilisis dolor arcu, fermentum vestibulum arcu ele. Pulvinar at maecenas maecenas pharetra, tincidunt sollicitudin in in. </p>
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-lg-end">
+                            <div class="col">
+                                <h3 class="fs-base fw-normal opacity-60 mb-2">Google Play</h3>
+                                <div class="text-nowrap text-warning pb-1 mb-2">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
                                 </div>
-                                <div class="card-footer d-flex align-items-center py-4 text-muted border-top-0">
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-like fs-lg me-1"></i>
-                                        <span class="fs-sm">8</span>
-                                    </div>
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-comment fs-lg me-1"></i>
-                                        <span class="fs-sm">4</span>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <i class="bx bx-share-alt fs-lg me-1"></i>
-                                        <span class="fs-sm">2</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Item -->
-                        <div class="swiper-slide h-auto py-3">
-                            <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                                <div class="card-body pb-0">
-                                    <div class="d-flex align-items-center justify-content-between mb-3">
-                                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">Software</a>
-                                        <span class="fs-sm text-muted">May 24, 2023</span>
-                                    </div>
-                                    <h3 class="h4">
-                                        <a href="blog-single.html" class="stretched-link">What the Software Stock Slump Means for the Market</a>
-                                    </h3>
-                                    <p class="mb-0">Id mollis consectetur congue egestas egestas suspendisse blandit justo. Tellus augue commodo id quis tempus etiam pulvinar at maecenas.</p>
-                                </div>
-                                <div class="card-footer d-flex align-items-center py-4 text-muted border-top-0">
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-like fs-lg me-1"></i>
-                                        <span class="fs-sm">6</span>
-                                    </div>
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-comment fs-lg me-1"></i>
-                                        <span class="fs-sm">1</span>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <i class="bx bx-share-alt fs-lg me-1"></i>
-                                        <span class="fs-sm">5</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Item -->
-                        <div class="swiper-slide h-auto py-3">
-                            <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                                <div class="card-body pb-0">
-                                    <div class="d-flex align-items-center justify-content-between mb-3">
-                                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">Startups</a>
-                                        <span class="fs-sm text-muted">Sep 3, 2023</span>
-                                    </div>
-                                    <h3 class="h4">
-                                        <a href="blog-single.html" class="stretched-link">5 Bad Landing Page Examples &amp; How We Would Fix Them</a>
-                                    </h3>
-                                    <p class="mb-0">Totam, soluta placeat hic adipisci reprehenderit iusto est nulla dolorum doloremque inventore suscipit consequuntur distinctio id.</p>
-                                </div>
-                                <div class="card-footer d-flex align-items-center py-4 text-muted border-top-0">
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-like fs-lg me-1"></i>
-                                        <span class="fs-sm">8</span>
-                                    </div>
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-comment fs-lg me-1"></i>
-                                        <span class="fs-sm">7</span>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <i class="bx bx-share-alt fs-lg me-1"></i>
-                                        <span class="fs-sm">3</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Item -->
-                        <div class="swiper-slide h-auto py-3">
-                            <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                                <div class="card-body pb-0">
-                                    <div class="d-flex align-items-center justify-content-between mb-3">
-                                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none position-relative zindex-2">Technology</a>
-                                        <span class="fs-sm text-muted">Aug 19, 2023</span>
-                                    </div>
-                                    <h3 class="h4">
-                                        <a href="blog-single.html" class="stretched-link">Why UX Design Matters and How it Affects Ranking</a>
-                                    </h3>
-                                    <p class="mb-0">Quaerat quos assumenda numquam dolorem, repellendus est, itaque sint et odio perferendis laudantium laboriosam.</p>
-                                </div>
-                                <div class="card-footer d-flex align-items-center py-4 text-muted border-top-0">
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-like fs-lg me-1"></i>
-                                        <span class="fs-sm">5</span>
-                                    </div>
-                                    <div class="d-flex align-items-center me-3">
-                                        <i class="bx bx-comment fs-lg me-1"></i>
-                                        <span class="fs-sm">3</span>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <i class="bx bx-share-alt fs-lg me-1"></i>
-                                        <span class="fs-sm">9</span>
-                                    </div>
-                                </div>
-                            </article>
+                            </div>
+                            <div class="col d-xl-flex justify-content-end">
+                                <a href="https://play.google.com/store/apps/details?id=com.lebara.wallet&hl=en_GB&gl=US"
+                                   class="btn btn-dark btn-lg w-xl-100 px-3 py-2 ms-xl-3 mt-3 mt-lg-0">
+                                    <img src="/assets/img/market/googleplay-light.svg" class="light-mode-img" width="139"
+                                         alt="Google Play">
+                                    <img src="/assets/img/market/googleplay-dark.svg" class="dark-mode-img" width="139"
+                                         alt="Google Play">
+                                </a>
+                            </div>
                         </div>
                     </div>
-
-                    <!-- Pagination (bullets) -->
-                    <div class="swiper-pagination position-relative pt-2 pt-sm-3 mt-4"></div>
+                </div>
+                <div class="col-md-6 col-xl-7 col-xxl-8">
+                    <img src="/devices.png" width="618" class="rellax d-block mx-auto"
+                         alt="Devices" data-rellax-percentage="0.5" data-rellax-speed="1"
+                         data-disable-parallax-down="lg">
+                    <div class="d-none d-xl-block" style="margin-bottom: -450px;"></div>
+                    <div class="d-none d-lg-block d-xl-none" style="margin-bottom: -800px;"></div>
+                    <div class="d-none d-sm-block d-lg-none" style="margin-bottom: -400px;"></div>
+                    <div class="d-sm-none" style="margin-bottom: -240px;"></div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <!-- CTA -->
-    <section class="position-relative bg-dark py-5">
-        <span class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255, 255, 255, .05)"></span>
-        <div class="container position-relative zindex-5 text-center my-xl-3 py-1 py-md-4 py-lg-5">
-            <p class="lead text-light opacity-70 mb-3">Ready to get started?</p>
-            <h2 class="h1 text-light pb-3 pb-lg-0 mb-lg-5">Launch Your Project with Us</h2>
-            <a href="#" class="btn btn-primary shadow-primary btn-lg">Work with us</a>
-        </div>
-    </section>
-</main>
-
-
-<!-- Footer -->
-<footer class="footer bg-dark pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
-    <div class="container pt-lg-4">
-        <div class="row pb-5">
-            <div class="col-lg-4 col-md-6">
-                <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-                    <img src="assets/img/logo.svg" width="47" alt="Silicon">
-                    Silicon
-                </div>
-                <p class="fs-sm text-light opacity-70 pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.</p>
-                <form class="needs-validation" novalidate>
-                    <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>
-                    <div class="input-group">
-                        <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Your email" required>
-                        <i class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
-                        <div class="invalid-tooltip position-absolute top-100 start-0">Please provide a valid email address.</div>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
-                <div id="footer-links" class="row">
-                    <div class="col-lg-4">
-                        <h6 class="mb-2">
-                            <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Useful Links</a>
-                        </h6>
-                        <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                            <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Case Studies</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">About Us</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">News &amp; Insights</a></li>
-                            </ul>
-                            <ul class="nav flex-column mb-2 mb-lg-0">
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-3">
-                        <h6 class="mb-2">
-                            <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>
-                        </h6>
-                        <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                            <ul class="nav flex-column mb-2 mb-lg-0">
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
-                        <h6 class="mb-2">Contact Us</h6>
-                        <a href="mailto:email@example.com" class="fw-medium">email@example.com</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
-            <span class="text-light opacity-50">&copy; All rights reserved. Made by </span>
-            <a class="nav-link d-inline-block p-0" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a>
-        </p>
-    </div>
-</footer>
-
-
-<!-- Back to top button -->
-<a href="#top" class="btn-scroll-top" data-scroll>
-    <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
-    <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
-</a>
-
-
-<!-- Vendor Scripts -->
-<script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-<!-- Main Theme Script -->
-<script src="assets/js/theme.min.js"></script>
-</body>
-</html>
+</x-layouts.site>

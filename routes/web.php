@@ -6,6 +6,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'coming-soon');
 
+Route::view('/home', 'home');
+Route::view('/about', 'about');
+Route::view('/contact', 'contact');
+
+Route::view('/old', 'welcome');
+
 Route::post('/join', function (Request $request) {
     Subscriber::create($request->validate(['email' => 'required|email']));
 
