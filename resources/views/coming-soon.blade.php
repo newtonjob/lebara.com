@@ -168,123 +168,123 @@
             <a href="/" class="navbar-brand pe-3">
                 <img src="{{ asset('logo.svg') }}" width="120" alt="Lebara">
             </a>
-            <div id="navbarNav" class="offcanvas offcanvas-end">
-                <div class="offcanvas-header border-bottom">
-                    <h5 class="offcanvas-title">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-            </div>
-            <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
-                <input type="checkbox" class="form-check-input" id="theme-mode">
-                <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
-                <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
-            </div>
-            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
         </div>
     </header>
 
-    <section class="container-fluid position-relative px-0 pt-5 mt-3 mt-lg-4">
-        <div class="row g-0">
-            <div class="col-xl-7 col-lg-6 pe-lg-5">
-                <div class="d-flex h-100 pe-xl-4">
-                    <video class="w-100" autoplay="" muted="" loop="" style="object-fit: cover;">
-                        <source src="/lekki-video.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-            <div class="col-xl-5 col-lg-6 position-relative py-5">
-                <img src="assets/img/landing/conference/hero-bg.png" class="position-absolute top-50 translate-middle-y ms-lg-n4" width="866" alt="Background shapes">
-                <div class="position-relative zindex-5 text-center text-lg-start px-3 px-lg-0 py-xl-4 py-xxl-5 mt-lg-3 mx-auto mx-lg-0" style="max-width: 530px;">
-                    <h2 class="h6 text-primary">
-                        Reliable. Affordable and premium service
-                    </h2>
+    <section class="jarallax vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
+        <span class="position-absolute top-0 start-0 w-100 vh-100 bg-gradient-primary-translucent d-none"></span>
 
-                    <h1 class="display-1 pb-lg-3 mb-3">Lebara is in Nigeria</h1>
+        <video class="w-100 position-absolute object-fit-cover vh-100" autoplay muted loop>
+            <source src="/lekki-video.mp4" type="video/mp4">
+        </video>
 
-                    <div class="row row-cols-4 g-4 pt-2 pt-md-3 pt-lg-2">
-                        <div class="col">
-                            <div class="d-flex align-items-center">
-                                <div class="display-4 text-primary" id="days">0</div>
-                                <p class="ps-1 mb-0">days</p>
+        <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
+
+            <!-- Slider controls (Prev / next) -->
+            <button type="button" id="hero-prev" class="btn btn-prev btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 start-0 translate-middle-y d-none d-md-inline-flex ms-n3 ms-lg-2" aria-label="Previous">
+                <i class="bx bx-chevron-left fs-1"></i>
+            </button>
+            <button type="button" id="hero-next" class="btn btn-next btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 end-0 translate-middle-y d-none d-md-inline-flex me-n3 me-lg-2" aria-label="Next">
+                <i class="bx bx-chevron-right fs-1"></i>
+            </button>
+
+            <!-- Slider -->
+            <div class="container text-center py-xl-5">
+                <div class="row justify-content-center pt-lg-5">
+                    <div class="col-xl-8 col-lg-9 col-md-10 col-11">
+                        <div class="swiper pt-5 pb-4 py-md-5"
+                             data-swiper-options='{
+                              "effect": "fade",
+                              "speed": 500,
+                              "autoplay": {
+                                "delay": 5500,
+                                "disableOnInteraction": false
+                              },
+                              "pagination": {
+                                "el": ".swiper-pagination",
+                                "clickable": true
+                              },
+                              "navigation": {
+                                "prevEl": "#hero-prev",
+                                "nextEl": "#hero-next"
+                              }
+                            }'
+                        >
+                            <div class="swiper-wrapper">
+                                <!-- Item -->
+                                <div class="swiper-slide">
+                                    <h2 class="display-2 from-start mb-lg-4">Welcome to Lebara Nigeria</h2>
+                                    <div class="from-end">
+                                        <p class="fs-xl text-white pb-2 mb-lg-5">
+                                            Subscribe to get the insider gist of our launch and other premium offers.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <h2 class="display-2 from-start mb-lg-4">
+                                        Reliable. Affordable and premium service.
+                                    </h2>
+                                    <div class="from-end">
+                                        <p class="fs-xl text-white pb-2 mb-lg-5">
+                                            Subscribe to get the insider gist of our launch and other premium offers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pagination (bullets) -->
+                            <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
+                        </div>
+
+                        <div class="row row-cols-4 g-4 pt-2 pt-md-3 pt-lg-2">
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="display-4 text-primary" id="days">0</div>
+                                    <p class="ps-1 mb-0 text-white">days</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="display-4 text-primary" id="hours">0</div>
+                                    <p class="ps-1 mb-0 text-white">hours</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="display-4 text-primary" id="minutes">0</div>
+                                    <p class="ps-1 mb-0 text-white">mins</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="display-4 text-primary" id="seconds">0</div>
+                                    <p class="ps-1 mb-0 text-white">secs</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="d-flex align-items-center">
-                                <div class="display-4 text-primary" id="hours">0</div>
-                                <p class="ps-1 mb-0">hours</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="d-flex align-items-center">
-                                <div class="display-4 text-primary" id="minutes">0</div>
-                                <p class="ps-1 mb-0">mins</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="d-flex align-items-center">
-                                <div class="display-4 text-primary" id="seconds">0</div>
-                                <p class="ps-1 mb-0">secs</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="d-flex justify-content-center justify-content-lg-start text-start mt-5">
-                        <i class="bx bx-message fs-4 text-primary me-2"></i>
-                        <div class="fs-xl">Subscribe to get the insider gist of our launch and other premium offers.</div>
-                    </div>
-
-                    <form
-                        action="/join"
-                        x-data="{ form: $form() }"
-                        @submit.prevent="form.submit()"
-                        @then="swal('Well done!', 'We\'ll be in touch.', 'success'); $el.reset()"
-                    >
-                        <div class="mt-4">
-                            <div class="form-floating">
-                                <input class="form-control" type="text" id="fl-text" name="email" placeholder="Your email address" required>
-                                <label for="fl-text">Your email address</label>
+                        <form
+                            action="/join"
+                            x-data="{ form: $form() }"
+                            @submit.prevent="form.submit()"
+                            @then="swal('Well done!', 'We\'ll be in touch.', 'success'); $el.reset()"
+                        >
+                            <div class="mt-4">
+                                <div class="form-floating">
+                                    <input class="form-control text-white border-white border-3" type="text" id="fl-text" name="email" placeholder="Your email address" required>
+                                    <label for="fl-text" class="text-white">Your email address...</label>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start py-4 py-lg-5">
-                            <button class="btn btn-primary shadow-primary btn-lg me-sm-3 me-xl-4 mb-3">Join the wait list</button>
-                        </div>
-                    </form>
-
-
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start text-start pb-2 pt-lg-2 pb-xl-0 pt-xl-5 mt-xxl-5 d-none">
-                        <div class="d-flex me-3">
-                            <div class="d-flex align-items-center justify-content-center bg-light rounded-circle" style="width: 52px; height: 52px;">
-                                <img src="assets/img/avatar/08.jpg" class="rounded-circle" width="48" alt="Avatar">
+                            <div class="py-2 py-lg-3">
+                                <button class="btn btn-primary shadow-primary btn-lg mb-3">Join the wait list</button>
                             </div>
-                            <div class="d-flex align-items-center justify-content-center bg-light rounded-circle ms-n3" style="width: 52px; height: 52px;">
-                                <img src="assets/img/avatar/40.jpg" class="rounded-circle" width="48" alt="Avatar">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center bg-light rounded-circle ms-n3" style="width: 52px; height: 52px;">
-                                <img src="assets/img/avatar/09.jpg" class="rounded-circle" width="48" alt="Avatar">
-                            </div>
-                        </div>
-                        <span class="fs-sm"><span class="text-primary fw-semibold">400+</span> attendees are already with us</span>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-
-        @if(false)
-            <div class="position-absolute d-none d-lg-block bottom-0 start-0 w-100 zindex-5 pb-xxl-5">
-                <div class="container pb-4 mb-3 mb-xxl-0">
-                    <a href="" class="d-table text-light opacity-80 text-decoration-none w-auto py-4" data-scroll="" data-scroll-offset="70">
-                        <span class="d-flex align-items-center">
-                            Scroll for more
-                            <i class="bx bx-down-arrow-circle fs-3 ms-2"></i>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        @endif
     </section>
 </main>
 
