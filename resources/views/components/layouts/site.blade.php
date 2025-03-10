@@ -130,6 +130,9 @@
                 transform: rotate(360deg);
             }
         }
+
+        .text-purple { color: #3d4998 }
+        .bg-purple { background-color: #3d4998 }
     </style>
 
     <!-- Page loading scripts -->

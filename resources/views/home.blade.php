@@ -109,7 +109,7 @@
     <section class="container mt-md-4 mt-lg-5">
         <div class="row">
             <div class="col-md-5 text-center text-md-start pb-5">
-                <h1 class="mb-4 text-primary">We are Lebara</h1>
+                <h1 class="mb-4 text-purple">We are Lebara</h1>
                 <p class="fs-lg pb-lg-3 mb-4">We create diverse, complex, web and mobile solutions for any business need. With us you get quality software and perfect service every time.</p>
                 <a href="/about" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
                 <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
@@ -125,7 +125,7 @@
 
     <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
         <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
-            <h2 class="h1 text-primary">How to get a sim/esim?</h2>
+            <h2 class="h1 text-purple">How to get a sim/esim?</h2>
             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat mollis egestas nam luctus facilisis ultrices</p>
         </div>
 
@@ -183,7 +183,7 @@
     </section>
 
     <section class="container py-5 my-md-2 my-lg-4 my-xl-5">
-        <h2 class="h1 text-center pb-3 pb-md-4 text-primary">Transparent Pricing for You</h2>
+        <h2 class="h1 text-center pb-3 pb-md-4 text-purple">Transparent Pricing for You</h2>
         <div class="price-switch-wrapper mb-n2">
             <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4" data-bs-toggle="price">
                 <input type="checkbox" class="form-check-input" id="pricing">
@@ -210,11 +210,11 @@
                                 </div>
                                 <ul class="list-unstyled fs-sm pb-md-3 mb-3">
                                     <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
                                         Aenean neque tortor, purus faucibus
                                     </li>
                                     <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
                                         Nullam augue vitae et volutpat sagittis
                                     </li>
                                     <li class="d-flex text-muted mb-2">
@@ -298,23 +298,23 @@
                                 </div>
                                 <ul class="list-unstyled fs-sm pb-md-3 mb-3">
                                     <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
                                         Aenean neque tortor, purus faucibus
                                     </li>
                                     <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
                                         Nullam augue vitae et volutpat sagittis
                                     </li>
                                     <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
                                         Mauris massa penatibus enim elit quam
                                     </li>
                                     <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
                                         Nec ac sagittis nunc bibendum
                                     </li>
                                     <li class="d-flex">
-                                        <i class="bx bx-check fs-xl text-primary me-1"></i>
+                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
                                         Odio ut orci volutpat ultricies eleifend
                                     </li>
                                 </ul>
@@ -332,13 +332,13 @@
     <section class="container py-5 mb-lg-2">
         <div class="row py-2 py-md-4 py-lg-5">
             <div class="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                <h2 class="pb-3 mb-1 mb-lg-3 text-primary">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
+                <h2 class="pb-3 mb-1 mb-lg-3 text-purple">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
                 <p class="fs-lg pb-3 mb-2 mb-lg-3">Still have unanswered questions and need to get in touch?</p>
                 <div class="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
                     <div class="col">
                         <div class="card card-hover">
                             <div class="card-body pb-3">
-                                <i class="bx bxs-phone-call d-block fs-2 text-primary mb-2 py-1"></i>
+                                <i class="bx bxs-phone-call d-block fs-2 text-purple mb-2 py-1"></i>
                                 <p class="fs-sm mb-2">Still have  questions?</p>
                                 <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link stretched-link px-0">
                                     Call us
