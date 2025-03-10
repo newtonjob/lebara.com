@@ -174,27 +174,27 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="/home" class="nav-link">Home</a>
+                            <a href="/home" class="nav-link fw-normal">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="/about" class="nav-link">About</a>
+                            <a href="/about" class="nav-link fw-normal">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="/products" class="nav-link">Product/Service</a>
+                            <a href="/products" class="nav-link fw-normal">Product/Service</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="javascript:" class="nav-link">News/Insights</a>
+                            <a href="javascript:" class="nav-link fw-normal">News/Insights</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="javascript:" class="nav-link">Careers</a>
+                            <a href="javascript:" class="nav-link fw-normal">Careers</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="/contact" class="nav-link">Contact</a>
+                            <a href="/contact" class="nav-link fw-normal">Contact</a>
                         </li>
                     </ul>
                 </div>
