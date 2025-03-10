@@ -41,7 +41,7 @@
     <link rel="stylesheet" media="screen" href="/assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
 
     <!-- Main Theme Styles + Bootstrap -->
-    <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css?v=1">
 
     <!-- Page loading styles -->
     <style>
@@ -212,7 +212,7 @@
                             <div class="swiper-wrapper">
                                 <!-- Item -->
                                 <div class="swiper-slide">
-                                    <h6 class="display-6 from-start mb-lg-4">WELCOME TO</h6>
+                                    <h6 class="from-start mb-lg-4" style="font-size:calc(1.3875rem + 1.65vw);font-weight:200;line-height:1.3">WELCOME TO</h6>
                                     <h2 class="display-1 from-start mb-lg-4">LEBARA NIGERIA</h2>
                                     {{--<div class="from-end">
                                         <p class="fs-xl text-white pb-2 mb-lg-5">
@@ -222,7 +222,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <h6 class="display-6 from-start mb-lg-4">WE OFFER</h6>
+                                    <h6 class="from-start mb-lg-4" style="font-size:calc(1.3875rem + 1.65vw);font-weight:200 !important;line-height:1.3">WE OFFER</h6>
                                     <h2 class="display-1 from-start mb-lg-4">Reliable. Affordable and premium service.</h2>
                                 </div>
                             </div>
