@@ -105,20 +105,21 @@
         </div>
     </section>
 
-    <!-- About -->
-    <section class="container mt-md-4 mt-lg-5">
-        <div class="row">
-            <div class="col-md-5 text-center text-md-start pb-5">
-                <h1 class="mb-4 text-purple">We are Lebara</h1>
-                <p class="fs-lg pb-lg-3 mb-4">We create diverse, complex, web and mobile solutions for any business need. With us you get quality software and perfect service every time.</p>
-                <a href="/about" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
-                <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
-                    <h2 class="h6 mb-4">Some of our awards:</h2>
-                    <img src="assets/img/landing/software-agency-1/awards.svg" alt="Awards">
+    <section class="py-lg-4 py-xl-5 overflow-hidden bg-blue-50">
+        <div class="container mt-md-4">
+            <div class="row">
+                <div class="col-md-5 text-center text-md-start pb-5">
+                    <h1 class="mb-4 text-purple">We are Lebara</h1>
+                    <p class="fs-lg pb-lg-3 mb-4">We create diverse, complex, web and mobile solutions for any business need. With us you get quality software and perfect service every time.</p>
+                    <a href="/about" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
+                    <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
+                        <h2 class="h6 mb-4">Some of our awards:</h2>
+                        <img src="assets/img/landing/software-agency-1/awards.svg" alt="Awards">
+                    </div>
                 </div>
-            </div>
-            <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
-                <img src="assets/img/landing/software-agency-1/about-img.jpg" class="rounded-3 shadow-sm" alt="Image">
+                <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
+                    <img src="assets/img/landing/software-agency-1/about-img.jpg" class="rounded-3 shadow-sm" alt="Image">
+                </div>
             </div>
         </div>
     </section>
@@ -447,7 +448,7 @@
     </section>
 
     <!-- Download app CTA -->
-    <section class="pt-lg-4 pt-xl-5 overflow-hidden" style="background-color: #b3e4f9">
+    <section class="pt-lg-4 pt-xl-5 overflow-hidden bg-blue-50">
         <div class="container pt-5">
             <div class="row pt-2 pt-sm-3 pt-md-4">
                 <div

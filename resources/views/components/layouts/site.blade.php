@@ -133,6 +133,7 @@
 
         .text-purple { color: #3d4998 }
         .bg-purple { background-color: #3d4998 }
+        .bg-blue-50 { background-color: #b3e4f9 }
     </style>
 
     <!-- Page loading scripts -->
