@@ -192,6 +192,10 @@
                         <li class="nav-item">
                             <a href="javascript:" class="nav-link">Refuel</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a href="/contact" class="nav-link">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="offcanvas-header border-top">
