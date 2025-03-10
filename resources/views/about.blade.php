@@ -2,8 +2,8 @@
     <div class="jarallax d-none d-md-block" data-jarallax="" data-speed="0.35">
         <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary-translucent"></span>
 
-        <div class="d-none d-xxl-block" style="height: 700px;"></div>
-        <div class="d-none d-md-block d-xxl-none" style="height: 550px;"></div>
+        <div class="d-none d-xxl-block" style="height: 300px;"></div>
+        <div class="d-none d-md-block d-xxl-none" style="height: 300px;"></div>
         <div id="jarallax-container-0" class="jarallax-container" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100; clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%);"><div class="jarallax-img" style="background-image: url(&quot;assets/img/about/cover.jpg&quot;); object-fit: cover; object-position: 50% 50%; max-width: none; position: fixed; top: 0px; left: 0px; width: 1066px; height: 837.3px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; margin-top: 77.35px; transform: translate3d(0px, -50.75px, 0px);" data-jarallax-original-styles="background-image: url('assets/img/about/cover.jpg');"></div></div></div>
 
     <nav class="container py-4 mb-2 my-lg-3" aria-label="breadcrumb">
@@ -24,6 +24,85 @@
             <div class="col-md-6">
                 <p class="fs-lg ps-lg-4 mb-1 mb-lg-4">Ac at sed sit senectus massa. Massa ante amet ultrices magna porta tempor. Aliquet diam in et magna ultricies mi at. Lectus enim, vel enim egestas nam pellentesque et leo. Elit mi faucibus laoreet aliquam pellentesque sed aliquet integer massa. Orci leo tortor ornare id mattis auctor aliquam volutpat aliquet. Odio lectus viverra eu blandit nunc malesuada vitae eleifend pulvinar. In ac fermentum sit in orci.</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Brands (carousel on screens < 1100px) -->
+    <section class="container border-bottom-lg pt-sm-2">
+        <div class="swiper mx-n2"
+             data-swiper-options='{
+              "slidesPerView": 2,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true
+              },
+              "breakpoints": {
+                "500": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 8
+                },
+                "650": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 8
+                },
+                "850": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 8
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 8
+                }
+              }
+            }'
+        >
+            <div class="swiper-wrapper">
+
+                <!-- Item -->
+                <div class="swiper-slide py-2">
+                    <a href="landing-saas-v3.html#" class="px-2 mx-2">
+                        <img src="/assets/img/brands/01.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                    </a>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide py-2">
+                    <a href="landing-saas-v3.html#" class="px-2 mx-2">
+                        <img src="/assets/img/brands/02.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                    </a>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide py-2">
+                    <a href="landing-saas-v3.html#" class="px-2 mx-2">
+                        <img src="/assets/img/brands/03.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                    </a>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide py-2">
+                    <a href="landing-saas-v3.html#" class="px-2 mx-2">
+                        <img src="/assets/img/brands/04.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                    </a>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide py-2">
+                    <a href="landing-saas-v3.html#" class="px-2 mx-2">
+                        <img src="/assets/img/brands/05.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                    </a>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide py-2">
+                    <a href="landing-saas-v3.html#" class="px-2 mx-2">
+                        <img src="/assets/img/brands/06.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Pagination (bullets) -->
+            <div class="swiper-pagination position-relative pt-3"></div>
         </div>
     </section>
 
