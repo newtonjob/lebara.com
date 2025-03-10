@@ -186,6 +186,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a href="javascript:" class="nav-link">News/Insights</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a href="javascript:" class="nav-link">Careers</a>
                         </li>
 
