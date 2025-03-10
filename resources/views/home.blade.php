@@ -43,7 +43,7 @@
                                     <h2 class="display-2 from-start mb-lg-4">Welcome to Lebara Nigeria</h2>
                                     <div class="from-end">
                                         <p class="fs-xl text-white pb-2 mb-lg-5">
-                                            Reliable. Affordable and premium service.
+                                            Reliable. Affordable and Premium service.
                                         </p>
                                     </div>
                                     <div class="scale-up delay-1">
