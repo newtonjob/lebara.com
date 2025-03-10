@@ -447,16 +447,16 @@
     </section>
 
     <!-- Download app CTA -->
-    <section class="bg-secondary pt-lg-4 pt-xl-5 overflow-hidden">
+    <section class="pt-lg-4 pt-xl-5 overflow-hidden" style="background-color: #b3e4f9">
         <div class="container pt-5">
             <div class="row pt-2 pt-sm-3 pt-md-4">
                 <div
                     class="col-md-6 col-xl-5 col-xxl-4 text-center text-md-start pb-4 pb-sm-5 mb-2 mb-md-3 mb-lg-4 mb-xl-5">
-                    <h2 class="h1 mb-5 text-primary">Download the app</h2>
+                    <h2 class="h1 mb-5" style="color: #3d4998">Download the app</h2>
                     <div class="d-flex d-md-block mt-n2 mt-sm-0">
                         <div class="row row-cols-1 row-cols-lg-2 align-items-lg-end me-1 me-md-0 pb-md-4 mb-md-3">
                             <div class="col">
-                                <h3 class="fs-base fw-normal opacity-60 mb-2">App Store</h3>
+                                <h3 class="fs-base fw-normal mb-2" style="color: #3d4998">App Store</h3>
                                 <div class="text-nowrap text-warning pb-1 mb-2">
                                     <i class="bx bxs-star"></i>
                                     <i class="bx bxs-star"></i>
@@ -477,7 +477,7 @@
                         </div>
                         <div class="row row-cols-1 row-cols-lg-2 align-items-lg-end">
                             <div class="col">
-                                <h3 class="fs-base fw-normal opacity-60 mb-2">Google Play</h3>
+                                <h3 class="fs-base fw-normal mb-2" style="color: #3d4998">Google Play</h3>
                                 <div class="text-nowrap text-warning pb-1 mb-2">
                                     <i class="bx bxs-star"></i>
                                     <i class="bx bxs-star"></i>
