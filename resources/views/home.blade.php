@@ -447,7 +447,7 @@
     </section>
 
     <!-- Download app CTA -->
-    <section class="bg-primary pt-lg-4 pt-xl-5 overflow-hidden">
+    <section class="bg-secondary pt-lg-4 pt-xl-5 overflow-hidden">
         <div class="container pt-5">
             <div class="row pt-2 pt-sm-3 pt-md-4">
                 <div

@@ -224,12 +224,12 @@
 
 
 <!-- Footer -->
-<footer class="footer bg-dark pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
+<footer class="footer bg-primary pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
     <div class="container pt-lg-4">
         <div class="row pb-5">
             <div class="col-lg-4 col-md-6">
                 <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-                    <img src="{{ asset('logo.svg') }}" width="120" alt="Lebara">
+                    <img src="https://www.lebara.de/content/dam/lebara/global/logo-Desktop.png" width="120" alt="Lebara">
                 </div>
                 <p class="fs-sm text-light opacity-70 pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.</p>
                 <form class="needs-validation" novalidate>
