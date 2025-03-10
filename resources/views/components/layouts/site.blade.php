@@ -190,10 +190,6 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="javascript:" class="nav-link">Refuel</a>
-                        </li>
-
-                        <li class="nav-item">
                             <a href="/contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
@@ -202,7 +198,7 @@
                     <a href="javascript:"
                        class="btn btn-primary w-100">
                         <i class="bx bx-cart fs-4 lh-1 me-1"></i>
-                        &nbsp;Recharge
+                        &nbsp;Refuel
                     </a>
                 </div>
             </div>
@@ -218,7 +214,7 @@
             <a href="javascript:"
                class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex">
                 <i class="bx bx-cart fs-5 lh-1 me-1"></i>
-                &nbsp;Recharge
+                &nbsp;Refuel
             </a>
         </div>
     </header>
