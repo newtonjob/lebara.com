@@ -1,11 +1,11 @@
 <x-layouts.site>
     <!-- Hero slider + BG parallax -->
     <section class="jarallax vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
-        <span class="position-absolute top-0 start-0 w-100 vh-100 bg-gradient-primary-translucent d-none"></span>
-
         <video class="w-100 position-absolute object-fit-cover vh-100" autoplay muted loop>
             <source src="/lebara-video.mp4" type="video/mp4">
         </video>
+
+        <span class="position-absolute top-0 start-0 w-100 h-100 vh-100 bg-gradient-dark-translucent"></span>
 
         <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
 

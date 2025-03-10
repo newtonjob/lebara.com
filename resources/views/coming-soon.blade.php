@@ -172,14 +172,13 @@
     </header>
 
     <section class="jarallax vh-100 bg-dark" data-jarallax data-speed="0.4" data-bs-theme="dark">
-        <span class="position-absolute top-0 start-0 w-100 vh-100 bg-gradient-primary-translucent d-none"></span>
-
         <video class="w-100 position-absolute object-fit-cover vh-100" autoplay muted loop>
             <source src="/lebara-video.mp4" type="video/mp4">
         </video>
 
-        <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
+        <span class="position-absolute top-0 start-0 w-100 h-100 vh-100 bg-gradient-dark-translucent"></span>
 
+        <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
             <!-- Slider controls (Prev / next) -->
             <button type="button" id="hero-prev" class="btn btn-prev btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 start-0 translate-middle-y d-none d-md-inline-flex ms-n3 ms-lg-2" aria-label="Previous">
                 <i class="bx bx-chevron-left fs-1"></i>
