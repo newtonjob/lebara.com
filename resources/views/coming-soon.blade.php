@@ -166,7 +166,7 @@
     <header class="header navbar navbar-expand-lg position-absolute navbar-sticky">
         <div class="container px-3">
             <a href="/" class="navbar-brand pe-3">
-                <img src="{{ asset('logo.svg') }}" width="120" alt="Lebara">
+                <img src="https://www.lebara.com/content/dam/lebara-group/brand/Lebara-logo.svg" width="120" alt="Lebara">
             </a>
         </div>
     </header>
