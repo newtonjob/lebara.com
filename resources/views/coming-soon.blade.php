@@ -212,23 +212,18 @@
                             <div class="swiper-wrapper">
                                 <!-- Item -->
                                 <div class="swiper-slide">
-                                    <h2 class="display-2 from-start mb-lg-4">Welcome to Lebara Nigeria</h2>
-                                    <div class="from-end">
+                                    <h6 class="display-6 from-start mb-lg-4">WELCOME TO</h6>
+                                    <h2 class="display-1 from-start mb-lg-4">LEBARA NIGERIA</h2>
+                                    {{--<div class="from-end">
                                         <p class="fs-xl text-white pb-2 mb-lg-5">
                                             Subscribe to get the insider gist of our launch and other premium offers.
                                         </p>
-                                    </div>
+                                    </div>--}}
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <h2 class="display-2 from-start mb-lg-4">
-                                        Reliable. Affordable and premium service.
-                                    </h2>
-                                    <div class="from-end">
-                                        <p class="fs-xl text-white pb-2 mb-lg-5">
-                                            Subscribe to get the insider gist of our launch and other premium offers.
-                                        </p>
-                                    </div>
+                                    <h6 class="display-6 from-start mb-lg-4">WE OFFER</h6>
+                                    <h2 class="display-1 from-start mb-lg-4">Reliable. Affordable and premium service.</h2>
                                 </div>
                             </div>
 
@@ -236,26 +231,26 @@
                             <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
                         </div>
 
-                        <div class="row row-cols-4 g-4 pt-2 pt-md-3 pt-lg-2">
-                            <div class="col">
+                        <div class="d-flex justify-content-center gap-4 g-4 pt-2 pt-md-3 pt-lg-2">
+                            <div class="">
                                 <div class="d-flex align-items-center">
                                     <div class="display-4 text-primary" id="days">0</div>
                                     <p class="ps-1 mb-0 text-white">days</p>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="">
                                 <div class="d-flex align-items-center">
                                     <div class="display-4 text-primary" id="hours">0</div>
                                     <p class="ps-1 mb-0 text-white">hours</p>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="">
                                 <div class="d-flex align-items-center">
                                     <div class="display-4 text-primary" id="minutes">0</div>
                                     <p class="ps-1 mb-0 text-white">mins</p>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="">
                                 <div class="d-flex align-items-center">
                                     <div class="display-4 text-primary" id="seconds">0</div>
                                     <p class="ps-1 mb-0 text-white">secs</p>
@@ -270,14 +265,16 @@
                             @then="swal('Well done!', 'We\'ll be in touch.', 'success'); $el.reset()"
                         >
                             <div class="mt-4">
-                                <div class="form-floating">
-                                    <input class="form-control text-white border-white border-3" type="text" id="fl-text" name="email" placeholder="Your email address" required>
-                                    <label for="fl-text" class="text-white">Your email address...</label>
-                                </div>
-                            </div>
+                                <div class="d-flex border border-3 rounded">
+                                    <div class="form-floating w-100">
+                                        <input class="form-control text-white border-white border-0" type="text" id="fl-text" name="email" placeholder="Your email address" required>
+                                        <label for="fl-text" class="text-white">Your email address...</label>
+                                    </div>
 
-                            <div class="py-2 py-lg-3">
-                                <button class="btn btn-primary shadow-primary btn-lg mb-3">Join the wait list</button>
+                                    <div class="p-1">
+                                        <button class="btn btn-primary shadow-primary btn-lg">Join the waitlist</button>
+                                    </div>
+                                </div>
                             </div>
                         </form>
                     </div>
