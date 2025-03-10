@@ -228,7 +228,7 @@
 
 
 <!-- Footer -->
-<footer class="footer bg-primary pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
+<footer class="footer pt-5 pb-4 pb-lg-5" style="background-color: #332987" data-bs-theme="dark">
     <div class="container pt-lg-4">
         <div class="row pb-5">
             <div class="col-lg-4 col-md-6">
