@@ -262,7 +262,7 @@
                             action="/join"
                             x-data="{ form: $form() }"
                             @submit.prevent="form.submit()"
-                            @then="swal('Well done!', 'We\'ll be in touch.', 'success'); $el.reset()"
+                            @then="swal('Welcome!', 'We\'ll be in touch.', 'success'); $el.reset()"
                         >
                             <div class="mt-4">
                                 <div class="d-flex border border-3 rounded">

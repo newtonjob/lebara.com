@@ -14,7 +14,7 @@ Route::view('/products', 'products');
 Route::view('/old', 'welcome');
 
 Route::post('/join', function (Request $request) {
-    Subscriber::create($request->validate(['email' => 'required|email']));
+    Subscriber::updateOrcreate($request->validate(['email' => 'required|email']));
 
     return response()->noContent();
 });
