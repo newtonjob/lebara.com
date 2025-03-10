@@ -195,14 +195,14 @@
                     </ul>
                 </div>
                 <div class="offcanvas-header border-top">
-                    <a href="/contact"
+                    <a href="javascript:"
                        class="btn btn-primary w-100">
-                        <i class="bx bx-mail-send fs-4 lh-1 me-1"></i>
-                        &nbsp;Contact
+                        <i class="bx bx-cart fs-4 lh-1 me-1"></i>
+                        &nbsp;Recharge
                     </a>
                 </div>
             </div>
-            <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
+            <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4 d-none" data-bs-toggle="mode">
                 <input type="checkbox" class="form-check-input" id="theme-mode">
                 <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
                 <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
@@ -211,10 +211,10 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="/contact"
+            <a href="javascript:"
                class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex">
-                <i class="bx bx-mail-send fs-5 lh-1 me-1"></i>
-                &nbsp;Contact
+                <i class="bx bx-cart fs-5 lh-1 me-1"></i>
+                &nbsp;Recharge
             </a>
         </div>
     </header>
