@@ -106,10 +106,10 @@
     </section>
 
     <!-- About -->
-    <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
-        <div class="row pt-xl-3">
+    <section class="container mt-md-4 mt-lg-5">
+        <div class="row">
             <div class="col-md-5 text-center text-md-start pb-5">
-                <h1 class="mb-4">We are Lebara</h1>
+                <h1 class="mb-4 text-primary">We are Lebara</h1>
                 <p class="fs-lg pb-lg-3 mb-4">We create diverse, complex, web and mobile solutions for any business need. With us you get quality software and perfect service every time.</p>
                 <a href="/about" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
                 <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
@@ -125,7 +125,7 @@
 
     <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
         <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
-            <h2 class="h1">How to get a sim/esim?</h2>
+            <h2 class="h1 text-primary">How to get a sim/esim?</h2>
             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat mollis egestas nam luctus facilisis ultrices</p>
         </div>
 
@@ -183,7 +183,7 @@
     </section>
 
     <section class="container py-5 my-md-2 my-lg-4 my-xl-5">
-        <h2 class="h1 text-center pb-3 pb-md-4">Transparent Pricing for You</h2>
+        <h2 class="h1 text-center pb-3 pb-md-4 text-primary">Transparent Pricing for You</h2>
         <div class="price-switch-wrapper mb-n2">
             <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4" data-bs-toggle="price">
                 <input type="checkbox" class="form-check-input" id="pricing">
@@ -332,7 +332,7 @@
     <section class="container py-5 mb-lg-2">
         <div class="row py-2 py-md-4 py-lg-5">
             <div class="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                <h2 class="pb-3 mb-1 mb-lg-3">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
+                <h2 class="pb-3 mb-1 mb-lg-3 text-primary">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
                 <p class="fs-lg pb-3 mb-2 mb-lg-3">Still have unanswered questions and need to get in touch?</p>
                 <div class="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
                     <div class="col">
@@ -452,7 +452,7 @@
             <div class="row pt-2 pt-sm-3 pt-md-4">
                 <div
                     class="col-md-6 col-xl-5 col-xxl-4 text-center text-md-start pb-4 pb-sm-5 mb-2 mb-md-3 mb-lg-4 mb-xl-5">
-                    <h2 class="h1 mb-5">Download the app</h2>
+                    <h2 class="h1 mb-5 text-primary">Download the app</h2>
                     <div class="d-flex d-md-block mt-n2 mt-sm-0">
                         <div class="row row-cols-1 row-cols-lg-2 align-items-lg-end me-1 me-md-0 pb-md-4 mb-md-3">
                             <div class="col">
