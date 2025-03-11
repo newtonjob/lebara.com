@@ -131,7 +131,7 @@
                         <div class="text-center">
                             <img src="/assets/img/landing/digital-agency/icons/idea.svg" width="48" alt="Bulb icon" class="d-block mb-4 mx-auto">
                             <h4 class="mb-2 pb-1 text-chambray">Creative Solutions</h4>
-                            <p class="mx-auto" style="max-width: 336px;">Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.</p>
+                            <p class="mx-auto text-chambray" style="max-width: 336px;">Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.</p>
                         </div>
                     </div>
 
@@ -140,7 +140,7 @@
                         <div class="text-center">
                             <img src="/assets/img/landing/digital-agency/icons/award.svg" width="48" alt="Award icon" class="d-block mb-4 mx-auto">
                             <h4 class="mb-2 pb-1 text-chambray">Award Winning</h4>
-                            <p class="mx-auto" style="max-width: 336px;">Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet.</p>
+                            <p class="mx-auto text-chambray" style="max-width: 336px;">Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet.</p>
                         </div>
                     </div>
 
@@ -149,7 +149,7 @@
                         <div class="text-center">
                             <img src="/assets/img/landing/digital-agency/icons/team.svg" width="48" alt="Team icon" class="d-block mb-4 mx-auto">
                             <h4 class="mb-2 pb-1 text-chambray">Team of Professionals</h4>
-                            <p class="mx-auto" style="max-width: 336px;">Nam venenatis urna aenean quis feugiat et senectus turpis.</p>
+                            <p class="mx-auto text-chambray" style="max-width: 336px;">Nam venenatis urna aenean quis feugiat et senectus turpis.</p>
                         </div>
                     </div>
                 </div>

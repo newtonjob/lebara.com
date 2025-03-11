@@ -95,7 +95,7 @@
     </section>
 
     <section class="container mb-5 pt-md-2 pt-lg-4 pt-xl-5">
-        <h2 class="h1 my-4 pt-2 text-center">The benefits of Lebara Sim</h2>
+        <h2 class="h1 my-4 pt-2 text-center text-chambray">The Benefits of Lebara Sim</h2>
         <div class="row pb-4">
             <div class="col-md-3 col-6 order-md-1 order-2">
                 <div class="d-flex flex-column justify-content-between h-100 text-center">
@@ -198,42 +198,45 @@
         <div class="container pt-2 pt-sm-3 pt-md-4 pt-lg-5">
             <div class="row pt-xl-2 pt-xxl-4 pb-3 pb-sm-4 pb-md-5 mt-2">
                 <div class="col-md-6 col-xl-5 col-xxl-4">
-                    <h2 class="h1">We offer <span class="text-primary">beneficial conditions</span> for all categories of users</h2>
+                    <h2 class="h1 text-chambray">We offer <span class="text-primary">beneficial conditions</span> for all categories of users</h2>
                 </div>
                 <div class="col-md-6 col-xl-5 offset-xl-2 offset-xxl-3">
                     <ul class="list-unstyled">
                         <li class="d-flex fs-xl pb-2 mb-1">
-                            <i class="bx bx-check-circle text-dark d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
+                            <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
                             Banking transactions are free for you
                         </li>
                         <li class="d-flex fs-xl pb-2 mb-1">
-                            <i class="bx bx-check-circle text-dark d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
+                            <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
                             No monthly cash commission
                         </li>
                         <li class="d-flex fs-xl pb-2 mb-1">
-                            <i class="bx bx-check-circle text-dark d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
+                            <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
                             Manage payments and transactions online
                         </li>
                         <li class="d-flex fs-xl pb-2 mb-1">
-                            <i class="bx bx-check-circle text-dark d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
+                            <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
                             Receive real-time alerts
                         </li>
                         <li class="d-flex fs-xl">
-                            <i class="bx bx-check-circle text-dark d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
+                            <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
                             Receive payment from international banks
                         </li>
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
 
-
+    <section class="bg-blue-50 pt-5">
+        <div class="container">
             <!-- Business category -->
-            <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
+            <div class="row align-items-center justify-content-center py-4 py-md-5">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
                     <img src="/assets/img/landing/app-showcase-3/categories/business.png" width="642" alt="Businessman">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
-                    <h2 class="mb-lg-4">For business services</h2>
+                    <h2 class="mb-lg-4 text-chambray">For business services</h2>
                     <p class="fs-lg pb-4 mb-0">Our app simplifies the process of tracking your company's financial health. From cash flow analysis to expense tracking, our app offers a wide range of tools that help you make informed decisions about your business finances. Stay on top of your financial performance.</p>
                     <a href="javascript:" class="btn btn-primary mt-1">
                         Learn more
@@ -241,7 +244,11 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <section class="bg-chambray pt-5">
+        <div class="container">
             <!-- Sturtups category -->
             <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 pb-2 pb-md-0 mb-4 mb-md-0">
@@ -250,23 +257,26 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-5 text-center text-md-start">
-                    <h2 class="mb-lg-4">Offer for startups</h2>
-                    <p class="fs-lg pb-4 mb-0">Starting a new business is a challenging venture, and managing your finances can be overwhelming. Our app offers a range of features designed specifically for startups, from budget tracking to financial planning. It helps you make informed decisions, and focus on growing your business.</p>
+                    <h2 class="mb-lg-4 text-blue-50">Offer for startups</h2>
+                    <p class="fs-lg pb-4 mb-0 text-white">Starting a new business is a challenging venture, and managing your finances can be overwhelming. Our app offers a range of features designed specifically for startups, from budget tracking to financial planning. It helps you make informed decisions, and focus on growing your business.</p>
                     <a href="javascript:" class="btn btn-primary mt-1">
                         Learn more
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
 
-
+    <section class="bg-light pt-5">
+        <div class="container">
             <!-- Students category -->
             <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
                     <img src="/assets/img/landing/app-showcase-3/categories/students.png" width="640" alt="Student">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
-                    <h2 class="mb-lg-4">Benefits for students</h2>
+                    <h2 class="mb-lg-4 text-chambray">Benefits for students</h2>
                     <p class="fs-lg pb-4 mb-0">Managing your finances as a student can be difficult, but our app makes it easy. It offers a variety of features that help you track your expenses, set budgets, and save money. Easily monitor your spending habits and make informed decisions about your finances. Start managing your money like a pro!</p>
                     <a href="javascript:" class="btn btn-primary mt-1">
                         Learn more
@@ -274,8 +284,11 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
 
-
+    <section class="bg-secondary pt-5">
+        <div class="container">
             <!-- Stats -->
             <div class="pb-5 pt-2 pt-sm-3 pt-lg-4 pt-xl-5">
                 <div class="swiper pb-sm-2 pb-md-4 pb-lg-5 mb-xxl-3 mx-n2" data-swiper-options='{
