@@ -223,7 +223,7 @@
 
                                 <div class="swiper-slide">
                                     <h6 class="from-start mb-lg-4 lh-1" style="font-size:calc(1.3875rem + 1.65vw);font-weight:200 !important;line-height:1.3">WE OFFER</h6>
-                                    <h2 class="display-1 from-start mb-lg-4 lh-1">Reliable. Affordable and Premium service.</h2>
+                                    <h2 class="display-1 from-start mb-lg-4 lh-1">Reliable and Affordable</h2>
                                 </div>
                             </div>
 
