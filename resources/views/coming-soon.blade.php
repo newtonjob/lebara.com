@@ -171,7 +171,7 @@
         </div>
     </header>
 
-    <section class="jarallax min-vh-100 bg-darkk" data-jarallax data-speed="0.4" data-bs-theme="dark">
+    <section class="jarallax min-vh-100 bg-dark" data-jarallax data-speed="0.4" data-bs-theme="dark">
         <video class="w-100 position-absolute object-fit-cover min-vh-100" autoplay muted loop>
             <source src="/lebara-video.mp4" type="video/mp4">
         </video>
