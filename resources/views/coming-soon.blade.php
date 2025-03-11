@@ -172,7 +172,7 @@
     </header>
 
     <section class="jarallax min-vh-100 bg-dark" data-jarallax data-speed="0.4" data-bs-theme="dark">
-        <video class="w-100 position-absolute object-fit-cover min-vh-100" autoplay muted loop>
+        <video class="w-100 h-100 position-absolute object-fit-cover min-vh-100" autoplay muted loop>
             <source src="/lekki-video.mp4" type="video/mp4">
         </video>
 
@@ -223,7 +223,7 @@
 
                                 <div class="swiper-slide">
                                     <h6 class="from-start mb-lg-4 lh-1" style="font-size:calc(1.3875rem + 1.65vw);font-weight:200 !important;line-height:1.3">WE OFFER</h6>
-                                    <h2 class="display-1 from-start mb-lg-4 lh-1">Reliable and Affordable</h2>
+                                    <h2 class="display-1 from-start mb-lg-4 lh-1">Reliable. Affordable and Premium service.</h2>
                                 </div>
                             </div>
 

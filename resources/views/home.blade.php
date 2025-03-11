@@ -1,7 +1,7 @@
 <x-layouts.site>
     <!-- Hero slider + BG parallax -->
     <section class="jarallax min-vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
-        <video class="w-100 position-absolute object-fit-cover min-vh-100" autoplay muted loop>
+        <video class="w-100 h-100 position-absolute object-fit-cover min-vh-100" autoplay muted loop>
             <source src="/lekki-video.mp4" type="video/mp4">
         </video>
 
@@ -43,7 +43,7 @@
                                     <h2 class="display-2 from-start mb-lg-4">Welcome to Lebara Nigeria</h2>
                                     <div class="from-end">
                                         <p class="fs-xl text-white pb-2 mb-lg-5">
-                                            Reliable. Affordable and Premium service.
+                                            Reliable and Affordable and Premium service.
                                         </p>
                                     </div>
                                     <div class="scale-up delay-1">
