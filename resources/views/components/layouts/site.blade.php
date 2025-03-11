@@ -42,6 +42,7 @@
 
     <!-- Main Theme Styles + Bootstrap -->
     <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css?v=1">
+    <link rel="stylesheet" media="screen" href="/assets/css/colors.css">
 
     <!-- Page loading styles -->
     <style>
@@ -130,13 +131,6 @@
                 transform: rotate(360deg);
             }
         }
-
-        .text-chambray { color: #3d4998 }
-        .bg-chambray { background-color: #3d4998 }
-        .text-blue-50 { color: #b3e4f9 }
-        .bg-blue-50 { background-color: #b3e4f9 }
-        .text-pink-50 { color: #ff3182 }
-        .bg-pink-50 { background-color: #ff3182 }
     </style>
 
     <!-- Page loading scripts -->
@@ -179,29 +173,32 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul
+                        class="navbar-nav me-auto mb-2 mb-lg-0"
+                        x-data="{ active: (el) => el.href === location.href }"
+                    >
                         <li class="nav-item">
-                            <a href="/home" class="nav-link fw-normal">Home</a>
+                            <a href="/home" class="nav-link fw-normal" :class="{ 'active': active($el) }">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="/about" class="nav-link fw-normal">About</a>
+                            <a href="/about" class="nav-link fw-normal" :class="{ 'active': active($el) }">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="/products" class="nav-link fw-normal">Product/Service</a>
+                            <a href="/products" class="nav-link fw-normal" :class="{ 'active': active($el) }">Product/Service</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="javascript:" class="nav-link fw-normal">News/Insights</a>
+                            <a href="javascript:" class="nav-link fw-normal" :class="{ 'active': active($el) }">News/Insights</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="javascript:" class="nav-link fw-normal">Careers</a>
+                            <a href="javascript:" class="nav-link fw-normal" :class="{ 'active': active($el) }">Careers</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="/contact" class="nav-link fw-normal">Contact</a>
+                            <a href="/contact" class="nav-link fw-normal" :class="{ 'active': active($el) }">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -318,5 +315,11 @@
 
 <!-- Main Theme Script -->
 <script src="assets/js/theme.min.js"></script>
+
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script src="https://unpkg.com/axios@1.4.0/dist/axios.min.js"></script>
+<script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+<script src="{{ asset('assets/js/form.js') }}"></script>
+
 </body>
 </html>

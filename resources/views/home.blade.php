@@ -137,7 +137,7 @@
                     <div class="step-number-inner">1</div>
                 </div>
                 <div class="step-body">
-                    <h3 class="h4 mb-3">Registration </h3>
+                    <h3 class="h4 mb-3 text-chambray">Registration </h3>
                     <p class="mb-0">Massa enim libero dictumst consectetur in convallis lobortis</p>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                     <div class="step-number-inner">2</div>
                 </div>
                 <div class="step-body">
-                    <h3 class="h4 mb-3">Identity verification</h3>
+                    <h3 class="h4 mb-3 text-chambray">Identity verification</h3>
                     <p class="mb-0">At ultricies id non quisque integer eget velit. Facilisis enim</p>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     <div class="step-number-inner">3</div>
                 </div>
                 <div class="step-body">
-                    <h3 class="h4 mb-3">Start browsing</h3>
+                    <h3 class="h4 mb-3 text-chambray">Start browsing</h3>
                     <p class="mb-0">Pellentesque rhoncus viverra vestibulum, purus purus</p>
                 </div>
             </div>
@@ -164,7 +164,7 @@
                     <div class="step-number-inner">4</div>
                 </div>
                 <div class="step-body">
-                    <h3 class="h4 mb-3">Earn with Lebara</h3>
+                    <h3 class="h4 mb-3 text-chambray">Earn with Lebara</h3>
                     <p class="mb-0">Massa enim libero dictumst consectetur in convallis lobortis</p>
                 </div>
             </div>
