@@ -268,7 +268,7 @@
                                 <div class="d-flex border border-3 rounded">
                                     <div class="form-floating w-100">
                                         <input class="form-control text-white border-white border-0" type="text" id="fl-text" name="email" placeholder="Your email address" required>
-                                        <label for="fl-text" class="text-white">Your email address...</label>
+                                        <label for="fl-text" class="text-white">Your email...</label>
                                     </div>
 
                                     <div class="p-1">
