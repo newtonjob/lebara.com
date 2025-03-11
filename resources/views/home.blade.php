@@ -369,7 +369,7 @@
                     <div class="accordion" id="faq">
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q1-heading">
-                                <button class="accordion-button shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">
                                     Is any of my personal information stored in the App?
                                 </button>
                             </h2>
@@ -382,7 +382,7 @@
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q2-heading">
-                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
                                     What formats can I download my transaction history in?
                                 </button>
                             </h2>
@@ -395,7 +395,7 @@
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q3-heading">
-                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
                                     Can I schedule future transfers?
                                 </button>
                             </h2>
@@ -408,7 +408,7 @@
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q4-heading">
-                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
                                     When can I use Banking App services?
                                 </button>
                             </h2>
@@ -421,7 +421,7 @@
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q5-heading">
-                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
                                     Can I create my own password that is easy for me to remember?
                                 </button>
                             </h2>
@@ -434,7 +434,7 @@
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm">
                             <h2 class="accordion-header" id="q6-heading">
-                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6" aria-expanded="false" aria-controls="q6">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6" aria-expanded="false" aria-controls="q6">
                                     What happens if I forget or lose my password?
                                 </button>
                             </h2>
