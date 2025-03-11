@@ -131,9 +131,12 @@
             }
         }
 
-        .text-purple { color: #3d4998 }
-        .bg-purple { background-color: #3d4998 }
+        .text-chambray { color: #3d4998 }
+        .bg-chambray { background-color: #3d4998 }
+        .text-blue-50 { color: #b3e4f9 }
         .bg-blue-50 { background-color: #b3e4f9 }
+        .text-pink-50 { color: #ff3182 }
+        .bg-pink-50 { background-color: #ff3182 }
     </style>
 
     <!-- Page loading scripts -->
@@ -232,7 +235,7 @@
 
 
 <!-- Footer -->
-<footer class="footer pt-5 pb-4 pb-lg-5" style="background-color: #332987" data-bs-theme="dark">
+<footer class="footer pt-5 pb-4 pb-lg-5 bg-chambray" data-bs-theme="dark">
     <div class="container pt-lg-4">
         <div class="row pb-5">
             <div class="col-lg-4 col-md-6">

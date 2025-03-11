@@ -109,7 +109,7 @@
         <div class="container mt-md-4">
             <div class="row">
                 <div class="col-md-5 text-center text-md-start pb-5">
-                    <h1 class="mb-4 text-purple">We are Lebara</h1>
+                    <h1 class="mb-4 text-chambray">We are Lebara</h1>
                     <p class="fs-lg pb-lg-3 mb-4">We create diverse, complex, web and mobile solutions for any business need. With us you get quality software and perfect service every time.</p>
                     <a href="/about" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
                     <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
@@ -126,7 +126,7 @@
 
     <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
         <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
-            <h2 class="h1 text-purple">How to get a sim/esim?</h2>
+            <h2 class="h1 text-chambray">How to get a sim/esim?</h2>
             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat mollis egestas nam luctus facilisis ultrices</p>
         </div>
 
@@ -183,145 +183,147 @@
         </div>
     </section>
 
-    <section class="container py-5 my-md-2 my-lg-4 my-xl-5">
-        <h2 class="h1 text-center pb-3 pb-md-4 text-purple">Transparent Pricing for You</h2>
-        <div class="price-switch-wrapper mb-n2">
-            <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4" data-bs-toggle="price">
-                <input type="checkbox" class="form-check-input" id="pricing">
-                <label class="form-check-label" for="pricing">Monthly</label>
-                <label class="form-check-label d-flex align-items-start" for="pricing">Annually <span class="text-danger fs-xs fw-semibold mt-n2 ms-2">-10%</span></label>
-            </div>
-            <div class="table-responsive-xxl pt-md-3">
-                <div class="row flex-nowrap pb-4">
-                    <div class="col">
-                        <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                    <div class="flex-shrink-0 bg-secondary rounded-3">
-                                        <img src="assets/img/landing/saas-1/pricing/basic.png" width="84" alt="Icon">
+    <section class="py-5 bg-blue-50">
+        <div class="container my-md-2 my-lg-4 my-xl-5">
+            <h2 class="h1 text-center pb-3 pb-md-4 text-chambray">Transparent Pricing for You</h2>
+            <div class="price-switch-wrapper mb-n2">
+                <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4" data-bs-toggle="price">
+                    <input type="checkbox" class="form-check-input" id="pricing">
+                    <label class="form-check-label" for="pricing">Monthly</label>
+                    <label class="form-check-label d-flex align-items-start" for="pricing">Annually <span class="text-danger fs-xs fw-semibold mt-n2 ms-2">-10%</span></label>
+                </div>
+                <div class="table-responsive-xxl pt-md-3">
+                    <div class="row flex-nowrap pb-4">
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                        <div class="flex-shrink-0 bg-secondary rounded-3">
+                                            <img src="assets/img/landing/saas-1/pricing/basic.png" width="84" alt="Icon">
+                                        </div>
+                                        <div class="ps-4">
+                                            <h3 class="fs-lg fw-normal text-body mb-2">Basic</h3>
+                                            <h4 class="h3 lh-1 mb-0">
+                                                <span data-monthly-price="">N600.00</span>
+                                                <span class="d-none" data-annual-price="">N500.40</span>
+                                                <span class="text-body fs-sm fw-normal"> / per month</span>
+                                            </h4>
+                                        </div>
                                     </div>
-                                    <div class="ps-4">
-                                        <h3 class="fs-lg fw-normal text-body mb-2">Basic</h3>
-                                        <h4 class="h3 lh-1 mb-0">
-                                            <span data-monthly-price="">N600.00</span>
-                                            <span class="d-none" data-annual-price="">N500.40</span>
-                                            <span class="text-body fs-sm fw-normal"> / per month</span>
-                                        </h4>
-                                    </div>
+                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Aenean neque tortor, purus faucibus
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nullam augue vitae et volutpat sagittis
+                                        </li>
+                                        <li class="d-flex text-muted mb-2">
+                                            <i class="bx bx-x fs-xl me-1"></i>
+                                            Mauris massa penatibus enim elit quam
+                                        </li>
+                                        <li class="d-flex text-muted mb-2">
+                                            <i class="bx bx-x fs-xl me-1"></i>
+                                            Nec ac sagittis nunc bibendum
+                                        </li>
+                                        <li class="d-flex text-muted">
+                                            <i class="bx bx-x fs-xl me-1"></i>
+                                            Odio ut orci volutpat ultricies eleifend
+                                        </li>
+                                    </ul>
                                 </div>
-                                <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                    <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
-                                        Aenean neque tortor, purus faucibus
-                                    </li>
-                                    <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
-                                        Nullam augue vitae et volutpat sagittis
-                                    </li>
-                                    <li class="d-flex text-muted mb-2">
-                                        <i class="bx bx-x fs-xl me-1"></i>
-                                        Mauris massa penatibus enim elit quam
-                                    </li>
-                                    <li class="d-flex text-muted mb-2">
-                                        <i class="bx bx-x fs-xl me-1"></i>
-                                        Nec ac sagittis nunc bibendum
-                                    </li>
-                                    <li class="d-flex text-muted">
-                                        <i class="bx bx-x fs-xl me-1"></i>
-                                        Odio ut orci volutpat ultricies eleifend
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="card-footer border-0 pt-0 pb-4">
-                                <a href="#" class="btn btn-primary w-100">Buy</a>
+                                <div class="card-footer border-0 pt-0 pb-4">
+                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3" style="min-width: 18rem;">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                    <div class="flex-shrink-0 rounded-3" style="background-color: rgba(255,255,255, .1);">
-                                        <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
+                        <div class="col">
+                            <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3" style="min-width: 18rem;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                        <div class="flex-shrink-0 rounded-3" style="background-color: rgba(255,255,255, .1);">
+                                            <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
+                                        </div>
+                                        <div class="ps-4">
+                                            <h3 class="fs-lg fw-normal text-light opacity-70 mb-2">Standard</h3>
+                                            <h4 class="h3 text-light lh-1 mb-0">
+                                                <span data-monthly-price="">N1002.00</span>
+                                                <span class="d-none" data-annual-price="">N1000.80</span>
+                                                <span class="fs-sm fw-normal opacity-70"> / per month</span>
+                                            </h4>
+                                        </div>
                                     </div>
-                                    <div class="ps-4">
-                                        <h3 class="fs-lg fw-normal text-light opacity-70 mb-2">Standard</h3>
-                                        <h4 class="h3 text-light lh-1 mb-0">
-                                            <span data-monthly-price="">N1002.00</span>
-                                            <span class="d-none" data-annual-price="">N1000.80</span>
-                                            <span class="fs-sm fw-normal opacity-70"> / per month</span>
-                                        </h4>
-                                    </div>
+                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                        <li class="d-flex text-light mb-2">
+                                            <i class="bx bx-check fs-xl me-1"></i>
+                                            <span class="opacity-70">Aenean neque tortor, purus faucibus</span>
+                                        </li>
+                                        <li class="d-flex text-light mb-2">
+                                            <i class="bx bx-check fs-xl me-1"></i>
+                                            <span class="opacity-70">Nullam augue vitae et volutpat sagittis</span>
+                                        </li>
+                                        <li class="d-flex text-light mb-2">
+                                            <i class="bx bx-check fs-xl me-1"></i>
+                                            <span class="opacity-70">Mauris massa penatibus enim elit quam</span>
+                                        </li>
+                                        <li class="d-flex text-light mb-2">
+                                            <i class="bx bx-check fs-xl me-1"></i>
+                                            <span class="opacity-70">Nec ac sagittis nunc bibendum</span>
+                                        </li>
+                                        <li class="d-flex text-light opacity-50">
+                                            <i class="bx bx-x fs-xl me-1"></i>
+                                            Odio ut orci volutpat ultricies eleifend
+                                        </li>
+                                    </ul>
                                 </div>
-                                <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                    <li class="d-flex text-light mb-2">
-                                        <i class="bx bx-check fs-xl me-1"></i>
-                                        <span class="opacity-70">Aenean neque tortor, purus faucibus</span>
-                                    </li>
-                                    <li class="d-flex text-light mb-2">
-                                        <i class="bx bx-check fs-xl me-1"></i>
-                                        <span class="opacity-70">Nullam augue vitae et volutpat sagittis</span>
-                                    </li>
-                                    <li class="d-flex text-light mb-2">
-                                        <i class="bx bx-check fs-xl me-1"></i>
-                                        <span class="opacity-70">Mauris massa penatibus enim elit quam</span>
-                                    </li>
-                                    <li class="d-flex text-light mb-2">
-                                        <i class="bx bx-check fs-xl me-1"></i>
-                                        <span class="opacity-70">Nec ac sagittis nunc bibendum</span>
-                                    </li>
-                                    <li class="d-flex text-light opacity-50">
-                                        <i class="bx bx-x fs-xl me-1"></i>
-                                        Odio ut orci volutpat ultricies eleifend
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="card-footer border-0 pt-0 pb-4">
-                                <a href="#" class="btn btn-light w-100">Buy</a>
+                                <div class="card-footer border-0 pt-0 pb-4">
+                                    <a href="#" class="btn btn-light w-100">Buy</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                    <div class="flex-shrink-0 bg-secondary rounded-3">
-                                        <img src="assets/img/landing/saas-1/pricing/ultimate.png" width="84" alt="Icon">
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                        <div class="flex-shrink-0 bg-secondary rounded-3">
+                                            <img src="assets/img/landing/saas-1/pricing/ultimate.png" width="84" alt="Icon">
+                                        </div>
+                                        <div class="ps-4">
+                                            <h3 class="fs-lg fw-normal text-body mb-2">Ultimate</h3>
+                                            <h4 class="h3 lh-1 mb-0">
+                                                <span data-monthly-price="">N1008.00</span>
+                                                <span class="d-none" data-annual-price="">N1006.20</span>
+                                                <span class="text-body fs-sm fw-normal"> / per month</span>
+                                            </h4>
+                                        </div>
                                     </div>
-                                    <div class="ps-4">
-                                        <h3 class="fs-lg fw-normal text-body mb-2">Ultimate</h3>
-                                        <h4 class="h3 lh-1 mb-0">
-                                            <span data-monthly-price="">N1008.00</span>
-                                            <span class="d-none" data-annual-price="">N1006.20</span>
-                                            <span class="text-body fs-sm fw-normal"> / per month</span>
-                                        </h4>
-                                    </div>
+                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Aenean neque tortor, purus faucibus
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nullam augue vitae et volutpat sagittis
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Mauris massa penatibus enim elit quam
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nec ac sagittis nunc bibendum
+                                        </li>
+                                        <li class="d-flex">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Odio ut orci volutpat ultricies eleifend
+                                        </li>
+                                    </ul>
                                 </div>
-                                <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                    <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
-                                        Aenean neque tortor, purus faucibus
-                                    </li>
-                                    <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
-                                        Nullam augue vitae et volutpat sagittis
-                                    </li>
-                                    <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
-                                        Mauris massa penatibus enim elit quam
-                                    </li>
-                                    <li class="d-flex mb-2">
-                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
-                                        Nec ac sagittis nunc bibendum
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="bx bx-check fs-xl text-purple me-1"></i>
-                                        Odio ut orci volutpat ultricies eleifend
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="card-footer border-0 pt-0 pb-4">
-                                <a href="#" class="btn btn-primary w-100">Buy</a>
+                                <div class="card-footer border-0 pt-0 pb-4">
+                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -330,115 +332,117 @@
         </div>
     </section>
 
-    <section class="container py-5 mb-lg-2">
-        <div class="row py-2 py-md-4 py-lg-5">
-            <div class="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                <h2 class="pb-3 mb-1 mb-lg-3 text-purple">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
-                <p class="fs-lg pb-3 mb-2 mb-lg-3">Still have unanswered questions and need to get in touch?</p>
-                <div class="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
-                    <div class="col">
-                        <div class="card card-hover">
-                            <div class="card-body pb-3">
-                                <i class="bx bxs-phone-call d-block fs-2 text-purple mb-2 py-1"></i>
-                                <p class="fs-sm mb-2">Still have  questions?</p>
-                                <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link stretched-link px-0">
-                                    Call us
-                                    <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
-                                </a>
+    <section class="py-5 bg-secondary">
+        <div class="container mb-lg-2">
+            <div class="row py-2 py-md-4 py-lg-5">
+                <div class="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+                    <h2 class="pb-3 mb-1 mb-lg-3 text-chambray">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
+                    <p class="fs-lg pb-3 mb-2 mb-lg-3">Still have unanswered questions and need to get in touch?</p>
+                    <div class="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
+                        <div class="col">
+                            <div class="card card-hover">
+                                <div class="card-body pb-3">
+                                    <i class="bx bxs-phone-call d-block fs-2 text-chambray mb-2 py-1"></i>
+                                    <p class="fs-sm mb-2">Still have  questions?</p>
+                                    <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link stretched-link px-0">
+                                        Call us
+                                        <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-hover">
-                            <div class="card-body pb-3">
-                                <i class="bx bx-message-rounded-dots d-block fs-2 text-success mb-2 py-1"></i>
-                                <p class="fs-sm mb-2">Still have  questions?</p>
-                                <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link text-success stretched-link px-0">
-                                    Chat with us
-                                    <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
-                                </a>
+                        <div class="col">
+                            <div class="card card-hover">
+                                <div class="card-body pb-3">
+                                    <i class="bx bx-message-rounded-dots d-block fs-2 text-success mb-2 py-1"></i>
+                                    <p class="fs-sm mb-2">Still have  questions?</p>
+                                    <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link text-success stretched-link px-0">
+                                        Chat with us
+                                        <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-7 offset-xl-1">
-                <div class="accordion" id="faq">
-                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-                        <h2 class="accordion-header" id="q1-heading">
-                            <button class="accordion-button shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">
-                                Is any of my personal information stored in the App?
-                            </button>
-                        </h2>
-                        <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1-heading" data-bs-parent="#faq">
-                            <div class="accordion-body fs-sm pt-0">
-                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                <div class="col-md-7 offset-xl-1">
+                    <div class="accordion" id="faq">
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q1-heading">
+                                <button class="accordion-button shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">
+                                    Is any of my personal information stored in the App?
+                                </button>
+                            </h2>
+                            <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-                        <h2 class="accordion-header" id="q2-heading">
-                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
-                                What formats can I download my transaction history in?
-                            </button>
-                        </h2>
-                        <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faq">
-                            <div class="accordion-body fs-sm pt-0">
-                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q2-heading">
+                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
+                                    What formats can I download my transaction history in?
+                                </button>
+                            </h2>
+                            <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-                        <h2 class="accordion-header" id="q3-heading">
-                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
-                                Can I schedule future transfers?
-                            </button>
-                        </h2>
-                        <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3-heading" data-bs-parent="#faq">
-                            <div class="accordion-body fs-sm pt-0">
-                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q3-heading">
+                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
+                                    Can I schedule future transfers?
+                                </button>
+                            </h2>
+                            <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-                        <h2 class="accordion-header" id="q4-heading">
-                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
-                                When can I use Banking App services?
-                            </button>
-                        </h2>
-                        <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4-heading" data-bs-parent="#faq">
-                            <div class="accordion-body fs-sm pt-0">
-                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q4-heading">
+                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
+                                    When can I use Banking App services?
+                                </button>
+                            </h2>
+                            <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-                        <h2 class="accordion-header" id="q5-heading">
-                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
-                                Can I create my own password that is easy for me to remember?
-                            </button>
-                        </h2>
-                        <div id="q5" class="accordion-collapse collapse" aria-labelledby="q5-heading" data-bs-parent="#faq">
-                            <div class="accordion-body fs-sm pt-0">
-                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q5-heading">
+                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
+                                    Can I create my own password that is easy for me to remember?
+                                </button>
+                            </h2>
+                            <div id="q5" class="accordion-collapse collapse" aria-labelledby="q5-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 rounded-3 shadow-sm">
-                        <h2 class="accordion-header" id="q6-heading">
-                            <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6" aria-expanded="false" aria-controls="q6">
-                                What happens if I forget or lose my password?
-                            </button>
-                        </h2>
-                        <div id="q6" class="accordion-collapse collapse" aria-labelledby="q6-heading" data-bs-parent="#faq">
-                            <div class="accordion-body fs-sm pt-0">
-                                <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                        <div class="accordion-item border-0 rounded-3 shadow-sm">
+                            <h2 class="accordion-header" id="q6-heading">
+                                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6" aria-expanded="false" aria-controls="q6">
+                                    What happens if I forget or lose my password?
+                                </button>
+                            </h2>
+                            <div id="q6" class="accordion-collapse collapse" aria-labelledby="q6-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
