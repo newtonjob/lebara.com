@@ -7,8 +7,10 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'coming-soon');
 
 Route::view('/home', 'home');
+Route::view('/news', 'news');
 Route::view('/about', 'about');
 Route::view('/contact', 'contact');
+Route::view('/careers', 'careers');
 Route::view('/products', 'products');
 
 Route::view('/old', 'welcome');

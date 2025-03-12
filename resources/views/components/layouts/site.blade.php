@@ -190,11 +190,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="javascript:" class="nav-link fw-normal" :class="{ 'active': active($el) }">News/Insights</a>
+                            <a href="/news" class="nav-link fw-normal" :class="{ 'active': active($el) }">News/Insights</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="javascript:" class="nav-link fw-normal" :class="{ 'active': active($el) }">Careers</a>
+                            <a href="/careers" class="nav-link fw-normal" :class="{ 'active': active($el) }">Careers</a>
                         </li>
 
                         <li class="nav-item">
