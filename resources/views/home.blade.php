@@ -110,10 +110,14 @@
             <div class="row">
                 <div class="col-md-5 text-center text-md-start pb-5">
                     <h1 class="mb-4 text-chambray">We are Lebara</h1>
-                    <p class="fs-lg pb-lg-3 mb-4">We create diverse, complex, web and mobile solutions for any business need. With us you get quality software and perfect service every time.</p>
+                    <p class="fs-lg pb-lg-3 mb-2">
+                        Lebara Group has been a trusted provider of affordable, reliable, and high-quality mobile services across three continents and nine countries. Now, it's Nigeria’s turn to experience the unmatched benefits of being part of the Lebara family.
+                    <p class="fs-lg pb-lg-3 mb-4">
+                        Our commitment to delivering world class customer-first solution, unique bundle plans tailored to serve your interest, budget or lifestyle. We’re ready, are you?
+                    </p>
                     <a href="/about" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
                     <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
-                        <h2 class="h6 mb-4">Some of our awards:</h2>
+                        <h2 class="h6 mb-4 text-chambray">Some of our awards:</h2>
                         <img src="assets/img/landing/software-agency-1/awards.svg" alt="Awards">
                     </div>
                 </div>
@@ -126,8 +130,8 @@
 
     <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
         <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
-            <h2 class="h1 text-chambray">How to get a sim/esim?</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat mollis egestas nam luctus facilisis ultrices</p>
+            <h2 class="h1 text-chambray">How to Get a SIM/eSIM?</h2>
+            <p class="mb-0">Getting a Lebara SIM or eSIM is quick and easy no hassle:</p>
         </div>
 
         <!-- Steps -->
@@ -137,8 +141,8 @@
                     <div class="step-number-inner">1</div>
                 </div>
                 <div class="step-body">
-                    <h3 class="h4 mb-3 text-chambray">Registration </h3>
-                    <p class="mb-0">Massa enim libero dictumst consectetur in convallis lobortis</p>
+                    <h3 class="h4 mb-3 text-chambray">Visit a Retail Store </h3>
+                    <p class="mb-0">Walk into any authorized Lebara store or agent location to purchase a physical SIM/ESIM.</p>
                 </div>
             </div>
             <div class="step">
@@ -146,8 +150,8 @@
                     <div class="step-number-inner">2</div>
                 </div>
                 <div class="step-body">
-                    <h3 class="h4 mb-3 text-chambray">Identity verification</h3>
-                    <p class="mb-0">At ultricies id non quisque integer eget velit. Facilisis enim</p>
+                    <h3 class="h4 mb-3 text-chambray">Order Online</h3>
+                    <p class="mb-0">Get your SIM card delivered to your doorstep by ordering through our website.</p>
                 </div>
             </div>
             <div class="step">
@@ -155,8 +159,8 @@
                     <div class="step-number-inner">3</div>
                 </div>
                 <div class="step-body">
-                    <h3 class="h4 mb-3 text-chambray">Start browsing</h3>
-                    <p class="mb-0">Pellentesque rhoncus viverra vestibulum, purus purus</p>
+                    <h3 class="h4 mb-3 text-chambray">Activate Your eSIM</h3>
+                    <p class="mb-0">Prefer a digital experience? Activate your <b>eSIM instantly</b> without needing a physical card.</p>
                 </div>
             </div>
             <div class="step">
@@ -164,8 +168,10 @@
                     <div class="step-number-inner">4</div>
                 </div>
                 <div class="step-body">
-                    <h3 class="h4 mb-3 text-chambray">Earn with Lebara</h3>
-                    <p class="mb-0">Massa enim libero dictumst consectetur in convallis lobortis</p>
+                    <h3 class="h4 mb-3 text-chambray">Porting</h3>
+                    <p class="mb-0">
+                        Dial <b>*3535#</b> and visit an agent near your and you are good to go. <a href="javascript:" class="text-primary">Activate Now</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -337,27 +343,17 @@
             <div class="row py-2 py-md-4 py-lg-5">
                 <div class="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
                     <h2 class="pb-3 mb-1 mb-lg-3 text-chambray">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
-                    <p class="fs-lg pb-3 mb-2 mb-lg-3">Still have unanswered questions and need to get in touch?</p>
-                    <div class="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
+                    <p class="fs-lg pb-3 mb-2 mb-lg-3">Couldn’t find what you are looking for?</p>
+                    <div class="row row-cols-1 g-3 g-sm-4">
                         <div class="col">
                             <div class="card card-hover">
                                 <div class="card-body pb-3">
-                                    <i class="bx bxs-phone-call d-block fs-2 text-chambray mb-2 py-1"></i>
-                                    <p class="fs-sm mb-2">Still have  questions?</p>
-                                    <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link stretched-link px-0">
-                                        Call us
-                                        <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card-hover">
-                                <div class="card-body pb-3">
-                                    <i class="bx bx-message-rounded-dots d-block fs-2 text-success mb-2 py-1"></i>
-                                    <p class="fs-sm mb-2">Still have  questions?</p>
-                                    <a href="landing-mobile-app-showcase-v1.html#" class="btn btn-link text-success stretched-link px-0">
-                                        Chat with us
+                                    <i class="bx bx-message-rounded-dots d-block fs-2 text-primary mb-2 py-1"></i>
+                                    <p class="fs-sm mb-2">
+                                         Our AI agent (Lary) got you.
+                                    </p>
+                                    <a href="javascript:" class="btn btn-link text-primary stretched-link px-0">
+                                        Chat with Lary
                                         <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
                                     </a>
                                 </div>
@@ -370,78 +366,132 @@
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q1-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">
-                                    Is any of my personal information stored in the App?
+                                    How do I check my balance?
                                 </button>
                             </h2>
                             <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1-heading" data-bs-parent="#faq">
                                 <div class="accordion-body fs-sm pt-0">
-                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                    <p>Dial <b>XYZ#</b> or check via the <b>Lebara Nigeria app</b> available on IOS and Android.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q2-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
-                                    What formats can I download my transaction history in?
+                                    What happens when I activate my SIM?
                                 </button>
                             </h2>
                             <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faq">
                                 <div class="accordion-body fs-sm pt-0">
-                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                    <p>You automatically get a <b>Sterling Wallet</b>, unlocking access to microloans and device financing. T&C applies.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q3-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
-                                    Can I schedule future transfers?
+                                    Can I keep my current number when switching to Lebara?
                                 </button>
                             </h2>
                             <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3-heading" data-bs-parent="#faq">
                                 <div class="accordion-body fs-sm pt-0">
-                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                    <p>Yes! Our <b>number porting service</b> allows you to bring your existing number to Lebara with ease.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q4-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
-                                    When can I use Banking App services?
+                                    What are the benefits of the Sterling Wallet?
                                 </button>
                             </h2>
                             <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4-heading" data-bs-parent="#faq">
                                 <div class="accordion-body fs-sm pt-0">
-                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                    <p>With a Sterling Wallet, you can access <b>instant microloans</b>, finance a new device, and enjoy
+                                        <b>seamless digital payments and easy recharge</b>.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q5-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
-                                    Can I create my own password that is easy for me to remember?
+                                    What data and voice plans are available?
                                 </button>
                             </h2>
                             <div id="q5" class="accordion-collapse collapse" aria-labelledby="q5-heading" data-bs-parent="#faq">
                                 <div class="accordion-body fs-sm pt-0">
-                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                    <p>We offer a range of <b>affordable plans</b> tailored for local and international calls, with
+                                        <b>high-speed data bundles</b> to keep you connected.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item border-0 rounded-3 shadow-sm">
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q6-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6" aria-expanded="false" aria-controls="q6">
-                                    What happens if I forget or lose my password?
+                                    Can I recharge my Lebara line online?
                                 </button>
                             </h2>
                             <div id="q6" class="accordion-collapse collapse" aria-labelledby="q6-heading" data-bs-parent="#faq">
                                 <div class="accordion-body fs-sm pt-0">
-                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
-                                    <p class="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                                    <p>Absolutely! Top up online via our <b>website, mobile app, or bank transfers</b> for easy and fast recharges.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q7-heading">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q7" aria-expanded="false" aria-controls="q7">
+                                    Is Lebara available across Nigeria?
+                                </button>
+                            </h2>
+                            <div id="q7" class="accordion-collapse collapse" aria-labelledby="q7-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>Yes! We have <b>nationwide coverage</b>, ensuring you stay connected no matter where you are.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q8-heading">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q8" aria-expanded="false" aria-controls="q8">
+                                    What makes Lebara different from other telecom brands?
+                                </button>
+                            </h2>
+                            <div id="q8" class="accordion-collapse collapse" aria-labelledby="q8-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>
+                                        Unlike other networks, we offer <b>more than just telecom services</b>—we integrate financial benefits and our bundle incorporated lifestyle perks into your mobile experience
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q9-heading">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q9" aria-expanded="false" aria-controls="q9">
+                                    Do you offer international calling?
+                                </button>
+                            </h2>
+                            <div id="q9" class="accordion-collapse collapse" aria-labelledby="q9-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>
+                                        Yes! We provide <b>low-cost international call rates</b> so you can stay connected with loved ones abroad.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                            <h2 class="accordion-header" id="q10-heading">
+                                <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q10" aria-expanded="false" aria-controls="q10">
+                                    How do I contact customer support?
+                                </button>
+                            </h2>
+                            <div id="q10" class="accordion-collapse collapse" aria-labelledby="q10-heading" data-bs-parent="#faq">
+                                <div class="accordion-body fs-sm pt-0">
+                                    <p>You can reach us via <b>call, WhatsApp, email, or by visiting our nearest service
+                                            center</b>.</p>
                                 </div>
                             </div>
                         </div>

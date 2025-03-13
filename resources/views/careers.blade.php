@@ -16,6 +16,20 @@
     </nav>
 
     <section class="container pb-5 mb-md-2 mb-lg-4">
-        <h1 class="border-bottom pb-4 text-chambray">Coming soon...</h1>
+        <h1 class="border-bottom pb-4 text-chambray">Join Our Team</h1>
+        <div class="row pt-2 pt-md-3">
+            <div class="col-md-6">
+                <p class="fs-lg pe-lg-4 mb-1 mb-lg-4">We are always on the lookout for top talent to join our dynamic team. At Lebara Nigeria, you’ll work alongside experts from diverse backgrounds and cultures, bringing fresh ideas and perspectives to the table. Being part of our team means being part of a global network that values innovation, collaboration, and personal growth.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p class="fs-lg ps-lg-4 mb-1 mb-lg-4">
+                    If you're looking for a workplace that invests in your development and empowers you to thrive, we’d love to hear from you!
+                </p>
+                <p class="fs-lg ps-lg-4 mb-1 mb-lg-4">
+                    Shoot us an email: <a href="mailto:careers@lebara.ng" class="text-pink-50">careers@lebara.ng</a>
+                </p>
+            </div>
+        </div>
     </section>
 </x-layouts.site>

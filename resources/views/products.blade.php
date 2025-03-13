@@ -104,8 +104,8 @@
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/battery.svg" alt="Icon" class="d-inline-block mb-4">
                         <h3 class="h4 mb-0 lh-1">
-                            <span class="d-block mb-2 fs-base fw-normal">Flight time</span>
-                            60 min
+                            <span class="d-block mb-2 fs-base fw-normal">Reliable network coverage</span>
+                            Strong Connectivity
                         </h3>
                     </div>
 
@@ -113,8 +113,8 @@
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/drone.svg" alt="Icon" class="d-inline-block mb-4">
                         <h3 class="h4 mb-0 lh-1">
-                            <span class="d-block mb-2 fs-base fw-normal">Obstacle sensing</span>
-                            5-Direction
+                            <span class="d-block mb-2 fs-base fw-normal">Fast data speeds</span>
+                            High Performance
                         </h3>
                     </div>
 
@@ -122,8 +122,8 @@
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/monitor.svg" alt="Icon" class="d-inline-block mb-4">
                         <h3 class="h4 mb-0 lh-1">
-                            <span class="d-block mb-2 fs-base fw-normal">Ultra-clear video</span>
-                            4K
+                            <span class="d-block mb-2 fs-base fw-normal">Affordable plans for calls & data</span>
+                            Budget-Friendly
                         </h3>
                     </div>
                 </div>
@@ -143,8 +143,8 @@
                         <div class="col">
                             <img src="/assets/img/landing/product/benefits/thermometer.svg" alt="Icon" class="d-inline-block mb-4">
                             <h3 class="h4 mb-0 lh-1">
-                                <span class="d-block mb-2 fs-base fw-normal">Working temperature</span>
-                                -10°C to 40°C
+                                <span class="d-block mb-2 fs-base fw-normal">Access to Microloans</span>
+                                Instant Credit
                             </h3>
                         </div>
 
@@ -152,8 +152,8 @@
                         <div class="col">
                             <img src="/assets/img/landing/product/benefits/led-light.svg" alt="Icon" class="d-inline-block mb-4">
                             <h3 class="h4 mb-0 lh-1">
-                                <span class="d-block mb-2 fs-base fw-normal">For night time</span>
-                                LED searchlight
+                                <span class="d-block mb-2 fs-base fw-normal">Device financing</span>
+                                Easy Payments
                             </h3>
                         </div>
                     </div>
@@ -166,8 +166,8 @@
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/zoom-in.svg" alt="Icon" class="d-inline-block mb-4">
                         <h3 class="h4 mb-0 lh-1">
-                            <span class="d-block mb-2 fs-base fw-normal">Optical camera</span>
-                            2x zoom
+                            <span class="d-block mb-2 fs-base fw-normal">One SIM, 10 Countries</span>
+                            Seamless Roaming
                         </h3>
                     </div>
 
@@ -175,8 +175,8 @@
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/computer-microprocessor.svg" alt="Icon" class="d-inline-block mb-4">
                         <h3 class="h4 mb-0 lh-1">
-                            <span class="d-block mb-2 fs-base fw-normal">Sensor</span>
-                            1 inch
+                            <span class="d-block mb-2 fs-base fw-normal">Access to Creative Hubs</span>
+                            Innovation Spaces
                         </h3>
                     </div>
 
@@ -184,8 +184,8 @@
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/audio.svg" alt="Icon" class="d-inline-block mb-4">
                         <h3 class="h4 mb-0 lh-1">
-                            <span class="d-block mb-2 fs-base fw-normal">Noise reduction</span>
-                            4dB
+                            <span class="d-block mb-2 fs-base fw-normal">Unique bundle plan</span>
+                            Exclusive Offers
                         </h3>
                     </div>
                 </div>
