@@ -142,7 +142,7 @@
                 </div>
                 <div class="step-body">
                     <h3 class="h4 mb-3 text-chambray">Visit a Retail Store </h3>
-                    <p class="mb-0">Walk into any authorized Lebara store or agent location to purchase a physical SIM/ESIM.</p>
+                    <p class="mb-0">Walk into any authorized Lebara store or agent location to purchase a physical SIM/eSIM.</p>
                 </div>
             </div>
             <div class="step">
