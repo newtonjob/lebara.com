@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Subscriber;
+use App\Notifications\SubscriberCreated;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -15,8 +16,12 @@ Route::view('/products', 'products');
 
 Route::view('/old', 'welcome');
 
+Route::get('/mail', fn () => (new SubscriberCreated)->toMail(Subscriber::first()));
+
 Route::post('/join', function (Request $request) {
-    Subscriber::updateOrcreate($request->validate(['email' => 'required|email']));
+    $subscriber = Subscriber::firstOrCreate($request->validate(['email' => 'required|email']));
+
+    defer(fn () => $subscriber->notify(new SubscriberCreated));
 
     return response()->noContent();
 });
