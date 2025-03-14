@@ -29,6 +29,7 @@ class SubscriberCreated extends Notification
         $footer = asset('email-footer.jpeg');
 
         return (new MailMessage)
+            ->subject('Welcome to Lebara Nigeria – You’re on the List! 🚀')
             ->greeting(new HtmlString("<img alt='header' src='{$header}' />"))
             ->line('# Dear Friend,')
             ->line('Thank you for signing up to be part of the Lebara Nigeria family! 🎉 Your interest means the world to us, and we’re excited to have you on this journey as we bring affordable, reliable, and customer-first mobile solutions to Nigeria.')
