@@ -41,7 +41,7 @@ class SubscriberCreated extends Notification
             ->line('- Youtube - [@Lebara-Nigeria](https://youtube.com/@Lebara-Nigeria)')
             ->line('and spread the word.')
             ->line('Welcome to a new era of connectivity!')
-            ->line(new HtmlString("Best,<br>The Lebara Nigeria Team<br>[https://lebara.ng](https://lebara.ng)"))
+            ->line(new HtmlString("Best,<br><b style='color: #019ce1'>The Lebara Nigeria Team</b><br>www.lebara.ng"))
             ->salutation(' ')
             ->line(new HtmlString("<img alt='footer' src='{$footer}' />"));
     }
