@@ -2,7 +2,7 @@
 {{-- Header --}}
 <x-slot:header>
 <x-mail::header :url="config('app.url')">
-    <img src="https://www.lebara.com/content/dam/lebara-group/brand/Lebara-logo.svg" class="logo" alt="Laravel Logo">
+    <img src="https://www.lebara.com.au/wp-content/uploads/2019/02/lebara-logo.png" class="logo" alt="">
 </x-mail::header>
 </x-slot:header>
 
