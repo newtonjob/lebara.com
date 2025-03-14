@@ -328,7 +328,7 @@
 <!-- Main Theme Script -->
 <script src="assets/js/theme.min.js"></script>
 
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
 <script src="https://unpkg.com/axios@1.4.0/dist/axios.min.js"></script>
 <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
 <script src="{{ asset('assets/js/form.js') }}"></script>
