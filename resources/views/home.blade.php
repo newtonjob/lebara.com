@@ -40,40 +40,80 @@
                             <div class="swiper-wrapper">
                                 <!-- Item -->
                                 <div class="swiper-slide">
-                                    <h2 class="display-2 from-start mb-lg-4">Welcome to Lebara Nigeria</h2>
-                                    <div class="from-end">
+                                    <h6 class="from-start mb-lg-4 lh-1" style="font-size:calc(1.3875rem + 1.65vw);font-weight:200;line-height:1.3">WELCOME TO</h6>
+                                    <h2 class="display-1 from-start mb-lg-4 lh-1">LEBARA NIGERIA</h2>
+                                    {{--<div class="from-end">
                                         <p class="fs-xl text-white pb-2 mb-lg-5">
+                                            Subscribe to get the insider gist of our launch and other premium offers.
+                                        </p>
+                                    </div>--}}
+
+                                    <div class="from-end">
+                                        <p class="fs-xl text-white pb-2 my-5">
                                             Reliable and Affordable and Premium service.
                                         </p>
                                     </div>
+
                                     <div class="scale-up delay-1">
                                         <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
                                     </div>
-
                                 </div>
 
-                                <!-- Item -->
                                 <div class="swiper-slide">
-                                    <h2 class="display-2 from-start mb-lg-4">Award-Winning Software Development</h2>
-                                    <div class="from-end">
-                                        <p class="fs-xl text-white pb-2 mb-lg-5">We build complex web, desktop and mobile applications. With us you get quality software and perfect service every time.</p>
-                                    </div>
-                                    <div class="scale-up delay-1">
-                                        <a href="#" class="btn btn-primary shadow-primary btn-lg">View case studies</a>
-                                    </div>
-                                </div>
+                                    <h6 class="from-start mb-lg-4 lh-1" style="font-size:calc(1.3875rem + 1.65vw);font-weight:200 !important;line-height:1.3">WE OFFER</h6>
+                                    <h2 class="display-1 from-start mb-lg-4 lh-1">Reliable. Affordable and Premium service.</h2>
 
-                                <!-- Item -->
-                                <div class="swiper-slide">
-                                    <h2 class="display-2 from-start mb-lg-4">24/7 Tech &amp; Business Support</h2>
                                     <div class="from-end">
-                                        <p class="fs-xl text-white pb-2 mb-lg-5">We ensure lifetime support of all applications we've built. Our support department is a team of professionals who will assist you 24/7.</p>
+                                        <p class="fs-xl text-white pb-2 my-5">
+                                            Reliable and Affordable and Premium service.
+                                        </p>
                                     </div>
+
                                     <div class="scale-up delay-1">
-                                        <a href="#" class="btn btn-primary shadow-primary btn-lg">Work with us</a>
+                                        <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
                                     </div>
                                 </div>
                             </div>
+
+                            @if(false)
+                                <div class="swiper-wrapper">
+                                    <!-- Item -->
+                                    <div class="swiper-slide">
+                                        <h2 class="display-2 from-start mb-lg-4">Welcome to Lebara Nigeria</h2>
+                                        <div class="from-end">
+                                            <p class="fs-xl text-white pb-2 mb-lg-5">
+                                                Reliable and Affordable and Premium service.
+                                            </p>
+                                        </div>
+                                        <div class="scale-up delay-1">
+                                            <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Item -->
+                                    <div class="swiper-slide">
+                                        <h2 class="display-2 from-start mb-lg-4">Award-Winning Software Development</h2>
+                                        <div class="from-end">
+                                            <p class="fs-xl text-white pb-2 mb-lg-5">We build complex web, desktop and mobile applications. With us you get quality software and perfect service every time.</p>
+                                        </div>
+                                        <div class="scale-up delay-1">
+                                            <a href="#" class="btn btn-primary shadow-primary btn-lg">View case studies</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Item -->
+                                    <div class="swiper-slide">
+                                        <h2 class="display-2 from-start mb-lg-4">24/7 Tech &amp; Business Support</h2>
+                                        <div class="from-end">
+                                            <p class="fs-xl text-white pb-2 mb-lg-5">We ensure lifetime support of all applications we've built. Our support department is a team of professionals who will assist you 24/7.</p>
+                                        </div>
+                                        <div class="scale-up delay-1">
+                                            <a href="#" class="btn btn-primary shadow-primary btn-lg">Work with us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
 
                             <!-- Pagination (bullets) -->
                             <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
@@ -130,7 +170,7 @@
 
     <section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
         <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
-            <h2 class="h1 text-chambray">How to Get a SIM/eSIM?</h2>
+            <h2 class="h1 text-chambray">Getting a SIM/eSIM?</h2>
             <p class="mb-0">Getting a Lebara SIM or eSIM is quick and easy no hassle:</p>
         </div>
 
@@ -193,11 +233,13 @@
         <div class="container my-md-2 my-lg-4 my-xl-5">
             <h2 class="h1 text-center pb-3 pb-md-4 text-chambray">Transparent Pricing for You</h2>
             <div class="price-switch-wrapper mb-n2">
-                <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4" data-bs-toggle="price">
+
+                <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4 d-none" data-bs-toggle="price">
                     <input type="checkbox" class="form-check-input" id="pricing">
                     <label class="form-check-label" for="pricing">Monthly</label>
                     <label class="form-check-label d-flex align-items-start" for="pricing">Annually <span class="text-danger fs-xs fw-semibold mt-n2 ms-2">-10%</span></label>
                 </div>
+
                 <div class="table-responsive-xxl pt-md-3">
                     <div class="row flex-nowrap pb-4">
                         <div class="col">
@@ -244,7 +286,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+
+                        <div class="col d-none">
                             <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3" style="min-width: 18rem;">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
@@ -288,6 +331,52 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                        <div class="flex-shrink-0 bg-secondary rounded-3">
+                                            <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
+                                        </div>
+                                        <div class="ps-4">
+                                            <h3 class="fs-lg fw-normal text-body mb-2">Standard</h3>
+                                            <h4 class="h3 lh-1 mb-0">
+                                                <span data-monthly-price="">N1002.00</span>
+                                                <span class="d-none" data-annual-price="">N1000.80</span>
+                                                <span class="fs-sm fw-normal opacity-70"> / per month</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Aenean neque tortor, purus faucibus
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nullam augue vitae et volutpat sagittis
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Mauris massa penatibus enim elit quam
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nec ac sagittis nunc bibendum
+                                        </li>
+                                        <li class="d-flex">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Odio ut orci volutpat ultricies eleifend
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer border-0 pt-0 pb-4">
+                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
                                 <div class="card-body">
