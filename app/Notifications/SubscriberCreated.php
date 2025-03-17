@@ -31,7 +31,7 @@ class SubscriberCreated extends Notification
         return (new MailMessage)
             ->subject('Welcome to Lebara Nigeria – You’re on the List! 🚀')
             ->greeting(new HtmlString("<img alt='header' src='{$header}' />"))
-            ->line('# Dear Friend,')
+            ->line('# Dear Sabi Friend,')
             ->line('Thank you for signing up to be part of the Lebara Nigeria family! 🎉 Your interest means the world to us, and we’re excited to have you on this journey as we bring affordable, reliable, and customer-first mobile solutions to Nigeria.')
             ->line('As a valued early subscriber, you’ll be the first to hear about our latest updates, exclusive offers, and launch events. We’re building something special, and you’re now at the heart of it.')
             ->line('Stay tuned—we’ll be in touch soon! In the meantime, feel free to connect with us on')
