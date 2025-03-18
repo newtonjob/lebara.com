@@ -287,6 +287,7 @@
                             </div>
                         </div>
 
+                        <!-- TODO: Blue on hover: Add 5 Sections -->
                         <div class="col d-none">
                             <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3" style="min-width: 18rem;">
                                 <div class="card-body">
