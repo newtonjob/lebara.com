@@ -233,7 +233,6 @@
         <div class="container my-md-2 my-lg-4 my-xl-5">
             <h2 class="h1 text-center pb-3 pb-md-4 text-chambray">Transparent Pricing for You</h2>
             <div class="price-switch-wrapper mb-n2">
-
                 <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4 d-none" data-bs-toggle="price">
                     <input type="checkbox" class="form-check-input" id="pricing">
                     <label class="form-check-label" for="pricing">Monthly</label>
@@ -241,8 +240,8 @@
                 </div>
 
                 <div class="table-responsive-xxl pt-md-3">
-                    <div class="row flex-nowrap pb-4">
-                        <div class="col">
+                    <div class="row pb-4">
+                        <div class="col mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
@@ -287,7 +286,6 @@
                             </div>
                         </div>
 
-                        <!-- TODO: Blue on hover: Add 5 Sections -->
                         <div class="col d-none">
                             <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3" style="min-width: 18rem;">
                                 <div class="card-body">
@@ -333,7 +331,7 @@
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
@@ -378,7 +376,99 @@
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col mb-4">
+                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                        <div class="flex-shrink-0 bg-secondary rounded-3">
+                                            <img src="assets/img/landing/saas-1/pricing/ultimate.png" width="84" alt="Icon">
+                                        </div>
+                                        <div class="ps-4">
+                                            <h3 class="fs-lg fw-normal text-body mb-2">Ultimate</h3>
+                                            <h4 class="h3 lh-1 mb-0">
+                                                <span data-monthly-price="">N1008.00</span>
+                                                <span class="d-none" data-annual-price="">N1006.20</span>
+                                                <span class="text-body fs-sm fw-normal"> / per month</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Aenean neque tortor, purus faucibus
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nullam augue vitae et volutpat sagittis
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Mauris massa penatibus enim elit quam
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nec ac sagittis nunc bibendum
+                                        </li>
+                                        <li class="d-flex">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Odio ut orci volutpat ultricies eleifend
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer border-0 pt-0 pb-4">
+                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center pb-4">
+                        <div class="col-sm-4 mb-4">
+                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
+                                        <div class="flex-shrink-0 bg-secondary rounded-3">
+                                            <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
+                                        </div>
+                                        <div class="ps-4">
+                                            <h3 class="fs-lg fw-normal text-body mb-2">Standard</h3>
+                                            <h4 class="h3 lh-1 mb-0">
+                                                <span data-monthly-price="">N1002.00</span>
+                                                <span class="d-none" data-annual-price="">N1000.80</span>
+                                                <span class="fs-sm fw-normal opacity-70"> / per month</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Aenean neque tortor, purus faucibus
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nullam augue vitae et volutpat sagittis
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Mauris massa penatibus enim elit quam
+                                        </li>
+                                        <li class="d-flex mb-2">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Nec ac sagittis nunc bibendum
+                                        </li>
+                                        <li class="d-flex">
+                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
+                                            Odio ut orci volutpat ultricies eleifend
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer border-0 pt-0 pb-4">
+                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">

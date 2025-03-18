@@ -179,7 +179,7 @@
 
     <!-- TODO: Pull news from Vas2Nets -->
     <!-- Popular posts (Carousel) -->
-    <section class="bg-secondary py-5">
+    <section class="bg-blue-50 py-5">
         <div class="container pt-2 pt-lg-4 pt-xl-5">
             <h2 class="h1 mb-4 pb-lg-3 pt-lg-1 pb-1 text-center text-chambray">Popular Posts</h2>
         </div>
