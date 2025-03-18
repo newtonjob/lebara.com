@@ -181,229 +181,32 @@
     <!-- Popular posts (Carousel) -->
     <section class="bg-blue-50 py-5">
         <div class="container pt-2 pt-lg-4 pt-xl-5">
-            <h2 class="h1 mb-4 pb-lg-3 pt-lg-1 pb-1 text-center text-chambray">Popular Posts</h2>
+            <h2 class="h1 mb-4 pb-lg-3 pt-lg-1 pb-1 text-center text-chambray">News and Insights</h2>
         </div>
         <div class="pb-lg-5 mb-xl-3">
-            <div class="swiper" data-swiper-options='{
-            "slidesPerView": 1,
-            "centeredSlides": true,
-            "loop": true,
-            "pagination": {
-              "el": ".swiper-pagination",
-              "clickable": true
-            },
-            "breakpoints": {
-              "0": {
-                "slidesPerView": 1
-              },
-              "576": {
-                "slidesPerView": 2
-              },
-              "768": {
-                "slidesPerView": 3
-              },
-              "1200": {
-                "slidesPerView": 4
-              }
-            }
-          }'>
-                <div class="swiper-wrapper">
-
-                    <!-- Item -->
-                    <div class="swiper-slide h-auto px-2">
-                        <article class="card border-0 h-100 mx-1">
-                            <div class="position-relative">
-                                <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                                <a href="landing-blog.html#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later" aria-label="Read later">
-                                    <i class="bx bx-bookmark"></i>
-                                </a>
-                                <img src="assets/img/blog/01.jpg" class="card-img-top" alt="Image">
-                            </div>
-                            <div class="card-body pb-4">
-                                <div class="d-flex align-items-center justify-content-between mb-3">
-                                    <a href="landing-blog.html#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Web design</a>
-                                    <span class="fs-sm text-muted">May 19, 2023</span>
+            <div class="container">
+                <div class="row">
+                    @foreach(config('news') as $article)
+                        <div class="col-sm-4 my-3 h-auto px-2">
+                            <article class="card border-0 h-100 mx-1">
+                                <div class="position-relative">
+                                    <a href="{{ $article['url'] }}" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more" target="_blank"></a>
+                                    <img src="{{ $article['poster'] }}" class="card-img-top" alt="Image">
                                 </div>
-                                <h3 class="h5 mb-0">
-                                    <a href="blog-single.html">5 Bad Landing Page Examples &amp; How We Would Fix Them</a>
-                                </h3>
-                            </div>
-                            <div class="card-footer py-4">
-                                <a href="landing-blog.html#" class="d-flex align-items-center fw-bold text-dark text-decoration-none">
-                                    <img src="assets/img/avatar/06.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                                    Annette Black
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Item -->
-                    <div class="swiper-slide h-auto px-2">
-                        <article class="card border-0 h-100 mx-1">
-                            <div class="position-relative">
-                                <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                                <a href="landing-blog.html#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later" aria-label="Read later">
-                                    <i class="bx bx-bookmark"></i>
-                                </a>
-                                <img src="assets/img/blog/02.jpg" class="card-img-top" alt="Image">
-                            </div>
-                            <div class="card-body pb-4">
-                                <div class="d-flex align-items-center justify-content-between mb-3">
-                                    <a href="landing-blog.html#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Digital</a>
-                                    <span class="fs-sm text-muted">Sep 28, 2023</span>
+                                <div class="card-body pb-4">
+                                    <div class="d-flex align-items-center justify-content-between mb-3">
+                                        <a href="javascript:" class="badge fs-sm text-nav bg-secondary text-decoration-none">
+                                            Lebara
+                                        </a>
+                                        <span class="fs-sm text-muted">May 19, 2023</span>
+                                    </div>
+                                    <h3 class="h5 mb-0">
+                                        <a href="{{ $article['url'] }}" target="_blank">{{ $article['title'] }}</a>
+                                    </h3>
                                 </div>
-                                <h3 class="h5 mb-0">
-                                    <a href="blog-single.html">Why UX Design Matters and How it Affects Ranking</a>
-                                </h3>
-                            </div>
-                            <div class="card-footer py-4">
-                                <a href="landing-blog.html#" class="d-flex align-items-center fw-bold text-dark text-decoration-none">
-                                    <img src="assets/img/avatar/01.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                                    Jerome Bell
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Item -->
-                    <div class="swiper-slide h-auto px-2">
-                        <article class="card border-0 h-100 mx-1">
-                            <div class="position-relative">
-                                <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                                <a href="landing-blog.html#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later" aria-label="Read later">
-                                    <i class="bx bx-bookmark"></i>
-                                </a>
-                                <img src="assets/img/blog/03.jpg" class="card-img-top" alt="Image">
-                            </div>
-                            <div class="card-body pb-4">
-                                <div class="d-flex align-items-center justify-content-between mb-3">
-                                    <a href="landing-blog.html#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Business</a>
-                                    <span class="fs-sm text-muted">Sep 16, 2023</span>
-                                </div>
-                                <h3 class="h5 mb-0">
-                                    <a href="blog-single.html">This Week in Search: New Limits and Exciting Features</a>
-                                </h3>
-                            </div>
-                            <div class="card-footer py-4">
-                                <a href="landing-blog.html#" class="d-flex align-items-center fw-bold text-dark text-decoration-none">
-                                    <img src="assets/img/avatar/02.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                                    Ralph Edwards
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Item -->
-                    <div class="swiper-slide h-auto px-2">
-                        <article class="card border-0 h-100 mx-1">
-                            <div class="position-relative">
-                                <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                                <a href="landing-blog.html#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later" aria-label="Read later">
-                                    <i class="bx bx-bookmark"></i>
-                                </a>
-                                <img src="assets/img/blog/04.jpg" class="card-img-top" alt="Image">
-                            </div>
-                            <div class="card-body pb-4">
-                                <div class="d-flex align-items-center justify-content-between mb-3">
-                                    <a href="landing-blog.html#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Processes &amp; Tools</a>
-                                    <span class="fs-sm text-muted">12 hours ago</span>
-                                </div>
-                                <h3 class="h5 mb-0">
-                                    <a href="blog-single.html">Five Effective Lead Generation Techniques For Your Business</a>
-                                </h3>
-                            </div>
-                            <div class="card-footer py-4">
-                                <a href="landing-blog.html#" class="d-flex align-items-center fw-bold text-dark text-decoration-none">
-                                    <img src="assets/img/avatar/03.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                                    Esther Howard
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Item -->
-                    <div class="swiper-slide h-auto px-2">
-                        <article class="card border-0 h-100 mx-1">
-                            <div class="position-relative">
-                                <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                                <a href="landing-blog.html#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later" aria-label="Read later">
-                                    <i class="bx bx-bookmark"></i>
-                                </a>
-                                <img src="assets/img/blog/05.jpg" class="card-img-top" alt="Image">
-                            </div>
-                            <div class="card-body pb-4">
-                                <div class="d-flex align-items-center justify-content-between mb-3">
-                                    <a href="landing-blog.html#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Digital</a>
-                                    <span class="fs-sm text-muted">Oct 9, 2023</span>
-                                </div>
-                                <h3 class="h5 mb-0">
-                                    <a href="blog-single.html">Inclusive Marketing: Why and How Does it Work?</a>
-                                </h3>
-                            </div>
-                            <div class="card-footer py-4">
-                                <a href="landing-blog.html#" class="d-flex align-items-center fw-bold text-dark text-decoration-none">
-                                    <img src="assets/img/avatar/04.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                                    Jane Cooper
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Item -->
-                    <div class="swiper-slide h-auto px-2">
-                        <article class="card border-0 h-100 mx-1">
-                            <div class="position-relative">
-                                <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                                <a href="landing-blog.html#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later" aria-label="Read later">
-                                    <i class="bx bx-bookmark"></i>
-                                </a>
-                                <img src="assets/img/blog/06.jpg" class="card-img-top" alt="Image">
-                            </div>
-                            <div class="card-body pb-4">
-                                <div class="d-flex align-items-center justify-content-between mb-3">
-                                    <a href="landing-blog.html#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Marketing</a>
-                                    <span class="fs-sm text-muted">Apr 2, 2023</span>
-                                </div>
-                                <h3 class="h5 mb-0">
-                                    <a href="blog-single.html">How Agile is Your Forecasting Process?</a>
-                                </h3>
-                            </div>
-                            <div class="card-footer py-4">
-                                <a href="landing-blog.html#" class="d-flex align-items-center fw-bold text-dark text-decoration-none">
-                                    <img src="assets/img/avatar/05.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                                    Albert Flores
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Item -->
-                    <div class="swiper-slide h-auto px-2">
-                        <article class="card border-0 h-100 mx-1">
-                            <div class="position-relative">
-                                <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                                <a href="landing-blog.html#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later" aria-label="Read later">
-                                    <i class="bx bx-bookmark"></i>
-                                </a>
-                                <img src="assets/img/blog/07.jpg" class="card-img-top" alt="Image">
-                            </div>
-                            <div class="card-body pb-4">
-                                <div class="d-flex align-items-center justify-content-between mb-3">
-                                    <a href="landing-blog.html#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Processes &amp; Tools</a>
-                                    <span class="fs-sm text-muted">Sep 3, 2023</span>
-                                </div>
-                                <h3 class="h5 mb-0">
-                                    <a href="blog-single.html">Your Guide to Optimising A JavaScript-enabled Website</a>
-                                </h3>
-                            </div>
-                            <div class="card-footer py-4">
-                                <a href="landing-blog.html#" class="d-flex align-items-center fw-bold text-dark text-decoration-none">
-                                    <img src="assets/img/avatar/02.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                                    Ralph Edwards
-                                </a>
-                            </div>
-                        </article>
-                    </div>
+                            </article>
+                        </div>
+                    @endforeach
                 </div>
 
                 <!-- Pagination (bullets) -->
