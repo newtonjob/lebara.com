@@ -51,4 +51,43 @@
             </div>
         </div>
     </section>
+
+    <!-- Contacts -->
+    <section class="container pb-5 mb-1 mb-md-4 mb-lg-5">
+        <div class="row pb-xl-3">
+            <div class="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
+                <div class="gallery rounded-3 shadow-sm">
+                    <iframe
+                        src="https://www.google.com/maps/d/embed?mid=1cBIwiktCID01cw04pdr3n_KvxZE2XLM&hl=en&ehbc=2E312F"
+                        width="640" height="480"
+                        class="rounded-3"
+                    ></iframe>
+                </div>
+            </div>
+            <div class="col-xl-5 col-md-6 offset-xl-1">
+                <h2 class="h1 pb-4 mb-1 mb-lg-3">Find a Lebara center closest to you</h2>
+                <ul class="list-unstyled pb-3 mb-0 mb-lg-3">
+                    <li class="d-flex mb-3">
+                        <i class="bx bx-map text-muted fs-xl mt-1 me-2"></i>
+                        Banana Island, Ikoyi, Lagos
+                    </li>
+                    <li class="d-flex mb-3">
+                        <i class="bx bx-phone-call text-muted fs-xl mt-1 me-2"></i>
+                        094065550120
+                    </li>
+                    <li class="d-flex mb-3">
+                        <i class="bx bx-time text-muted fs-xl mt-1 me-2"></i>
+                        <div>
+                            <div><span class="text-dark fw-semibold me-1">Mon – Fri:</span>9:00 am – 22:00 pm</div>
+                            <div><span class="text-dark fw-semibold me-1">Sat – Sun:</span>9:00 am – 20:00 pm</div>
+                        </div>
+                    </li>
+                    <li class="d-flex mb-3">
+                        <i class="bx bx-envelope text-muted fs-xl mt-1 me-2"></i>
+                        hello@lebara.ng
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </x-layouts.site>
