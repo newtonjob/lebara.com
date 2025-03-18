@@ -16,7 +16,7 @@
     </nav>
 
     <!-- Testimonials -->
-    <section class="position-relative pt-5 pb-lg-4 bg-blue-50">
+    <section class="position-relative pt-5 pb-lg-4 bg-blue-50 d-none">
         <div class="container pb-2">
             <h2 class="h1 text-center text-chambray">Trusted by leading companies</h2>
             <p class="fs-lg text-center pb-4 pb-lg-5 mb-2 mb-sm-3 mb-xl-4 text-chambray">Learn why top companies from around the globe choose us</p>
@@ -177,6 +177,7 @@
         </div>
     </section>
 
+    <!-- TODO: Pull news from Vas2Nets -->
     <!-- Popular posts (Carousel) -->
     <section class="bg-secondary py-5">
         <div class="container pt-2 pt-lg-4 pt-xl-5">
@@ -412,7 +413,7 @@
     </section>
 
     <!-- Registration wizard -->
-    <section class="position-relative py-2 py-sm-3 py-md-4 py-lg-5">
+    <section class="position-relative py-2 py-sm-3 py-md-4 py-lg-5 d-none">
         <div class="bg-blue-50 position-absolute top-0 start-0 w-50 h-100 d-none d-lg-block"></div>
         <div class="bg-blue-50 position-absolute top-0 start-0 w-100 h-100 d-lg-none"></div>
         <div class="bg-primary position-absolute top-0 end-0 w-50 h-100 d-none d-lg-block"></div>
