@@ -42,7 +42,7 @@ class Newsletter extends Notification
             ->line('- Youtube - [@Lebara-Nigeria](https://youtube.com/@Lebara-Nigeria)')
             ->line('By following and engaging with our pages, you\'ll get inside gist, exclusive offers, and invite for launch events. Let’s make this a movement!')
             ->line('Thanks for your support, exciting things are ahead!')
-            ->line(new HtmlString("Mary Fasheitan O. Akin-Adesokan<br>Chief Operating Officer<br>Lebara, Nigeria."))
+            ->line(new HtmlString("<b style='color: #019ce1'>Mary Fasheitan O. Akin-Adesokan</b><br>Chief Operating Officer<br>Lebara, Nigeria."))
             ->salutation(' ')
             ->line(new HtmlString("<img alt='footer' src='{$footer}' />"));
     }
