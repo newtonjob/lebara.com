@@ -12,7 +12,7 @@
 
 {{-- Intro Lines --}}
 @foreach ($introLines as $line)
-{{ $line }}<br>
+{{ $line }}<br><br>
 
 @endforeach
 
