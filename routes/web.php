@@ -16,7 +16,7 @@ Route::view('/products', 'products');
 
 Route::view('/old', 'welcome');
 
-Route::get('/mail', fn () => (new SubscriberCreated)->toMail(Subscriber::first()));
+Route::get('/mail', fn () => (new \App\Notifications\Newsletter())->toMail(Subscriber::first()));
 
 Route::post('/join', function (Request $request) {
     $subscriber = Subscriber::firstOrCreate($request->validate(['email' => 'required|email']));

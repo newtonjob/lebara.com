@@ -8,7 +8,7 @@ use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\HtmlString;
 
-class SubscriberCreated extends Notification
+class Newsletter extends Notification
 {
     use Queueable;
 
@@ -29,20 +29,20 @@ class SubscriberCreated extends Notification
         $footer = asset('email-footer.jpeg');
 
         return (new MailMessage)
-            ->subject('Welcome to Lebara Nigeria – You’re on the List! 🚀')
+            ->subject('Get Ready for the Lebara Nigeria Launch 🚀')
             ->greeting(new HtmlString("<img alt='header' src='{$header}' />"))
-            ->line('# Dear Sabi Friend,')
-            ->line('Thank you for signing up to be part of the Lebara Nigeria family! 🎉 Your interest means the world to us, and we’re excited to have you on this journey as we bring affordable, reliable, and customer-first mobile solutions to Nigeria.')
-            ->line('As a valued early subscriber, you’ll be the first to hear about our latest updates, exclusive offers, and launch events. We’re building something special, and you’re now at the heart of it.')
-            ->line('Stay tuned—we’ll be in touch soon! In the meantime, feel free to connect with us on')
+            ->line('# Dear Team,')
+            ->line('Thank you for being part of the Vas2Nets family! 🎉 As we prepare to launch Lebara Nigeria, we’re excited to bring affordable, reliable, and customer-first mobile solutions to Nigeria.')
+            ->line('To build momentum and ensure a successful launch, we encourage everyone to follow and engage with us on social media. Your support will help amplify our message and connect with our target audience.')
+            ->line('📲 Follow us here:')
             ->line('- Instagram - [lebara.ng](https://instagram.com/lebara.ng)')
             ->line('- Facebook - [Lebara-Ng](https://web.facebook.com/people/Lebara-Ng/61574122177633)')
             ->line('- Tiktok - [Lebara_Nigeria](https://tiktok.com/@Lebara_Nigeria)')
             ->line('- Twitter - [Lebara_Nigeria](https://x.com/Lebara_Nigeria)')
             ->line('- Youtube - [@Lebara-Nigeria](https://youtube.com/@Lebara-Nigeria)')
-            ->line('and spread the word.')
-            ->line('Welcome to a new era of connectivity!')
-            ->line(new HtmlString("Best,<br><b style='color: #019ce1'>The Lebara Nigeria Team</b><br>www.lebara.ng"))
+            ->line('By following and engaging with our pages, you\'ll get inside gist, exclusive offers, and invite for launch events. Let’s make this a movement!')
+            ->line('Thanks for your support, exciting things are ahead!')
+            ->line(new HtmlString("Mary Fasheitan O. Akin-Adesokan<br>Chief Operating Officer<br>Lebara, Nigeria."))
             ->salutation(' ')
             ->line(new HtmlString("<img alt='footer' src='{$footer}' />"));
     }
