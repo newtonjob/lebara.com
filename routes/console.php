@@ -83,6 +83,8 @@ Artisan::command('newsletter:send', function () {
     ])->each(function ($email) {
         Notification::route('mail', $email)->notify(new Newsletter);
 
+        info('Sent to ' . $email);
+
         $this->info('Sent to ' . $email);
     });
 });
