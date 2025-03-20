@@ -38,7 +38,7 @@ class SubscriberCreated extends Notification
             ->line('- Instagram - [lebara.ng](https://instagram.com/lebara.ng)')
             ->line('- Facebook - [Lebara-Ng](https://web.facebook.com/people/Lebara-Ng/61574122177633)')
             ->line('- Tiktok - [Lebara_Nigeria](https://tiktok.com/@Lebara_Nigeria)')
-            ->line('- Twitter - [Lebara_Nigeria](https://x.com/Lebara_Nigeria)')
+            ->line('- X (formerly Twitter) - [Lebara_Nigeria](https://x.com/Lebara_Nigeria)')
             ->line('- Youtube - [@Lebara-Nigeria](https://youtube.com/@Lebara-Nigeria)')
             ->line('and spread the word.')
             ->line('Welcome to a new era of connectivity!')
