@@ -9,7 +9,7 @@ Schedule::exec('bash deploy.sh');
 
 Artisan::command('newsletter:send', function () {
     collect([
-        /*"a.stuffman@vas2nets.com",
+        "a.stuffman@vas2nets.com",
         "abisola.a@vas2nets.com",
         "adeniyi.a@vas2nets.com",
         "ayodele.o@vas2nets.com",
@@ -46,10 +46,10 @@ Artisan::command('newsletter:send', function () {
         "mary.f@vas2nets.com",
         "michael.m@vas2nets.com",
         "modupe.a@vas2nets.com",
-        "moses.t@vas2nets.com",*/
+        "moses.t@vas2nets.com",
         "newton.j@vas2nets.com",
         "jobnewton3@gmail.com",
-        /*"ocopara@vas2nets.com",
+        "ocopara@vas2nets.com",
         "olubunmi.f@vas2nets.com",
         "olumide.a@vas2nets.com",
         "olusoji.m@vas2nets.com",
@@ -79,7 +79,7 @@ Artisan::command('newsletter:send', function () {
         "rasaq.sulaimon@lebara.ng",
         "samuel.alabi@lebara.ng",
         "teni.stuffman@lebara.ng",
-        "victoria.ogom@lebara.ng"*/
+        "victoria.ogom@lebara.ng"
     ])->each(function ($email) {
         Notification::route('mail', $email)->notify(new Newsletter);
 
