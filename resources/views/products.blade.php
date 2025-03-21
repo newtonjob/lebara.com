@@ -133,7 +133,7 @@
 
                     <!-- Image -->
                     <div class="mx-md-n5 mb-md-n5">
-                        <img src="/assets/img/landing/product/benefits/image.png" alt="Image">
+                        <img src="{{ asset('sim.png') }}" alt="Image">
                     </div>
 
                     <!-- Items row -->
