@@ -41,6 +41,7 @@ class Newsletter extends Notification
             ->line('- Tiktok - [Lebara_Nigeria](https://tiktok.com/@Lebara_Nigeria)')
             ->line('- X (formerly Twitter) - [Lebara_Nigeria](https://x.com/Lebara_Nigeria)')
             ->line('- Youtube - [@Lebara-Nigeria](https://youtube.com/@Lebara-Nigeria)')
+            ->line('- LinkedIn - [Lebara Nigeria](https://linkedin.com/company/lebara-nigeria')
             ->line('By following and engaging with our pages, you\'ll get inside gist, exclusive offers, and invite for launch events. Let’s make this a movement!')
             ->line('Thanks for your support, exciting things are ahead!')
             ->line(new HtmlString("<b style='color: #019ce1'>Mary Fasheitan O. Akin-Adesokan</b><br>Chief Operating Officer<br>Lebara, Nigeria."))

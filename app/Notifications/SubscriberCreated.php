@@ -40,6 +40,7 @@ class SubscriberCreated extends Notification
             ->line('- Tiktok - [Lebara_Nigeria](https://tiktok.com/@Lebara_Nigeria)')
             ->line('- X (formerly Twitter) - [Lebara_Nigeria](https://x.com/Lebara_Nigeria)')
             ->line('- Youtube - [@Lebara-Nigeria](https://youtube.com/@Lebara-Nigeria)')
+            ->line('- LinkedIn - [Lebara Nigeria](https://linkedin.com/company/lebara-nigeria')
             ->line('and spread the word.')
             ->line('Welcome to a new era of connectivity!')
             ->line(new HtmlString("Best,<br><b style='color: #019ce1'>The Lebara Nigeria Team</b><br>www.lebara.ng"))
