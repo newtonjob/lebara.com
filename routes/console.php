@@ -9,7 +9,7 @@ Schedule::exec('bash deploy.sh');
 
 Artisan::command('newsletter:send', function () {
     collect([
-        "a.stuffman@vas2nets.com",
+        /*"a.stuffman@vas2nets.com",
         "abisola.a@vas2nets.com",
         "adeniyi.a@vas2nets.com",
         "ayodele.o@vas2nets.com",
@@ -79,12 +79,26 @@ Artisan::command('newsletter:send', function () {
         "rasaq.sulaimon@lebara.ng",
         "samuel.alabi@lebara.ng",
         "teni.stuffman@lebara.ng",
-        "victoria.ogom@lebara.ng"
+        "victoria.ogom@lebara.ng",*/
+        'aderemi.g@fortressmicrofinancebank.com',
+        'kayode.s@fortressmicrofinancebank.com',
+        'oluwafemi.s@fortressmicrofinancebank.com',
+        'Patience.o@fortressmicrofinancebank.com',
+        'taiwo.amira@fortressmicrofinancebank.com',
+        'Hr@fortressmicrofinancebank.com',
+        'oluwakemi.j@fortressmicrofinancebank.com',
+        'david.o@fotressmicrofinancebank.com',
+        'Kolawole.a@fortressmicrofinancebank.com',
+        'Adeniyi.o@fortressmicrofinancebank.com',
+        'Monica.u@fortressmicrofinance.com',
+        'oluwatimilehin.s@fortressmicrofinancebank.com',
+        'Ibrahim.a@fortressmicrofinancebank.com',
+        'chioma.s@fortressmicrofinancebank.com'
     ])->each(function ($email) {
         Notification::route('mail', $email)->notify(new Newsletter);
 
-        info('Sent to ' . $email);
+        info('Sent to '.$email);
 
-        $this->info('Sent to ' . $email);
+        $this->info('Sent to '.$email);
     });
 });
