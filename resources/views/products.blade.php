@@ -103,7 +103,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/battery.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1">
+                        <h3 class="h4 mb-0 lh-1 text-chambray">
                             <span class="d-block mb-2 fs-base fw-normal">Reliable network coverage</span>
                             Strong Connectivity
                         </h3>
@@ -112,7 +112,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/drone.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1">
+                        <h3 class="h4 mb-0 lh-1 text-chambray">
                             <span class="d-block mb-2 fs-base fw-normal">Fast data speeds</span>
                             High Performance
                         </h3>
@@ -121,7 +121,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/monitor.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1">
+                        <h3 class="h4 mb-0 lh-1 text-chambray">
                             <span class="d-block mb-2 fs-base fw-normal">Affordable plans for calls & data</span>
                             Budget-Friendly
                         </h3>
@@ -138,11 +138,10 @@
 
                     <!-- Items row -->
                     <div class="row row-cols-2 mt-md-5 mt-4 text-center">
-
                         <!-- Item -->
                         <div class="col">
                             <img src="/assets/img/landing/product/benefits/thermometer.svg" alt="Icon" class="d-inline-block mb-4">
-                            <h3 class="h4 mb-0 lh-1">
+                            <h3 class="h4 mb-0 lh-1 text-chambray">
                                 <span class="d-block mb-2 fs-base fw-normal">Access to Microloans</span>
                                 Instant Credit
                             </h3>
@@ -151,7 +150,7 @@
                         <!-- Item -->
                         <div class="col">
                             <img src="/assets/img/landing/product/benefits/led-light.svg" alt="Icon" class="d-inline-block mb-4">
-                            <h3 class="h4 mb-0 lh-1">
+                            <h3 class="h4 mb-0 lh-1 text-chambray">
                                 <span class="d-block mb-2 fs-base fw-normal">Device financing</span>
                                 Easy Payments
                             </h3>
@@ -165,7 +164,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/zoom-in.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1">
+                        <h3 class="h4 mb-0 lh-1 text-chambray">
                             <span class="d-block mb-2 fs-base fw-normal">One SIM, 10 Countries</span>
                             Seamless Roaming
                         </h3>
@@ -174,7 +173,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/computer-microprocessor.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1">
+                        <h3 class="h4 mb-0 lh-1 text-chambray">
                             <span class="d-block mb-2 fs-base fw-normal">Access to Creative Hubs</span>
                             Innovation Spaces
                         </h3>
@@ -183,7 +182,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/audio.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1">
+                        <h3 class="h4 mb-0 lh-1 text-chambray">
                             <span class="d-block mb-2 fs-base fw-normal">Unique bundle plan</span>
                             Exclusive Offers
                         </h3>

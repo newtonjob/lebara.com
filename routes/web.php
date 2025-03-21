@@ -25,3 +25,12 @@ Route::post('/join', function (Request $request) {
 
     return response()->noContent();
 });
+
+// Globe or SIM
+// Building
+// Gift box
+// Phone
+// Money
+// Call/Telephone
+// Speed rocket
+// Satellite/Dish
