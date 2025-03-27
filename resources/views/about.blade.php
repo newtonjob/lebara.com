@@ -133,7 +133,8 @@
                     <!-- Item -->
                     <div class="swiper-slide border-end-lg px-2 swiper-slide-active" role="group" aria-label="1 / 3" style="width: 329.667px;">
                         <div class="text-center">
-                            <img src="/assets/img/landing/digital-agency/icons/idea.svg" width="48" alt="Bulb icon" class="d-block mb-4 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wallet-cards-icon lucide-wallet-cards text-primary d-block mb-4 mx-auto"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2"/><path d="M3 11h3c.8 0 1.6.3 2.1.9l1.1.9c1.6 1.6 4.1 1.6 5.7 0l1.1-.9c.5-.5 1.3-.9 2.1-.9H21"/></svg>
+
                             <h4 class="mb-2 pb-1 text-chambray">Affordable</h4>
                             <p class="mx-auto text-chambray" style="max-width: 336px;">
                                 Feel free to focus on your connection while we focus on giving you the best value for your money, whether locally or internationally.
@@ -144,7 +145,7 @@
                     <!-- Item -->
                     <div class="swiper-slide border-end-lg px-2 swiper-slide-next" role="group" aria-label="2 / 3" style="width: 329.667px;">
                         <div class="text-center">
-                            <img src="/assets/img/landing/digital-agency/icons/award.svg" width="48" alt="Award icon" class="d-block mb-4 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-biceps-flexed-icon lucide-biceps-flexed text-primary d-block mb-4 mx-auto"><path d="M12.409 13.017A5 5 0 0 1 22 15c0 3.866-4 7-9 7-4.077 0-8.153-.82-10.371-2.462-.426-.316-.631-.832-.62-1.362C2.118 12.723 2.627 2 10 2a3 3 0 0 1 3 3 2 2 0 0 1-2 2c-1.105 0-1.64-.444-2-1"/><path d="M15 14a5 5 0 0 0-7.584 2"/><path d="M9.964 6.825C8.019 7.977 9.5 13 8 15"/></svg>
                             <h4 class="mb-2 pb-1 text-chambray">Reliable</h4>
                             <p class="mx-auto text-chambray" style="max-width: 336px;">
                                 The era of “can you hear me” is gone. We sabi what works and we offer you uninterrupted connectivity. whenever you need it. We keep you connected, always.
@@ -155,7 +156,8 @@
                     <!-- Item -->
                     <div class="swiper-slide px-2" role="group" aria-label="3 / 3" style="width: 329.667px;">
                         <div class="text-center">
-                            <img src="/assets/img/landing/digital-agency/icons/team.svg" width="48" alt="Team icon" class="d-block mb-4 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laugh-icon lucide-laugh text-primary d-block mb-4 mx-auto"><circle cx="12" cy="12" r="10"/><path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>
+
                             <h4 class="mb-2 pb-1 text-chambray">Great Customer Experience</h4>
                             <p class="mx-auto text-chambray" style="max-width: 336px;">
                                 Because you deserve to be treated like royalty, we are dedicated to offering you just that. From quick support, seamless service, and a brand that listens. For us, If we can give you coffee over the phone while you wait, we would.

@@ -272,15 +272,24 @@
                         </h6>
                         <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
                             <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Case Studies</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">About Us</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">News &amp; Insights</a></li>
-                            </ul>
-                            <ul class="nav flex-column mb-2 mb-lg-0">
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>
+                                <li class="nav-item">
+                                    <a href="/home" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/about" class="nav-link d-inline-block px-0 pt-1 pb-2">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/products" class="nav-link d-inline-block px-0 pt-1 pb-2">Product/Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/news" class="nav-link d-inline-block px-0 pt-1 pb-2">News/Insights</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/careers" class="nav-link d-inline-block px-0 pt-1 pb-2">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/contact" class="nav-link d-inline-block px-0 pt-1 pb-2">Contact</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -290,10 +299,12 @@
                         </h6>
                         <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
                             <ul class="nav flex-column mb-2 mb-lg-0">
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
+                                <li class="nav-item"><a href="https://web.facebook.com/people/Lebara-Ng/61574122177633" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
+                                <li class="nav-item"><a href="https://linkedin.com/company/lebara-nigeria" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
+                                <li class="nav-item"><a href="https://x.com/Lebara_Nigeria" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
+                                <li class="nav-item"><a href="https://instagram.com/lebara.ng" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
+                                <li class="nav-item"><a href="https://youtube.com/@Lebara-Nigeria" class="nav-link d-inline-block px-0 pt-1 pb-2">Youtube</a></li>
+                                <li class="nav-item"><a href="https://tiktok.com/@Lebara_Nigeria" class="nav-link d-inline-block px-0 pt-1 pb-2">Tiktok</a></li>
                             </ul>
                         </div>
                     </div>
