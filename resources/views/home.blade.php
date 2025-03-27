@@ -527,9 +527,12 @@
 
     <section class="py-5 bg-secondary">
         <div class="container mb-lg-2">
-            <div class="row py-2 py-md-4 py-lg-5">
-                <div class="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <h2 class="pb-3 mb-1 mb-lg-3 text-chambray">Any questions? <br class="d-none d-md-inline">Check out the FAQs</h2>
+            <div class="text-center pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+                <h2 class="pb-3 mb-1 mb-lg-3 text-chambray">
+                    Got questions? Check out the FAQs
+                </h2>
+
+                @if(false)
                     <p class="fs-lg pb-3 mb-2 mb-lg-3">Couldn’t find what you are looking for?</p>
                     <div class="row row-cols-1 g-3 g-sm-4">
                         <div class="col">
@@ -537,7 +540,7 @@
                                 <div class="card-body pb-3">
                                     <i class="bx bx-message-rounded-dots d-block fs-2 text-primary mb-2 py-1"></i>
                                     <p class="fs-sm mb-2">
-                                         Our AI agent (Lary) got you.
+                                        Our AI agent (Lary) got you.
                                     </p>
                                     <a href="javascript:" class="btn btn-link text-primary stretched-link px-0">
                                         Chat with Lary
@@ -547,8 +550,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-7 offset-xl-1">
+                @endif
+            </div>
+
+            <div class="row py-2 py-md-4 py-lg-5">
+                <div class="col-md-6">
                     <div class="accordion" id="faq">
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q1-heading">
@@ -613,6 +619,11 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="accordion" id="faq2">
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q6-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6" aria-expanded="false" aria-controls="q6">
@@ -625,7 +636,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q7-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q7" aria-expanded="false" aria-controls="q7">
@@ -638,7 +648,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q8-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q8" aria-expanded="false" aria-controls="q8">
@@ -653,7 +662,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q9-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q9" aria-expanded="false" aria-controls="q9">
@@ -668,7 +676,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q10-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q10" aria-expanded="false" aria-controls="q10">
