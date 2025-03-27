@@ -24,7 +24,8 @@
             </div>
             <div class="col-md-6">
                 <p class="fs-lg ps-lg-4 mb-1 mb-lg-4">
-                    Our mission is clear; connecting people, supporting creativity, and shaping the future.
+                    At Lebara Nigeria, our mission is to make staying connected easier and more affordable for Nigerians at home and abroad. We understand the importance of keeping in touch with loved ones, whether across cities or across borders.
+                    We is dedicated to breaking communication barriers for communities worldwide. Now in Nigeria, we are committed to empowering individuals, families, and businesses to stay connected effortlessly.
                 </p>
             </div>
         </div>

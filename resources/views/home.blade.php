@@ -125,20 +125,26 @@
 
         <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-between position-relative zindex-5 pb-5">
             <div class="d-flex mb-4 mb-sm-0">
-                <a href="#" class="btn btn-icon btn-secondary btn-linkedin rounded-circle me-2" aria-label="LinkedIn">
+                <a target="_blank" href="https://instagram.com/lebara.ng" class="btn btn-icon btn-secondary btn-instagram rounded-circle me-2" aria-label="Instagram">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+                <a target="_blank" href="https://linkedin.com/company/lebara-nigeria" class="btn btn-icon btn-secondary btn-linkedin rounded-circle me-2" aria-label="LinkedIn">
                     <i class="bx bxl-linkedin"></i>
                 </a>
-                <a href="#" class="btn btn-icon btn-secondary btn-facebook rounded-circle me-2" aria-label="Facebook">
+                <a target="_blank" href="https://web.facebook.com/people/Lebara-Ng/61574122177633" class="btn btn-icon btn-secondary btn-facebook rounded-circle me-2" aria-label="Facebook">
                     <i class="bx bxl-facebook"></i>
                 </a>
-                <a href="#" class="btn btn-icon btn-secondary btn-twitter rounded-circle me-2" aria-label="Twitter">
+                <a target="_blank" href="https://x.com/Lebara_Nigeria" class="btn btn-icon btn-secondary btn-twitter rounded-circle me-2" aria-label="Twitter">
                     <i class="bx bxl-twitter"></i>
                 </a>
-                <a href="#" class="btn btn-icon btn-secondary btn-youtube rounded-circle me-2" aria-label="YouTube">
+                <a target="_blank" href="https://youtube.com/@Lebara-Nigeria" class="btn btn-icon btn-secondary btn-youtube rounded-circle me-2" aria-label="YouTube">
                     <i class="bx bxl-youtube"></i>
                 </a>
+                <a target="_blank" href="https://tiktok.com/@Lebara_Nigeria" class="btn btn-icon btn-secondary btn-tiktok rounded-circle me-2" aria-label="Tiktok">
+                    <i class="bx bxl-tiktok"></i>
+                </a>
             </div>
-            <a href="#" class="nav-link px-0">
+            <a href="#" class="nav-link px-0 d-none">
                 Our case studies
                 <i class="bx bx-right-arrow-circle fs-4 ms-2"></i>
             </a>
@@ -156,7 +162,8 @@
                         Our commitment to delivering world class customer-first solution, unique bundle plans tailored to serve your interest, budget or lifestyle. We’re ready, are you?
                     </p>
                     <a href="/about" class="btn btn-primary shadow-primary btn-lg">More About Us</a>
-                    <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4">
+
+                    <div class="mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4 d-none">
                         <h2 class="h6 mb-4 text-chambray">Some of our awards:</h2>
                         <img src="assets/img/landing/software-agency-1/awards.svg" alt="Awards">
                     </div>

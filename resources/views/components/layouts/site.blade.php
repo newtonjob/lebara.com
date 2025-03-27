@@ -251,7 +251,9 @@
                 <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
                     <img src="https://www.lebara.de/content/dam/lebara/global/logo-Desktop.png" width="120" alt="Lebara">
                 </div>
-                <p class="fs-sm text-light opacity-70 pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.</p>
+                <p class="fs-sm text-light opacity-70 pb-lg-3 mb-4">
+                    Our goal is to bring happiness, convenience, and seamless communication to Nigerians, ensuring that no call, message, or connection is ever out of reach.
+                </p>
                 <form class="needs-validation" novalidate>
                     <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>
                     <div class="input-group">
