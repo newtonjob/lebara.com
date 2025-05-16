@@ -353,7 +353,7 @@
     class Countdown {
         initCountDown() {
             if (document.getElementById("days")) {
-                var eventCountDown = new Date("June 30, 2025 16:37:52").getTime();
+                var eventCountDown = new Date("October 10, 2025 16:37:52").getTime();
 
                 var countdown = setInterval(function () {
 
