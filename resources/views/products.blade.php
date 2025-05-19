@@ -102,7 +102,8 @@
 
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
-                        <img src="/assets/img/landing/product/benefits/battery.svg" alt="Icon" class="d-inline-block mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#b5b7c9" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe d-inline-block mb-4"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+
                         <h3 class="h4 mb-0 lh-1 text-chambray">
                             <span class="d-block mb-2 fs-base fw-normal">Reliable network coverage</span>
                             Strong Connectivity
@@ -232,7 +233,7 @@
             <!-- Business category -->
             <div class="row align-items-center justify-content-center py-4 py-md-5">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <img src="/assets/img/landing/app-showcase-3/categories/business.png" width="642" alt="Businessman">
+                    <img src="{{ asset('business.png') }}" width="642" alt="Businessman">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
                     <h2 class="mb-lg-4 text-chambray">For business services</h2>
@@ -252,7 +253,7 @@
             <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 pb-2 pb-md-0 mb-4 mb-md-0">
                     <div class="pe-md-4 pe-xl-0">
-                        <img src="/assets/img/landing/app-showcase-3/categories/startups.png" width="636" alt="Startupper">
+                        <img src="{{ asset('startup.png') }}" width="636" alt="Startupper">
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-5 text-center text-md-start">
@@ -272,7 +273,7 @@
             <!-- Students category -->
             <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <img src="/assets/img/landing/app-showcase-3/categories/students.png" width="640" alt="Student">
+                    <img src="{{ asset('student.png') }}" width="640" alt="Student">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
                     <h2 class="mb-lg-4 text-chambray">Benefits for students</h2>
