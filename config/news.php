@@ -4,7 +4,7 @@ return [
     [
         'title' => 'Lebara partners Ministry of Arts, Culture, Tourism ahead of Nigerian launch',
         'url' => 'https://www.vanguardngr.com/2025/05/lebara-partners-ministry-of-arts-culture-tourism-ahead-of-nigerian-launch',
-        'poster' => asset('partnership.jpg'),
+        'poster' => '/partnership.jpg',
         'date' => 'May 12, 2025'
     ],
     [
