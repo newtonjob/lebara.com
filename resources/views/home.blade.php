@@ -2,7 +2,7 @@
     <!-- Hero slider + BG parallax -->
     <section class="jarallax min-vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
         <video class="w-100 h-100 position-absolute object-fit-cover min-vh-100" autoplay muted loop>
-            <source src="/lekki-video.mp4" type="video/mp4">
+            <source src="/lebara-video.mp4" type="video/mp4">
         </video>
 
         <span class="position-absolute top-0 start-0 w-100 h-100 min-vh-100 bg-gradient-dark-translucent"></span>
