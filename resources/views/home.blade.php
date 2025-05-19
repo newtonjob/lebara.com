@@ -288,7 +288,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -333,7 +333,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="#" class="btn btn-light w-100">Buy</a>
+                                    <a href="javascript:" class="btn btn-light w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -378,7 +378,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -423,7 +423,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -470,7 +470,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -515,7 +515,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="#" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
