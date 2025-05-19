@@ -192,7 +192,7 @@
         <!-- Nav tabs -->
         <ul class="nav nav-tabs flex-nowrap justify-content-sm-center overflow-auto mb-lg-4 mb-3 pb-md-3 pb-2 text-nowrap" role="tablist">
             <li class="nav-item" role="presentation">
-                <a href="#economic-analysis" class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" tabindex="-1">
+                <a href="#economic-analysis" class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="false" tabindex="-1">
                     <i class="bx bx-star opacity-60 me-2 fs-lg"></i>
                     Partnership
                 </a>
@@ -204,7 +204,7 @@
                 </a>
             </li>
             <li class="nav-item" role="presentation">
-                <a href="#corporate-finance" class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="true">
+                <a href="#corporate-finance" class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="true">
                     <i class="bx bx-bar-chart-alt-2 opacity-60 me-2 fs-lg"></i>
                     Networking boost
                 </a>
@@ -215,7 +215,7 @@
         <div class="tab-content mb-xl-3 py-4 bg-primary rounded-3">
 
             <!-- Partnership -->
-            <div class="tab-pane fade" id="economic-analysis" role="tabpanel">
+            <div class="tab-pane fade active show" id="economic-analysis" role="tabpanel">
                 <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
                     <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
                         <h3 class="h2 mb-lg-4 mb-3 text-light">Partnership</h3>
@@ -225,7 +225,7 @@
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-7 mt-4 pt-md-0 pt-2">
-                        <img src="/assets/img/landing/saas-4/about/01.png" class="d-block my-lg-2 mx-auto me-md-0" width="595" alt="Image">
+                        <img src="{{ asset('partnership.jpg') }}" class="d-block my-lg-2 mx-auto me-md-0 rounded-5" width="595" alt="Image">
                     </div>
                 </div>
             </div>
@@ -247,7 +247,7 @@
             </div>
 
             <!-- Networking boost -->
-            <div class="tab-pane fade active show" id="corporate-finance" role="tabpanel">
+            <div class="tab-pane fade" id="corporate-finance" role="tabpanel">
                 <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
                     <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
                         <h3 class="h2 mb-lg-4 mb-3 text-light">Networking boost</h3>
