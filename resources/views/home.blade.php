@@ -251,12 +251,12 @@
                     <div class="row pb-4">
                         <div class="col mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(6px)">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="flex-shrink-0 bg-secondary rounded-3">
                                             <img src="assets/img/landing/saas-1/pricing/basic.png" width="84" alt="Icon">
                                         </div>
-                                        <div class="ps-4">
+                                        <div class="ps-4" >
                                             <h3 class="fs-lg fw-normal text-body mb-2">Basic</h3>
                                             <h4 class="h3 lh-1 mb-0">
                                                 <span data-monthly-price="">N600.00</span>
@@ -296,7 +296,7 @@
 
                         <div class="col d-none">
                             <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(6px)">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="flex-shrink-0 rounded-3" style="background-color: rgba(255,255,255, .1);">
                                             <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
@@ -341,7 +341,7 @@
 
                         <div class="col mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(6px)">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="flex-shrink-0 bg-secondary rounded-3">
                                             <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
@@ -386,7 +386,7 @@
 
                         <div class="col mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(6px)">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="flex-shrink-0 bg-secondary rounded-3">
                                             <img src="assets/img/landing/saas-1/pricing/ultimate.png" width="84" alt="Icon">
@@ -433,7 +433,7 @@
                     <div class="row justify-content-center pb-4">
                         <div class="col-sm-4 mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(6px)">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="flex-shrink-0 bg-secondary rounded-3">
                                             <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
@@ -478,7 +478,7 @@
 
                         <div class="col-sm-4 mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(6px)">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="flex-shrink-0 bg-secondary rounded-3">
                                             <img src="assets/img/landing/saas-1/pricing/ultimate.png" width="84" alt="Icon">
