@@ -198,7 +198,7 @@
                                         <a href="javascript:" class="badge fs-sm text-nav bg-secondary text-decoration-none">
                                             Lebara
                                         </a>
-                                        <span class="fs-sm text-muted">May 19, 2023</span>
+                                        <span class="fs-sm text-muted">{{ $article['date'] ?? 'May 19, 2023' }}</span>
                                     </div>
                                     <h3 class="h5 mb-0">
                                         <a href="{{ $article['url'] }}" target="_blank">{{ $article['title'] }}</a>

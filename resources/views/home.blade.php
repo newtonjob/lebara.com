@@ -247,6 +247,7 @@
                 </div>
 
                 <div class="table-responsive-xxl pt-md-3">
+                    {{--TODO: Blur for now--}}
                     <div class="row pb-4">
                         <div class="col mb-4">
                             <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
