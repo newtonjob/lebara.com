@@ -244,14 +244,14 @@
         </div>
 
         <!-- Video -->
-        <div class="bg-secondary position-relative rounded-3 overflow-hidden px-4 px-sm-5">
+        <div class="bg-primary position-relative rounded-3 overflow-hidden">
             <div class="position-absolute top-50 start-50 w-75 h-75 translate-middle d-flex align-items-center justify-content-center zindex-5">
                 <a href="https://www.youtube.com/watch?v=wODsNtortYw" class="btn btn-video btn-icon btn-xl bg-white stretched-link" data-bs-toggle="video" aria-label="Play video" data-lg-id="66ba1219-7dab-496e-b976-de5af0fbab10">
                     <i class="bx bx-play"></i>
                 </a>
             </div>
-            <div class="pt-4 mt-sm-3 px-3 px-sm-5 mx-md-5">
-                <img src="assets/img/landing/saas-3/video-cover.png" width="786" class="rellax d-block mx-auto mt-lg-4" alt="Card" data-rellax-percentage="0.5" data-rellax-speed="1.1" data-disable-parallax-down="lg" style="transform: translate3d(0px, 42px, 0px);">
+            <div class="">
+                <img src="{{ asset('we-are-lebara.jpg') }}" width="100%" class="rellax d-block mx-auto" alt="Card" data-rellax-percentage="0.5" data-rellax-speed="1.1" data-disable-parallax-down="lg" style="transform: translate3d(0px, 42px, 0px);">
             </div>
         </div>
     </section>

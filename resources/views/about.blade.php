@@ -184,8 +184,8 @@
                         <i class="bx bx-play"></i>
                     </a>
                 </div>
-                <span class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-35"></span>
-                <img src="/assets/img/landing/digital-agency/cover.jpg" class="d-block w-100" alt="Cover image">
+                <span class="position-absolute top-0 start-0 w-100 h-100"></span>
+                <img src="{{ asset('we-are-lebara.jpg') }}" class="d-block w-100" alt="Cover image">
             </div>
         </div>
     </section>
