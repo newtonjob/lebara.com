@@ -53,10 +53,6 @@
                                             Reliable and Affordable and Premium service.
                                         </p>
                                     </div>
-
-                                    <div class="scale-up delay-1">
-                                        <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
-                                    </div>
                                 </div>
 
                                 <div class="swiper-slide">
@@ -68,12 +64,28 @@
                                             Reliable and Affordable and Premium service.
                                         </p>
                                     </div>
-
-                                    <div class="scale-up delay-1">
-                                        <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
-                                    </div>
                                 </div>
                             </div>
+
+                            <form
+                                action="/join"
+                                x-data="{ form: $form() }"
+                                @submit.prevent="form.submit()"
+                                @then="swal('Welcome!', 'We\'ll be in touch.', 'success'); $el.reset()"
+                            >
+                                <div class="mt-4">
+                                    <div class="d-flex border border-3 rounded">
+                                        <div class="form-floating w-100">
+                                            <input class="form-control text-white border-white border-0" type="text" id="fl-text" name="email" placeholder="Your email address" required>
+                                            <label for="fl-text" class="text-white">Your email...</label>
+                                        </div>
+
+                                        <div class="p-1">
+                                            <button class="btn btn-primary shadow-primary btn-lg">Join the waitlist</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
 
                             @if(false)
                                 <div class="swiper-wrapper">
