@@ -245,7 +245,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 mt-4 pt-md-0 pt-2">
-                        <img src="/assets/img/landing/saas-4/about/02.png" class="d-block my-lg-2 mx-auto me-md-0 rounded-3" width="595" alt="Image">
+                        <img src="{{ asset('more-value.jpeg') }}" class="d-block my-lg-2 mx-auto me-md-0 rounded-3" width="595" alt="Image">
                     </div>
                 </div>
             </div>
