@@ -240,7 +240,9 @@
                     <div class="col-lg-5 col-md-6 offset-lg-1 text-center text-md-start">
                         <h3 class="h2 mb-lg-4 mb-3 text-light">More value</h3>
                         <div class="d-sm-flex mb-4 pb-lg-3 text-sm-start">
-                            <p class="w-100 mb-sm-0 text-light">The era when you buy only call card or data has passed, you need more and we’ve got a lot to give, that’s why we have structured our bundles in a way that gives you something extra just by owning a Lebara sim. In short, we add jara every time you buy a bundle.
+                            <p class="mb-2 pb-lg-3 text-light">We are about adding value, that’s why our product are designed to make you enjoy your interactions with family. friends or business partners.
+                            </p>
+                            <p class="mb-4 pb-lg-3 text-light">At Lebara we have a bundle that is designed just for you at an affordable price.
                             </p>
                         </div>
                     </div>
