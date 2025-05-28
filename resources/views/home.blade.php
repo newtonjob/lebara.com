@@ -246,7 +246,7 @@
         <!-- Video -->
         <div class="bg-primary position-relative rounded-3 overflow-hidden">
             <div class="position-absolute top-50 start-50 w-75 h-75 translate-middle d-flex align-items-center justify-content-center zindex-5">
-                <a href="https://www.youtube.com/watch?v=wODsNtortYw" class="btn btn-video btn-icon btn-xl bg-white stretched-link" data-bs-toggle="video" aria-label="Play video" data-lg-id="66ba1219-7dab-496e-b976-de5af0fbab10">
+                <a href="https://youtu.be/nCGuEywZvAw" class="btn btn-video btn-icon btn-xl bg-white stretched-link" data-bs-toggle="video" aria-label="Play video" data-lg-id="66ba1219-7dab-496e-b976-de5af0fbab10">
                     <i class="bx bx-play"></i>
                 </a>
             </div>

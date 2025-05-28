@@ -180,7 +180,7 @@
         <div class="container text-center mt-n2 mt-md-0 mb-md-2 mb-lg-4">
             <div class="position-relative rounded-3 overflow-hidden">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center zindex-5">
-                    <a href="https://www.youtube.com/watch?v=zPo5ZaH6sW8" class="btn btn-video btn-icon btn-xl stretched-link bg-white" data-bs-toggle="video" aria-label="Play video" data-lg-id="830de4e4-41be-47d4-a517-673606aa8c43">
+                    <a href="https://youtu.be/nCGuEywZvAw" class="btn btn-video btn-icon btn-xl stretched-link bg-white" data-bs-toggle="video" aria-label="Play video" data-lg-id="830de4e4-41be-47d4-a517-673606aa8c43">
                         <i class="bx bx-play"></i>
                     </a>
                 </div>
