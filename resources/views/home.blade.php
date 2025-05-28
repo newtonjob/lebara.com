@@ -53,6 +53,10 @@
                                             Reliable and Affordable and Premium service.
                                         </p>
                                     </div>
+
+                                    <div class="scale-up delay-1 d-none">
+                                        <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
+                                    </div>
                                 </div>
 
                                 <div class="swiper-slide">
@@ -63,6 +67,10 @@
                                         <p class="fs-xl text-white pb-2 my-5">
                                             Reliable and Affordable and Premium service.
                                         </p>
+                                    </div>
+
+                                    <div class="scale-up delay-1 d-none">
+                                        <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
                                     </div>
                                 </div>
                             </div>
