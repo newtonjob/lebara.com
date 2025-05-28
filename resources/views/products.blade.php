@@ -200,8 +200,11 @@
         <div class="container pt-2 pt-sm-3 pt-md-4 pt-lg-5">
             <div class="row pt-xl-2 pt-xxl-4 pb-3 pb-sm-4 pb-md-5 mt-2">
                 <div class="col-md-6 col-xl-5 col-xxl-4">
-                    <h2 class="h1 text-chambray">We offer <span class="text-primary">beneficial conditions</span> for all categories of users</h2>
+                    <h2 class="h1 text-chambray">
+                        We offer <span class="text-primary">different bundle options</span> for all categories of users
+                    </h2>
                 </div>
+
                 <div class="col-md-6 col-xl-5 offset-xl-2 offset-xxl-3">
                     <ul class="list-unstyled">
                         <li class="d-flex fs-xl pb-2 mb-1">
