@@ -223,9 +223,9 @@
                 <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
                     <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
                         <h3 class="h2 mb-lg-4 mb-3 text-light">Partnership</h3>
-                        <p class="mb-2 pb-lg-3 text-light">At our core is understanding how to pamper our customer, that’s why we have partnered with Sterling Bank to provide financial services that bumps your connection game to the next level.
+                        <p class="mb-2 pb-lg-3 text-light">At our core is the desire to provide great customer experiences, that’s why we have partnered with financial and government institutions to enhance your experience.
                         </p>
-                        <p class="mb-4 pb-lg-3 text-light">By owning a Lebara sim, you automatically get a Sterling wallet prefunded with 1000naira, and you also get access to microloans and device financing, no strings attached.
+                        <p class="mb-4 pb-lg-3 text-light">By owning a Lebara sim, you automatically get a prefunded wallet, which grants you access to micro loans, device funding, discounted internet offer at designated creative hubs and access to exclusive events by our partners.
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-7 mt-4 pt-md-0 pt-2">
