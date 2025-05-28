@@ -254,13 +254,25 @@
                 <p class="fs-sm text-light opacity-70 pb-lg-3 mb-4">
                     Our goal is to bring happiness, convenience, and seamless communication to Nigerians, ensuring that no call, message, or connection is ever out of reach.
                 </p>
-                <form class="needs-validation" novalidate>
-                    <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>
+
+                <form
+                    action="/join"
+                    x-data="{ form: $form() }"
+                    @submit.prevent="form.submit()"
+                    @then="swal('Welcome!', 'We\'ll be in touch.', 'success'); $el.reset()"
+                >
+                    <label for="subscr-email" class="form-label">Join the waitlist</label>
                     <div class="input-group">
-                        <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Your email" required>
+                        <input
+                            type="email" id="subscr-email"
+                            name="email"
+                            class="form-control rounded-start ps-5"
+                            placeholder="Your email"
+                            required
+                        >
                         <i class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
                         <div class="invalid-tooltip position-absolute top-100 start-0">Please provide a valid email address.</div>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                        <button type="submit" class="btn btn-primary">Join the waitlist</button>
                     </div>
                 </form>
             </div>
