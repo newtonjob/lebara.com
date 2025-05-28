@@ -260,7 +260,7 @@
                         <p class="mb-2 pb-lg-3 text-light"> Na who sabi go enjoy!</p>
                     </div>
                     <div class="col-lg-6 col-md-7 mt-4 pt-md-0 pt-2">
-                        <img src="/assets/img/landing/saas-4/about/03.png" class="d-block my-lg-2 mx-auto me-md-0 rounded-3" width="595" alt="Image">
+                        <img src="{{ asset('networking.jpeg') }}" class="d-block my-lg-2 mx-auto me-md-0 rounded-3" width="595" alt="Image">
                     </div>
                 </div>
             </div>
