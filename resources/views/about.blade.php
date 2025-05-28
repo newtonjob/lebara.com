@@ -33,10 +33,11 @@
         </div>
     </section>
 
-    <!-- Brands (carousel on screens < 1100px) -->
-    <section class="container border-bottom-lg pt-sm-2">
-        <div class="swiper mx-n2"
-             data-swiper-options='{
+    @if (false)
+        <!-- Brands (carousel on screens < 1100px) -->
+        <section class="container border-bottom-lg pt-sm-2">
+            <div class="swiper mx-n2"
+                 data-swiper-options='{
               "slidesPerView": 2,
               "pagination": {
                 "el": ".swiper-pagination",
@@ -61,56 +62,57 @@
                 }
               }
             }'
-        >
-            <div class="swiper-wrapper">
+            >
+                <div class="swiper-wrapper">
 
-                <!-- Item -->
-                <div class="swiper-slide py-2">
-                    <a href="javascript:" class="px-2 mx-2">
-                        <img src="/assets/img/brands/01.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-                    </a>
+                    <!-- Item -->
+                    <div class="swiper-slide py-2">
+                        <a href="javascript:" class="px-2 mx-2">
+                            <img src="/assets/img/brands/01.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                        </a>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="swiper-slide py-2">
+                        <a href="javascript:" class="px-2 mx-2">
+                            <img src="/assets/img/brands/02.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                        </a>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="swiper-slide py-2">
+                        <a href="javascript:" class="px-2 mx-2">
+                            <img src="/assets/img/brands/03.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                        </a>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="swiper-slide py-2">
+                        <a href="javascript:" class="px-2 mx-2">
+                            <img src="/assets/img/brands/04.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                        </a>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="swiper-slide py-2">
+                        <a href="javascript:" class="px-2 mx-2">
+                            <img src="/assets/img/brands/05.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                        </a>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="swiper-slide py-2">
+                        <a href="javascript:" class="px-2 mx-2">
+                            <img src="/assets/img/brands/06.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
+                        </a>
+                    </div>
                 </div>
 
-                <!-- Item -->
-                <div class="swiper-slide py-2">
-                    <a href="javascript:" class="px-2 mx-2">
-                        <img src="/assets/img/brands/02.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-2">
-                    <a href="javascript:" class="px-2 mx-2">
-                        <img src="/assets/img/brands/03.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-2">
-                    <a href="javascript:" class="px-2 mx-2">
-                        <img src="/assets/img/brands/04.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-2">
-                    <a href="javascript:" class="px-2 mx-2">
-                        <img src="/assets/img/brands/05.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-                    </a>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide py-2">
-                    <a href="javascript:" class="px-2 mx-2">
-                        <img src="/assets/img/brands/06.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-                    </a>
-                </div>
+                <!-- Pagination (bullets) -->
+                <div class="swiper-pagination position-relative pt-3"></div>
             </div>
-
-            <!-- Pagination (bullets) -->
-            <div class="swiper-pagination position-relative pt-3"></div>
-        </div>
-    </section>
+        </section>
+    @endif
 
     <section class="pt-lg-5 bg-blue-50" id="benefits">
         <div class="container pt-3 pb-5">
@@ -253,7 +255,7 @@
                 <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
                     <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
                         <h3 class="h2 mb-lg-4 mb-3 text-light">Networking boost</h3>
-                        <p class="mb-2 pb-lg-3 text-light">We are a network provider, who says your networking game can’t be our business, that’s why with a Lebara sim and the right bundle, you have access to government hubs, CafeOne’s across the nation at subsidized rate.
+                        <p class="mb-2 pb-lg-3 text-light">We are a network provider, who says your networking game can’t be our business, that’s why with a Lebara sim and the right bundle, you have access to government and creative hubs across the nation at subsidized rate.
                         </p>
                         <p class="mb-2 pb-lg-3 text-light"> Na who sabi go enjoy!</p>
                     </div>
