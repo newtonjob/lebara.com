@@ -532,7 +532,10 @@
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
                     <h2 class="mb-lg-4 text-chambray">For business services</h2>
-                    <p class="fs-lg pb-4 mb-0">Our app simplifies the process of tracking your company's financial health. From cash flow analysis to expense tracking, our app offers a wide range of tools that help you make informed decisions about your business finances. Stay on top of your financial performance.</p>
+                    <p class="fs-lg pb-4 mb-0">
+                        Running a business in Nigeria or staying in touch with clients abroad shouldn’t break the bank. Lebara Business Plans are designed for entrepreneurs, SMEs, and professionals who need reliable, cost-effective communication, locally and internationally.<br><br>
+                        Whether you're in tech, trade, logistics or consulting, Lebara gives your business the communication tools it needs to thrive.
+                    </p>
                     <a href="javascript:" class="btn btn-primary mt-1">
                         Learn more
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
@@ -552,8 +555,11 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-5 text-center text-md-start">
-                    <h2 class="mb-lg-4 text-blue-50">Offer for startups</h2>
-                    <p class="fs-lg pb-4 mb-0 text-white">Starting a new business is a challenging venture, and managing your finances can be overwhelming. Our app offers a range of features designed specifically for startups, from budget tracking to financial planning. It helps you make informed decisions, and focus on growing your business.</p>
+                    <h2 class="mb-lg-4 text-blue-50">Migrants Visiting Home</h2>
+                    <p class="fs-lg pb-4 mb-0 text-white">
+                        Visiting home shouldn't come with telecom hassles. Whether it’s for the holidays, business, or a long-overdue reunion, Lebara offers SIMs made for Nigerians in the diaspora returning home.<br><br>
+                        Your homecoming should feel like home. Lebara makes it easier to reconnect, recharge, and stay reachable on your terms.
+                    </p>
                     <a href="javascript:" class="btn btn-primary mt-1">
                         Learn more
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
@@ -572,7 +578,9 @@
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
                     <h2 class="mb-lg-4 text-chambray">Benefits for students</h2>
-                    <p class="fs-lg pb-4 mb-0">Managing your finances as a student can be difficult, but our app makes it easy. It offers a variety of features that help you track your expenses, set budgets, and save money. Easily monitor your spending habits and make informed decisions about your finances. Start managing your money like a pro!</p>
+                    <p class="fs-lg pb-4 mb-0">Whether you're studying in Nigeria or recently returned from abroad, communication matters. Lebara understands student life: budget constraints, long-distance relationships, and the need to stay close to family and friends across borders.<br><br>
+                        Lebara is your plug for quality calls, streaming, study time, and home time.
+                    </p>
                     <a href="javascript:" class="btn btn-primary mt-1">
                         Learn more
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
