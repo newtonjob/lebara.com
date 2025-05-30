@@ -555,10 +555,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-5 text-center text-md-start">
-                    <h2 class="mb-lg-4 text-blue-50">Migrants Visiting Home</h2>
+                    <h2 class="mb-lg-4 text-blue-50">Benefits for students</h2>
                     <p class="fs-lg pb-4 mb-0 text-white">
-                        Visiting home shouldn't come with telecom hassles. Whether it’s for the holidays, business, or a long-overdue reunion, Lebara offers SIMs made for Nigerians in the diaspora returning home.<br><br>
-                        Your homecoming should feel like home. Lebara makes it easier to reconnect, recharge, and stay reachable on your terms.
+                        Whether you're studying in Nigeria or recently returned from abroad, communication matters. Lebara understands student life: budget constraints, long-distance relationships, and the need to stay close to family and friends across borders.<br><br>
+                        Lebara is your plug for quality calls, streaming, study time, and home time.
                     </p>
                     <a href="javascript:" class="btn btn-primary mt-1">
                         Learn more
@@ -577,9 +577,10 @@
                     <img src="{{ asset('student.png') }}" width="640" alt="Student">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
-                    <h2 class="mb-lg-4 text-chambray">Benefits for students</h2>
-                    <p class="fs-lg pb-4 mb-0">Whether you're studying in Nigeria or recently returned from abroad, communication matters. Lebara understands student life: budget constraints, long-distance relationships, and the need to stay close to family and friends across borders.<br><br>
-                        Lebara is your plug for quality calls, streaming, study time, and home time.
+                    <h2 class="mb-lg-4 text-chambray">Migrants Visiting Home</h2>
+                    <p class="fs-lg pb-4 mb-0">
+                        Visiting home shouldn't come with telecom hassles. Whether it’s for the holidays, business, or a long-overdue reunion, Lebara offers SIMs made for Nigerians in the diaspora returning home.<br><br>
+                        Your homecoming should feel like home. Lebara makes it easier to reconnect, recharge, and stay reachable on your terms.
                     </p>
                     <a href="javascript:" class="btn btn-primary mt-1">
                         Learn more

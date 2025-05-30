@@ -58,7 +58,7 @@
     <section class="container pb-5 mb-1 mb-md-4 mb-lg-5">
         <div class="row pb-xl-3">
             <div class="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
-                <div class="gallery rounded-3 shadow-sm">
+                <div class="gallery rounded-3 shadow-sm" style="filter: blur(5px)">
                     <iframe
                         src="https://www.google.com/maps/d/embed?mid=1cBIwiktCID01cw04pdr3n_KvxZE2XLM&hl=en&ehbc=2E312F"
                         width="640" height="480"
@@ -68,7 +68,7 @@
             </div>
             <div class="col-xl-5 col-md-6 offset-xl-1">
                 <h2 class="h1 pb-4 mb-1 mb-lg-3">Find a Lebara center closest to you</h2>
-                <ul class="list-unstyled pb-3 mb-0 mb-lg-3">
+                <ul class="list-unstyled pb-3 mb-0 mb-lg-3" style="filter: blur(5px)">
                     <li class="d-flex mb-3">
                         <i class="bx bx-map text-muted fs-xl mt-1 me-2"></i>
                         Banana Island, Ikoyi, Lagos
