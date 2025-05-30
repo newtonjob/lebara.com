@@ -172,6 +172,15 @@
 <!-- Page wrapper for sticky footer -->
 <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
 <main class="page-wrapper">
+    <!-- Dark alert -->
+    <div
+        class="alert alert-dark rounded-0 text-center"
+        style="background-color: #00a6eb; border-color: #00a6eb; color: white"
+        role="alert"
+    >
+        We’re not just launching; we’re about to change the game. <b>Stay Tuned!</b>
+    </div>
+
     <!-- Navbar -->
     <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
     <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
