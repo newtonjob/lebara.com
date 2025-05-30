@@ -499,23 +499,19 @@
                     <ul class="list-unstyled">
                         <li class="d-flex fs-xl pb-2 mb-1">
                             <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
-                            Banking transactions are free for you
+                            Social package
                         </li>
                         <li class="d-flex fs-xl pb-2 mb-1">
                             <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
-                            No monthly cash commission
+                            Business package
                         </li>
                         <li class="d-flex fs-xl pb-2 mb-1">
                             <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
-                            Manage payments and transactions online
+                            Student package
                         </li>
                         <li class="d-flex fs-xl pb-2 mb-1">
                             <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
-                            Receive real-time alerts
-                        </li>
-                        <li class="d-flex fs-xl">
-                            <i class="bx bx-check-circle text-primary d-flex pe-1 me-2" style="margin-top: .375rem;"></i>
-                            Receive payment from international banks
+                            Roaming package
                         </li>
                     </ul>
                 </div>
