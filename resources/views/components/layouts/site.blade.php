@@ -174,16 +174,17 @@
 <main class="page-wrapper">
     <!-- Dark alert -->
     <div
-        class="alert alert-dark rounded-0 text-center"
-        style="background-color: #00a6eb; border-color: #00a6eb; color: white"
+        class="alert alert-danger rounded-0 text-center navbar-sticky"
+        style="background-color: #eb1515; border-color: #eb1515; color: white"
         role="alert"
     >
         We’re not just launching; we’re about to change the game. <b>Stay Tuned!</b>
     </div>
-
     <!-- Navbar -->
     <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
     <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
+
+
         <div class="container px-3">
             <a href="/" class="navbar-brand pe-3">
                 <img src="{{ asset('logo.svg') }}" width="120" alt="Lebara">

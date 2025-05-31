@@ -584,7 +584,7 @@
                                 </button>
                             </h2>
                             <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>Dial <b>XYZ#</b> or check via the <b>Lebara Nigeria app</b> available on IOS and Android.</p>
                                 </div>
                             </div>
@@ -596,7 +596,7 @@
                                 </button>
                             </h2>
                             <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>You automatically get a <b>Sterling Wallet</b>, unlocking access to microloans and device financing. T&C applies.
                                     </p>
                                 </div>
@@ -609,7 +609,7 @@
                                 </button>
                             </h2>
                             <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>Yes! Our <b>number porting service</b> allows you to bring your existing number to Lebara with ease.</p>
                                 </div>
                             </div>
@@ -621,7 +621,7 @@
                                 </button>
                             </h2>
                             <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>With a Sterling Wallet, you can access <b>instant microloans</b>, finance a new device, and enjoy
                                         <b>seamless digital payments and easy recharge</b>.</p>
                                 </div>
@@ -634,7 +634,7 @@
                                 </button>
                             </h2>
                             <div id="q5" class="accordion-collapse collapse" aria-labelledby="q5-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>We offer a range of <b>affordable plans</b> tailored for local and international calls, with
                                         <b>high-speed data bundles</b> to keep you connected.</p>
                                 </div>
@@ -652,7 +652,7 @@
                                 </button>
                             </h2>
                             <div id="q6" class="accordion-collapse collapse" aria-labelledby="q6-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>Absolutely! Top up online via our <b>website, mobile app, or bank transfers</b> for easy and fast recharges.</p>
                                 </div>
                             </div>
@@ -664,7 +664,7 @@
                                 </button>
                             </h2>
                             <div id="q7" class="accordion-collapse collapse" aria-labelledby="q7-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>Yes! We have <b>nationwide coverage</b>, ensuring you stay connected no matter where you are.</p>
                                 </div>
                             </div>
@@ -676,7 +676,7 @@
                                 </button>
                             </h2>
                             <div id="q8" class="accordion-collapse collapse" aria-labelledby="q8-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>
                                         Unlike other networks, we offer <b>more than just telecom services</b>—we integrate financial benefits and our bundle incorporated lifestyle perks into your mobile experience
                                     </p>
@@ -690,7 +690,7 @@
                                 </button>
                             </h2>
                             <div id="q9" class="accordion-collapse collapse" aria-labelledby="q9-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>
                                         Yes! We provide <b>low-cost international call rates</b> so you can stay connected with loved ones abroad.
                                     </p>
@@ -704,7 +704,7 @@
                                 </button>
                             </h2>
                             <div id="q10" class="accordion-collapse collapse" aria-labelledby="q10-heading" data-bs-parent="#faq">
-                                <div class="accordion-body fs-sm pt-0">
+                                <div class="accordion-body fs-sm pt-0" style="filter: blur(3px)">
                                     <p>You can reach us via <b>call, WhatsApp, email, or by visiting our nearest service
                                             center</b>.</p>
                                 </div>
