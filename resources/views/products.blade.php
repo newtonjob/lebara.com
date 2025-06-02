@@ -573,7 +573,7 @@
                     <img src="{{ asset('student.png') }}" width="640" alt="Student">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
-                    <h2 class="mb-lg-4 text-chambray">Migrants Visiting Home</h2>
+                    <h2 class="mb-lg-4 text-chambray">Users in diaspora</h2>
                     <p class="fs-lg pb-4 mb-0">
                         Visiting home shouldn't come with telecom hassles. Whether it’s for the holidays, business, or a long-overdue reunion, Lebara offers SIMs made for Nigerians in the diaspora returning home.<br><br>
                         Your homecoming should feel like home. Lebara makes it easier to reconnect, recharge, and stay reachable on your terms.
