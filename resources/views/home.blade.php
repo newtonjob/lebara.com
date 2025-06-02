@@ -237,7 +237,7 @@
                 <div class="step-body">
                     <h3 class="h4 mb-3 text-chambray">Porting</h3>
                     <p class="mb-0">
-                        Dial <b>*3535#</b> and visit an agent near your and you are good to go. <a href="javascript:" class="text-primary">Activate Now</a>
+                        Dial <b>*3535#</b> and visit an agent near your location and you are good to go. <a href="javascript:" class="text-primary">Activate Now</a>
                     </p>
                 </div>
             </div>
@@ -736,7 +736,7 @@
                                 </div>
                             </div>
                             <div class="col d-xl-flex justify-content-end">
-                                <a href="https://apps.apple.com/gb/app/mylebara/id1122491914"
+                                <a href="javascript:"
                                    class="btn btn-dark btn-lg w-xl-100 px-3 py-2 ms-xl-3 mt-3 mt-lg-0">
                                     <img src="/assets/img/market/appstore-light.svg" class="light-mode-img" width="124"
                                          alt="App Store">
@@ -757,7 +757,7 @@
                                 </div>
                             </div>
                             <div class="col d-xl-flex justify-content-end">
-                                <a href="https://play.google.com/store/apps/details?id=com.lebara.wallet&hl=en_GB&gl=US"
+                                <a href="javascript:"
                                    class="btn btn-dark btn-lg w-xl-100 px-3 py-2 ms-xl-3 mt-3 mt-lg-0">
                                     <img src="/assets/img/market/googleplay-light.svg" class="light-mode-img" width="139"
                                          alt="Google Play">

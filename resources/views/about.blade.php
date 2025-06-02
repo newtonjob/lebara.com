@@ -21,7 +21,7 @@
         <h1 class="border-bottom pb-4 text-chambray">We are Lebara</h1>
         <div class="row pt-2 pt-md-3">
             <div class="col-md-6">
-                <p class="fs-lg pe-lg-4 mb-1 mb-lg-4">Beyond top-tier telecommunications, we have forged strategic partnerships to offer financial services designed to empower the creative industry. Through microloans, device funding, free internet hubs, and culture-shaping events to boost the Art and tourism sector, we are committed to driving innovation, inclusion, and economic growth.
+                <p class="fs-lg pe-lg-4 mb-1 mb-lg-4">Beyond top-tier telecommunications, we have forged strategic partnerships to offer financial services designed to empower the creative industry. Through microloans, device funding, near free internet hubs, and culture-shaping events to boost the Art and tourism sector, we are committed to driving innovation, inclusion, and economic growth.
                 </p>
             </div>
             <div class="col-md-6">
@@ -225,7 +225,7 @@
                         <h3 class="h2 mb-lg-4 mb-3 text-light">Partnership</h3>
                         <p class="mb-2 pb-lg-3 text-light">At our core is the desire to provide great customer experiences, that’s why we have partnered with financial and government institutions to enhance your experience.
                         </p>
-                        <p class="mb-4 pb-lg-3 text-light">By owning a Lebara sim, you automatically get a prefunded wallet, which grants you access to micro loans, device funding, discounted internet offer at designated creative hubs and access to exclusive events by our partners.
+                        <p class="mb-4 pb-lg-3 text-light">By owning a Lebara sim, <span style="filter: blur(5px)">you automatically get a prefunded wallet</span>, which grants you access to micro loans, device funding, discounted internet offer at designated creative hubs and access to exclusive events by our partners.
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-7 mt-4 pt-md-0 pt-2">
