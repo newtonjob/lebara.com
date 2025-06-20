@@ -29,7 +29,9 @@
                     If you're looking for a workplace that invests in your development and empowers you to thrive, we’d love to hear from you!
                 </p>
                 <p class="fs-lg ps-lg-4 mb-1 mb-lg-4">
-                    Shoot us an email: <a href="mailto:careers@lebara.ng" class="text-pink-50">careers@lebara.ng</a>
+                    Shoot us an email:
+                    <a href="mailto:careers@lebara.ng" class="text-pink-50">careers@lebara.ng</a> or
+                    <a href="mailto:careers@lebara.ng" class="text-pink-50">youbelong@lebara.ng</a>
                 </p>
             </div>
         </div>
