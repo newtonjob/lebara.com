@@ -621,7 +621,7 @@
                         <!-- Item -->
                         <div class="swiper-slide h-auto py-3">
                             <div class="card border-0 shadow h-100 text-center text-sm-start p-3 mx-2">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(10px)">
                                     <img src="/assets/img/landing/app-showcase-3/features/payment.svg" style="filter: drop-shadow(0px 0.8645132780075073px 4.602016925811768px rgba(99, 102, 241, 0.02)) drop-shadow(0px 2.9037201404571533px 10.33138370513916px rgba(99, 102, 241, 0.05)) drop-shadow(0px 13px 27px rgba(99, 102, 241, 0.17));" alt="Payment icon">
                                     <h3 class="h1 pt-4 mb-1">355 <span class="h4">billions</span></h3>
                                     <p class="fs-lg mb-0">Money spent</p>
@@ -632,7 +632,7 @@
                         <!-- Item -->
                         <div class="swiper-slide h-auto py-3">
                             <div class="card border-0 shadow h-100 text-center text-sm-start p-3 mx-2">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(10px)">
                                     <img src="/assets/img/landing/app-showcase-3/features/users.svg" style="filter: drop-shadow(0px 0.8645132780075073px 4.602016925811768px rgba(8, 14, 138, 0.02)) drop-shadow(0px 2.9037201404571533px 10.33138370513916px rgba(8, 14, 138, 0.04)) drop-shadow(0px 15px 30px rgba(8, 14, 138, 0.10));" alt="Users icon">
                                     <h3 class="h1 pt-4 mb-1">3.4 <span class="h4">millions</span></h3>
                                     <p class="fs-lg mb-0">Application users</p>
@@ -643,7 +643,7 @@
                         <!-- Item -->
                         <div class="swiper-slide h-auto py-3">
                             <div class="card border-0 shadow h-100 text-center text-sm-start p-3 mx-2">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(10px)">
                                     <img src="/assets/img/landing/app-showcase-3/features/statistics.svg" style="filter: drop-shadow(0px 0.8645132780075073px 4.602016925811768px rgba(99, 102, 241, 0.02)) drop-shadow(0px 2.9037201404571533px 10.33138370513916px rgba(99, 102, 241, 0.05)) drop-shadow(0px 13px 27px rgba(99, 102, 241, 0.17));" alt="Statistics icon">
                                     <h3 class="h1 pt-4 mb-1">1.2 <span class="h4">billions</span></h3>
                                     <p class="fs-lg mb-0">Transactions a month</p>
@@ -654,7 +654,7 @@
                         <!-- Item -->
                         <div class="swiper-slide h-auto py-3">
                             <div class="card border-0 shadow h-100 text-center text-sm-start p-3 mx-2">
-                                <div class="card-body">
+                                <div class="card-body" style="filter: blur(10px)">
                                     <img src="/assets/img/landing/app-showcase-3/features/cashback.svg" style="filter: drop-shadow(0px 0.8645132780075073px 4.602016925811768px rgba(8, 14, 138, 0.02)) drop-shadow(0px 2.9037201404571533px 10.33138370513916px rgba(8, 14, 138, 0.04)) drop-shadow(0px 14px 28px rgba(8, 14, 138, 0.10));" alt="Cashback icon">
                                     <h3 class="h1 pt-4 mb-1">1.7 <span class="h4">billions</span></h3>
                                     <p class="fs-lg mb-0">Accrued cashback</p>
