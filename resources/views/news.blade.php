@@ -198,7 +198,7 @@
                                 <div class="card-body pb-4">
                                     <div class="d-flex align-items-center justify-content-between mb-3">
                                         <a href="javascript:" class="badge fs-sm text-nav bg-secondary text-decoration-none">
-                                            Lebara
+                                            {{ $article['source'] }}
                                         </a>
                                         <span class="fs-sm text-muted">{{ $article['date'] ?? 'May 19, 2023' }}</span>
                                     </div>
