@@ -42,7 +42,7 @@
 
     <!-- Main Theme Styles + Bootstrap -->
     <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css?v=1">
-    <link rel="stylesheet" media="screen" href="/assets/css/colors.css">
+    <link rel="stylesheet" media="screen" href="/assets/css/colors.css?v=1">
 
     <!-- Page loading styles -->
     <style>
@@ -175,10 +175,10 @@
     <!-- Dark alert -->
     <div
         class="alert alert-danger rounded-0 text-center navbar-sticky"
-        style="background-color: #eb1515; border-color: #eb1515; color: white"
+        style="background-color: #ff3182; border-color: #ff3182; color: white"
         role="alert"
     >
-        We’re not just launching; we’re about to change the game. <b>Stay Tuned!</b>
+        <span class="flashing">We’re not just launching; we’re about to change the game. <b>Stay Tuned!</b></span>
     </div>
     <!-- Navbar -->
     <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
@@ -333,6 +333,7 @@
                     <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
                         <h6 class="mb-2">Contact Us</h6>
                         <a href="mailto:email@example.com" class="fw-medium text-primary">contact@lebara.ng</a>
+                        Seth House
                     </div>
                 </div>
             </div>

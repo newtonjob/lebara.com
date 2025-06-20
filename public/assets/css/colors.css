@@ -4,3 +4,12 @@
 .bg-blue-50 { background-color: #b3e4f9 }
 .text-pink-50 { color: #ff3182 }
 .bg-pink-50 { background-color: #ff3182 }
+
+.flashing {
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
