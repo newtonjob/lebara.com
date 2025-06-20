@@ -31,7 +31,7 @@
                 <p class="fs-lg ps-lg-4 mb-1 mb-lg-4">
                     Shoot us an email:
                     <a href="mailto:careers@lebara.ng" class="text-pink-50">careers@lebara.ng</a> or
-                    <a href="mailto:careers@lebara.ng" class="text-pink-50">youbelong@lebara.ng</a>
+                    <a href="mailto:youbelong@lebara.ng" class="text-pink-50">youbelong@lebara.ng</a>
                 </p>
             </div>
         </div>
