@@ -81,6 +81,8 @@
                                 @submit.prevent="form.submit()"
                                 @then="swal('Welcome!', 'We\'ll be in touch.', 'success'); $el.reset()"
                             >
+                                <x-honeypot />
+
                                 <div class="mt-4">
                                     <div class="d-flex border border-3 rounded">
                                         <div class="form-floating w-100">

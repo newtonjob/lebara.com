@@ -271,6 +271,8 @@
                     @submit.prevent="form.submit()"
                     @then="swal('Welcome!', 'We\'ll be in touch.', 'success'); $el.reset()"
                 >
+                    <x-honeypot />
+
                     <label for="subscr-email" class="form-label">Join the waitlist</label>
                     <div class="input-group">
                         <input
