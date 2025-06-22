@@ -15,7 +15,7 @@ class PreventSpam
         if (! $this->passes($request) && ! app()->runningInConsole()) {
             info('Spam detected', $request->all());
 
-            abort(403);
+            return response()->noContent();
         }
 
         return $next($request);
