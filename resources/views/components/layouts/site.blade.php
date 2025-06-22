@@ -332,8 +332,26 @@
                     </div>
                     <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
                         <h6 class="mb-2">Contact Us</h6>
-                        <a href="mailto:email@example.com" class="fw-medium text-primary">contact@lebara.ng</a>
-                        Seth House
+                        <ul class="nav flex-column mb-0">
+                            <li class="mb-1">
+                                <a href="javascript:" class="nav-link align-items-start fw-normal px-0 py-1">
+                                    <i class="bx bx-map fs-5 text-primary me-2"></i>
+                                    Seth House, 5 Stella Sholanke Street, Ajao Estate,<br>Lagos, Nigeria
+                                </a>
+                            </li>
+                           {{-- <li class="mb-1">
+                                <a href="tel:4065550120" class="nav-link align-items-start fw-normal px-0 py-1">
+                                    <i class="bx bx-phone-call fs-5 text-primary me-2"></i>
+                                    (406)&nbsp;555‑0120
+                                </a>
+                            </li>--}}
+                            <li>
+                                <a href="mailto:contact@lebara.ng" class="nav-link align-items-start fw-normal px-0 py-1">
+                                    <i class="bx bx-envelope fs-5 text-primary me-2"></i>
+                                    contact@lebara.ng
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

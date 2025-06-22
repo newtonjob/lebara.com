@@ -68,16 +68,16 @@
             </div>
             <div class="col-xl-5 col-md-6 offset-xl-1">
                 <h2 class="h1 pb-4 mb-1 mb-lg-3">Find a Lebara center closest to you</h2>
-                <ul class="list-unstyled pb-3 mb-0 mb-lg-3" style="filter: blur(5px)">
+                <ul class="list-unstyled pb-3 mb-0 mb-lg-3">
                     <li class="d-flex mb-3">
                         <i class="bx bx-map text-muted fs-xl mt-1 me-2"></i>
-                        Banana Island, Ikoyi, Lagos
+                        Seth House, 5 Stella Sholanke Street, Ajao Estate,<br>Lagos, Nigeria
                     </li>
-                    <li class="d-flex mb-3">
+                    <li class="d-flex mb-3" style="filter: blur(5px)">
                         <i class="bx bx-phone-call text-muted fs-xl mt-1 me-2"></i>
                         094065550120
                     </li>
-                    <li class="d-flex mb-3">
+                    <li class="d-flex mb-3" style="filter: blur(5px)">
                         <i class="bx bx-time text-muted fs-xl mt-1 me-2"></i>
                         <div>
                             <div><span class="text-dark fw-semibold me-1">Mon – Fri:</span>9:00 am – 22:00 pm</div>
@@ -86,7 +86,7 @@
                     </li>
                     <li class="d-flex mb-3">
                         <i class="bx bx-envelope text-muted fs-xl mt-1 me-2"></i>
-                        hello@lebara.ng
+                        contact@lebara.ng
                     </li>
                 </ul>
             </div>
