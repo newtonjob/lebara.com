@@ -227,6 +227,10 @@
                         </p>
                         <p class="mb-4 pb-lg-3 text-light">By owning a Lebara sim, <span style="filter: blur(5px)">you automatically get a prefunded wallet</span>, which grants you access to micro loans, device funding, discounted internet offer at designated creative hubs and access to exclusive events by our partners.
                         </p>
+                        <p class="mb-4 pb-lg-3 text-light">
+                            For partnership enquiries, send an email to
+                            <a href="mailto:partnerships@lebara.ng" class="text-white">partnerships@lebara.ng</a>
+                        </p>
                     </div>
                     <div class="col-lg-6 col-md-7 mt-4 pt-md-0 pt-2">
                         <img src="{{ asset('partnership.jpg') }}" class="d-block my-lg-2 mx-auto me-md-0 rounded-5" width="595" alt="Image">
