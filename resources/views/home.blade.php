@@ -55,7 +55,7 @@
                                     </div>
 
                                     <div class="scale-up delay-1 d-none">
-                                        <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
+                                        <a href="javascript:soon()" class="btn btn-primary shadow-primary btn-lg">Get started</a>
                                     </div>
                                 </div>
 
@@ -70,7 +70,7 @@
                                     </div>
 
                                     <div class="scale-up delay-1 d-none">
-                                        <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
+                                        <a href="javascript:soon()" class="btn btn-primary shadow-primary btn-lg">Get started</a>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                             </p>
                                         </div>
                                         <div class="scale-up delay-1">
-                                            <a href="javascript:" class="btn btn-primary shadow-primary btn-lg">Get started</a>
+                                            <a href="javascript:soon()" class="btn btn-primary shadow-primary btn-lg">Get started</a>
                                         </div>
 
                                     </div>
@@ -312,7 +312,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -357,7 +357,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-light w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-light w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -402,7 +402,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -447,7 +447,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -494,7 +494,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -539,7 +539,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -566,7 +566,7 @@
                                     <p class="fs-sm mb-2">
                                         Our AI agent (Lary) got you.
                                     </p>
-                                    <a href="javascript:" class="btn btn-link text-primary stretched-link px-0">
+                                    <a href="javascript:soon()" class="btn btn-link text-primary stretched-link px-0">
                                         Chat with Lary
                                         <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
                                     </a>
@@ -739,7 +739,7 @@
                                 </div>
                             </div>
                             <div class="col d-xl-flex justify-content-end">
-                                <a href="javascript:"
+                                <a href="javascript:soon()"
                                    class="btn btn-dark btn-lg w-xl-100 px-3 py-2 ms-xl-3 mt-3 mt-lg-0">
                                     <img src="/assets/img/market/appstore-light.svg" class="light-mode-img" width="124"
                                          alt="App Store">
@@ -760,7 +760,7 @@
                                 </div>
                             </div>
                             <div class="col d-xl-flex justify-content-end">
-                                <a href="javascript:"
+                                <a href="javascript:soon()"
                                    class="btn btn-dark btn-lg w-xl-100 px-3 py-2 ms-xl-3 mt-3 mt-lg-0">
                                     <img src="/assets/img/market/googleplay-light.svg" class="light-mode-img" width="139"
                                          alt="Google Play">
