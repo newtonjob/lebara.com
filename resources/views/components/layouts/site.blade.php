@@ -232,7 +232,7 @@
                     </ul>
                 </div>
                 <div class="offcanvas-header border-top">
-                    <a href="javascript:"
+                    <a href="javascript:soon()"
                        class="btn btn-primary w-100">
                         <i class="bx bx-cart fs-4 lh-1 me-1"></i>
                         &nbsp;Refuel
