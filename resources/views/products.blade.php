@@ -570,7 +570,7 @@
             <!-- Students category -->
             <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <img src="{{ asset('student.png') }}" width="640" alt="Student">
+                    <img src="{{ asset('student2.png') }}" width="640" alt="Student">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
                     <h2 class="mb-lg-4 text-chambray">Users in diaspora</h2>
