@@ -248,7 +248,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="javascript:"
+            <a href="javascript:soon()"
                class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex">
                 <i class="bx bx-cart fs-5 lh-1 me-1"></i>
                 &nbsp;Refuel
