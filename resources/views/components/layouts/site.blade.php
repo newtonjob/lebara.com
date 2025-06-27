@@ -42,7 +42,7 @@
 
     <!-- Main Theme Styles + Bootstrap -->
     <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css?v=1">
-    <link rel="stylesheet" media="screen" href="/assets/css/colors.css?v=1">
+    <link rel="stylesheet" media="screen" href="/assets/css/colors.css?v=2">
 
     <!-- Page loading styles -->
     <style>
