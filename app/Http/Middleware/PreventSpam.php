@@ -28,7 +28,7 @@ class PreventSpam
     {
         return $request->has('honey.blank')
             && $request->isNotFilled('honey.blank')
-            && decrypt($request->honey['from'])->isPast()
-            && decrypt($request->honey['js']) === 'valid';
+            && rescue(fn () => decrypt($request->honey['from'])->isPast(), false, false)
+            && rescue(fn () => decrypt($request->honey['js']) === 'valid', false, false);
     }
 }
