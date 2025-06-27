@@ -239,7 +239,8 @@
                 <div class="step-body">
                     <h3 class="h4 mb-3 text-chambray">Porting</h3>
                     <p class="mb-0">
-                        Dial <b>*3535#</b> and visit an agent near your location and you are good to go. <a href="javascript:" class="text-primary">Activate Now</a>
+                        Dial <b>*3535#</b> and visit an agent near your location and you are good to go.
+                        <a href="javascript:soon()" class="text-primary">Activate Now</a>
                     </p>
                 </div>
             </div>

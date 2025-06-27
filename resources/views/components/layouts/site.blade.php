@@ -144,6 +144,13 @@
                 }, 1000);
             };
         })();
+
+        function soon() {
+            swal(
+                "Not quite ready yet, but trust, it’s gonna slap.",
+                "We’re putting the final touches on something seriously next-level, and we can’t wait to show you. But good things take time and we want it perfect for you.\n\nDrop your email in the waitlist section to get exclusive early access when we launch. You’ll be the first to see it (and maybe even snag some perks before anyone else).\n\nStay tuned. Stay hyped. We promise it’ll be worth the wait. 💫"
+            );
+        }
     </script>
 
     @production
