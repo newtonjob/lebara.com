@@ -71,7 +71,8 @@
                 <ul class="list-unstyled pb-3 mb-0 mb-lg-3">
                     <li class="d-flex mb-3">
                         <i class="bx bx-map text-muted fs-xl mt-1 me-2"></i>
-                        Seth House, 5 Stella Sholanke Street, Ajao Estate,<br>Lagos, Nigeria
+                        The Address Homes, beside RCCG Olive Tree Parish, <br>Banana Island Road, Ikoyi
+                        <br>Lagos, Nigeria
                     </li>
                     <li class="d-flex mb-3" style="filter: blur(5px)">
                         <i class="bx bx-phone-call text-muted fs-xl mt-1 me-2"></i>
