@@ -174,7 +174,7 @@
     </section>
 
     <section class="py-lg-4 py-xl-5 overflow-hidden bg-blue-50">
-        <div class="container mt-md-4">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-md-5 text-center text-md-start pb-5">
                     <h1 class="mb-4 text-chambray">We are Lebara</h1>
