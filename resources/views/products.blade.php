@@ -248,7 +248,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -293,7 +293,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-light w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-light w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -338,7 +338,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -383,7 +383,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -430,7 +430,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -475,7 +475,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:" class="btn btn-primary w-100">Buy</a>
+                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -532,8 +532,8 @@
                         Running a business in Nigeria or staying in touch with clients abroad shouldn’t break the bank. Lebara Business Plans are designed for entrepreneurs, SMEs, and professionals who need reliable, cost-effective communication, locally and internationally.<br><br>
                         Whether you're in tech, trade, logistics or consulting, Lebara gives your business the communication tools it needs to thrive.
                     </p>
-                    <a href="javascript:" class="btn btn-primary mt-1">
-                        Learn more
+                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                        Buy now
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
                     </a>
                 </div>
@@ -556,8 +556,8 @@
                         Whether you're studying in Nigeria or recently returned from abroad, communication matters. Lebara understands student life: budget constraints, long-distance relationships, and the need to stay close to family and friends across borders.<br><br>
                         Lebara is your plug for quality calls, streaming, study time, and home time.
                     </p>
-                    <a href="javascript:" class="btn btn-primary mt-1">
-                        Learn more
+                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                        Buy now
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
                     </a>
                 </div>
@@ -578,8 +578,8 @@
                         Visiting home shouldn't come with telecom hassles. Whether it’s for the holidays, business, or a long-overdue reunion, Lebara offers SIMs made for Nigerians in the diaspora returning home.<br><br>
                         Your homecoming should feel like home. Lebara makes it easier to reconnect, recharge, and stay reachable on your terms.
                     </p>
-                    <a href="javascript:" class="btn btn-primary mt-1">
-                        Learn more
+                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                        Buy now
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
                     </a>
                 </div>
