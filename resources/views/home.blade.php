@@ -50,7 +50,7 @@
 
                                     <div class="from-end">
                                         <p class="fs-xl text-white pb-2 my-5">
-                                            Reliable and Affordable and Premium service.
+                                            We’re cooking something fire here 🔥. Wanna be first to taste? Join the waitlist!
                                         </p>
                                     </div>
 
@@ -65,7 +65,7 @@
 
                                     <div class="from-end">
                                         <p class="fs-xl text-white pb-2 my-5">
-                                            Reliable and Affordable and Premium service.
+                                            We’re cooking something fire here 🔥. Wanna be first to taste? Join the waitlist!
                                         </p>
                                     </div>
 
