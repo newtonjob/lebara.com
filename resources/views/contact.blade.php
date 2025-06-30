@@ -69,7 +69,7 @@
             <div class="col-xl-5 col-md-6 offset-xl-1">
                 <h2 class="h1 pb-4 mb-1 mb-lg-3">Find a Lebara center closest to you</h2>
                 <ul class="list-unstyled pb-3 mb-0 mb-lg-3">
-                    <li class="d-flex mb-3">
+                    <li class="d-flex mb-3 d-none">
                         <i class="bx bx-map text-muted fs-xl mt-1 me-2"></i>
                         The Address Homes, beside RCCG Olive Tree Parish, <br>Banana Island Road, Ikoyi
                         <br>Lagos, Nigeria

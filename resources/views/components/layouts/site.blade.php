@@ -42,96 +42,10 @@
 
     <!-- Main Theme Styles + Bootstrap -->
     <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css?v=1">
-    <link rel="stylesheet" media="screen" href="/assets/css/colors.css?v=2">
+    <link rel="stylesheet" media="screen" href="/assets/css/colors.css?v=1.0">
 
     <!-- Page loading styles -->
-    <style>
-        .page-loading {
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            -webkit-transition: all .4s .2s ease-in-out;
-            transition: all .4s .2s ease-in-out;
-            background-color: #fff;
-            opacity: 0;
-            visibility: hidden;
-            z-index: 9999;
-        }
-
-        [data-bs-theme="dark"] .page-loading {
-            background-color: #0b0f19;
-        }
-
-        .page-loading.active {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .page-loading-inner {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-            -webkit-transition: opacity .2s ease-in-out;
-            transition: opacity .2s ease-in-out;
-            opacity: 0;
-        }
-
-        .page-loading.active > .page-loading-inner {
-            opacity: 1;
-        }
-
-        .page-loading-inner > span {
-            display: block;
-            font-size: 1rem;
-            font-weight: normal;
-            color: #9397ad;
-        }
-
-        [data-bs-theme="dark"] .page-loading-inner > span {
-            color: #fff;
-            opacity: .6;
-        }
-
-        .page-spinner {
-            display: inline-block;
-            width: 2.75rem;
-            height: 2.75rem;
-            margin-bottom: .75rem;
-            vertical-align: text-bottom;
-            border: .15em solid #b4b7c9;
-            border-right-color: transparent;
-            border-radius: 50%;
-            -webkit-animation: spinner .75s linear infinite;
-            animation: spinner .75s linear infinite;
-        }
-
-        [data-bs-theme="dark"] .page-spinner {
-            border-color: rgba(255, 255, 255, .4);
-            border-right-color: transparent;
-        }
-
-        @-webkit-keyframes spinner {
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-
-        @keyframes spinner {
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-    </style>
+    @include('partials.head-styles')
 
     <!-- Page loading scripts -->
     <script>
@@ -342,7 +256,7 @@
                     <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
                         <h6 class="mb-2">Contact Us</h6>
                         <ul class="nav flex-column mb-0">
-                            <li class="mb-1">
+                            <li class="mb-1 d-none">
                                 <a href="javascript:" class="nav-link align-items-start fw-normal px-0 py-1">
                                     <i class="bx bx-map fs-5 text-primary me-2"></i>
                                     The Address Homes, beside RCCG Olive Tree Parish, Banana Island Road, Ikoyi
