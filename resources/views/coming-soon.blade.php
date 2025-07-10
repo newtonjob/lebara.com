@@ -323,25 +323,28 @@
         </section>
     @endif
 
-    <section class="py-5 overflow-hidden bg-blue-50">
-        <section class="container pb-5 mb-md-2 mb-lg-4">
-            <h1 class="pb-4 text-chambray">We are Lebara</h1>
-            <div class="row pt-2 pt-md-3">
-                <div class="col-md-6">
-                    <p class="fs-lg pe-lg-4 mb-4">
+    <section
+        class="py-lg-4 py-xl-5 overflow-hidden"
+        style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)"
+    >
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-md-5 text-center text-md-start pb-5 text-white">
+                    <h1 class="mb-4 text-white">We are Lebara</h1>
+                    <p class="fs-lg pb-lg-3 mb-2">
                         For 24 years, Lebara Group has been a trusted provider of affordable, reliable, and high-quality mobile services across three continents and nine countries. Now, it's Africa’s turn to experience the full benefits of being part of the Lebara family and we will be starting with Nigeria.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p class="fs-lg ps-lg-4 mb-1 mb-lg-4">
+                    <p class="fs-lg pb-lg-3 mb-4">
                         Beyond top-tier telecommunications, we have forged strategic partnerships to offer financial services designed to empower the creative industry.
                         Through microloans, device funding, free internet hubs, and culture-shaping events, we are committed to driving innovation, inclusion, and economic growth.
 
                         Our mission is clear; connecting people, supporting creativity, and shaping the future. We’re ready. Are you?
                     </p>
                 </div>
+                <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
+                    <img src="{{ asset('pebble-3.png') }}" width="500" alt="Image">
+                </div>
             </div>
-        </section>
+        </div>
     </section>
 </main>
 
