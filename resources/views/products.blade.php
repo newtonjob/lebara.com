@@ -195,9 +195,9 @@
         </div>
     </section>
 
-    <section class="py-5 bg-blue-50">
+    <section class="py-5" style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)">
         <div class="container my-md-2 my-lg-4 my-xl-5">
-            <h2 class="h1 text-center pb-3 pb-md-4 text-chambray">Transparent Pricing for You</h2>
+            <h2 class="h1 text-center pb-3 pb-md-4 text-white">Transparent Pricing for You</h2>
             <div class="price-switch-wrapper mb-n2">
                 <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4 d-none" data-bs-toggle="price">
                     <input type="checkbox" class="form-check-input" id="pricing">
