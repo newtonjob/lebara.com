@@ -845,7 +845,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-7 col-xxl-8">
-                    <img src="/devices.png" width="618" class="rellax d-block mx-auto"
+                    <img src="https://proxy.lebara.sa/api/images/uploads/phone2_1_1_e264f7f2b3.png" width="618" class="rellax d-block mx-auto"
                          alt="Devices" data-rellax-percentage="0.5" data-rellax-speed="1"
                          data-disable-parallax-down="lg">
                     <div class="d-none d-xl-block" style="margin-bottom: -450px;"></div>
