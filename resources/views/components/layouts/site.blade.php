@@ -95,8 +95,8 @@
 <main class="page-wrapper">
     <!-- Dark alert -->
     <div
-        class="alert alert-danger rounded-0 text-center navbar-sticky"
-        style="background-color: #ff3182; border-color: #ff3182; color: white"
+        class="alert alert-danger rounded-0 text-center navbar-sticky bg-gradient-primary"
+        style="color: white; border: transparent"
         role="alert"
     >
         <span class="flashing">We’re not just launching; we’re about to change the game. <b>Stay Tuned!</b></span>

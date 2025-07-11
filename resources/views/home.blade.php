@@ -175,11 +175,14 @@
         </div>
     </section>
 
-    <section class="py-lg-4 py-xl-5 overflow-hidden bg-blue-50">
-        <div class="container mt-5">
+    <section
+        class="py-lg-4 py-xl-5 overflow-hidden"
+        style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)"
+    >
+        <div class="container my-5 py-5">
             <div class="row">
-                <div class="col-md-5 text-center text-md-start pb-5">
-                    <h1 class="mb-4 text-chambray">We are Lebara</h1>
+                <div class="col-md-5 text-center text-md-start pb-5 text-white">
+                    <h1 class="mb-4 text-white">We are Lebara</h1>
                     <p class="fs-lg pb-lg-3 mb-2">
                         Lebara Group has been a trusted provider of affordable, reliable, and high-quality mobile services across three continents and nine countries. Now, it's Nigeria’s turn to experience the unmatched benefits of being part of the Lebara family.
                     <p class="fs-lg pb-lg-3 mb-4">
@@ -193,7 +196,75 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
-                    <img src="{{ asset('we2.jpg') }}" class="rounded-3 shadow-sm" alt="Image">
+                    <img src="{{ asset('pebble-3.png') }}" width="500" alt="Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5" style="background: linear-gradient(298.62deg, rgb(26, 31, 69) 0%, rgb(60, 45, 160) 121.22%)">
+        <div class="container">
+            <!-- Business category -->
+            <div class="row align-items-center justify-content-center py-4 py-md-5">
+                <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+                    <img src="{{ asset('pebble-2.png') }}" width="400" alt="Businessman">
+                </div>
+                <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
+                    <h1 class="mb-lg-4 text-white">For business services</h1>
+                    <p class="fs-lg pb-4 mb-0 text-white">
+                        Running a business in Nigeria or staying in touch with clients abroad shouldn’t break the bank. Lebara Business Plans are designed for entrepreneurs, SMEs, and professionals who need reliable, cost-effective communication, locally and internationally.<br><br>
+                        Whether you're in tech, trade, logistics or consulting, Lebara gives your business the communication tools it needs to thrive.
+                    </p>
+                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                        Buy now
+                        <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5" style="background: linear-gradient(298.62deg, rgb(26, 31, 69) 0%, rgb(211, 45, 113) 121.22%)">
+        <div class="container">
+            <!-- Sturtups category -->
+            <div class="row align-items-center justify-content-center py-4 py-md-5">
+                <div class="col-10 col-sm-9 col-md-6 col-xl-7 pb-2 pb-md-0 mb-4 mb-md-0">
+                    <div class="pe-md-4 pe-xl-0">
+                        <img src="{{ asset('pebble-1.png') }}" width="400" alt="Startupper">
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-5 text-center text-md-start">
+                    <h1 class="mb-lg-4 text-white">Benefits for students</h1>
+                    <p class="fs-lg pb-4 mb-0 text-white">
+                        Whether you're studying in Nigeria or recently returned from abroad, communication matters. Lebara understands student life: budget constraints, long-distance relationships, and the need to stay close to family and friends across borders.<br><br>
+                        Lebara is your plug for quality calls, streaming, study time, and home time.
+                    </p>
+                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                        Buy now
+                        <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gradient-primary py-5">
+        <div class="container">
+            <!-- Students category -->
+            <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
+                <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+                    <img src="{{ asset('careers.png') }}" width="400" alt="Student">
+                </div>
+                <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start text-white">
+                    <h1 class="mb-lg-4 text-white">Users in diaspora</h1>
+                    <p class="fs-lg pb-4 mb-0">
+                        Visiting home shouldn't come with telecom hassles. Whether it’s for the holidays, business, or a long-overdue reunion, Lebara offers SIMs made for Nigerians in the diaspora returning home.<br><br>
+                        Your homecoming should feel like home. Lebara makes it easier to reconnect, recharge, and stay reachable on your terms.
+                    </p>
+                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                        Buy now
+                        <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -249,7 +320,7 @@
         </div>
 
         <!-- Video -->
-        <div class="bg-primary position-relative rounded-3 overflow-hidden">
+        <div class="bg-primary position-relative rounded-3 overflow-hidden d-none">
             <div class="position-absolute top-50 start-50 w-75 h-75 translate-middle d-flex align-items-center justify-content-center zindex-5">
                 <a href="https://youtu.be/nCGuEywZvAw" class="btn btn-video btn-icon btn-xl bg-white stretched-link" data-bs-toggle="video" aria-label="Play video" data-lg-id="66ba1219-7dab-496e-b976-de5af0fbab10">
                     <i class="bx bx-play"></i>
@@ -261,9 +332,9 @@
         </div>
     </section>
 
-    <section class="py-5 bg-blue-50">
+    <section class="py-5" style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)">
         <div class="container my-md-2 my-lg-4 my-xl-5">
-            <h2 class="h1 text-center pb-3 pb-md-4 text-chambray">Transparent Pricing for You</h2>
+            <h2 class="h1 text-center pb-3 pb-md-4 text-white">Transparent Pricing for You</h2>
             <div class="price-switch-wrapper mb-n2">
                 <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4 d-none" data-bs-toggle="price">
                     <input type="checkbox" class="form-check-input" id="pricing">
@@ -554,7 +625,7 @@
     <section class="py-5 bg-secondary">
         <div class="container mb-lg-2">
             <div class="text-center pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                <h2 class="pb-3 mb-1 mb-lg-3 text-chambray">
+                <h2 class="pb-3 mb-1 mb-lg-3 text-chambray-900">
                     Got questions? Check out the FAQs
                 </h2>
 
@@ -727,11 +798,11 @@
             <div class="row pt-2 pt-sm-3 pt-md-4">
                 <div
                     class="col-md-6 col-xl-5 col-xxl-4 text-center text-md-start pb-4 pb-sm-5 mb-2 mb-md-3 mb-lg-4 mb-xl-5">
-                    <h2 class="h1 mb-5" style="color: #3d4998">Download the app</h2>
+                    <h2 class="h1 mb-5 text-chambray-900">Instant access, anytime</h2>
                     <div class="d-flex d-md-block mt-n2 mt-sm-0">
                         <div class="row row-cols-1 row-cols-lg-2 align-items-lg-end me-1 me-md-0 pb-md-4 mb-md-3">
                             <div class="col">
-                                <h3 class="fs-base fw-normal mb-2" style="color: #3d4998">App Store</h3>
+                                <h3 class="fs-base fw-normal mb-2 text-chambray-900">App Store</h3>
                                 <div class="text-nowrap text-warning pb-1 mb-2">
                                     <i class="bx bxs-star"></i>
                                     <i class="bx bxs-star"></i>
@@ -752,7 +823,7 @@
                         </div>
                         <div class="row row-cols-1 row-cols-lg-2 align-items-lg-end">
                             <div class="col">
-                                <h3 class="fs-base fw-normal mb-2" style="color: #3d4998">Google Play</h3>
+                                <h3 class="fs-base fw-normal mb-2 text-chambray-900">Google Play</h3>
                                 <div class="text-nowrap text-warning pb-1 mb-2">
                                     <i class="bx bxs-star"></i>
                                     <i class="bx bxs-star"></i>
