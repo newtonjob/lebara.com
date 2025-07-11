@@ -622,7 +622,7 @@
         </div>
     </section>
 
-    <section class="py-5 bg-secondary">
+    <section class="py-5 bg-blue-50">
         <div class="container mb-lg-2">
             <div class="text-center pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
                 <h2 class="pb-3 mb-1 mb-lg-3 text-chambray-900">
