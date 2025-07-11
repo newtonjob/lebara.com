@@ -133,6 +133,12 @@
                         </li>
 
                         <li class="nav-item">
+                            <a href="javascript:soon()" class="nav-link fw-normal" :class="{ 'active': active($el) }">
+                                Enterprise
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
                             <a href="/news" class="nav-link fw-normal" :class="{ 'active': active($el) }">News/Insights</a>
                         </li>
 
