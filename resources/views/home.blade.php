@@ -848,10 +848,6 @@
                     <img src="https://proxy.lebara.sa/api/images/uploads/phone2_1_1_e264f7f2b3.png" width="618" class="rellax d-block mx-auto"
                          alt="Devices" data-rellax-percentage="0.5" data-rellax-speed="1"
                          data-disable-parallax-down="lg">
-                    <div class="d-none d-xl-block" style="margin-bottom: -450px;"></div>
-                    <div class="d-none d-lg-block d-xl-none" style="margin-bottom: -800px;"></div>
-                    <div class="d-none d-sm-block d-lg-none" style="margin-bottom: -400px;"></div>
-                    <div class="d-sm-none" style="margin-bottom: -240px;"></div>
                 </div>
             </div>
         </div>
