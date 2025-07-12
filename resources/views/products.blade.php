@@ -17,85 +17,6 @@
         </ol>
     </nav>
 
-    <section class="bg-secondary pt-1 d-none">
-        <div class="position-relative py-lg-4 py-xl-5">
-
-            <!-- Swiper tabs -->
-            <div class="swiper-tabs position-absolute top-0 start-0 w-100 h-100">
-                <div id="image-1" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab active" data-jarallax data-speed="0.4">
-                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
-                    <div class="jarallax-img" style="background-image: url('assets/img/landing/software-agency-1/case-study01.jpg');"></div>
-                </div>
-                <div id="image-2" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab" data-jarallax data-speed="0.4">
-                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
-                    <div class="jarallax-img" style="background-image: url('assets/img/landing/software-agency-1/case-study02.jpg');"></div>
-                </div>
-            </div>
-
-            <!-- Swiper slider -->
-            <div class="container position-relative zindex-5 py-5">
-                <div class="row py-2 py-md-3">
-                    <div class="col-xl-5 col-lg-7 col-md-9">
-                        <!-- Slider controls (Prev / next) -->
-                        <div class="d-flex justify-content-center justify-content-md-start pb-3 mb-3">
-                            <button type="button" id="case-study-prev" class="btn btn-prev btn-icon btn-sm bg-white me-2" aria-label="Previous">
-                                <i class="bx bx-chevron-left"></i>
-                            </button>
-                            <button type="button" id="case-study-next" class="btn btn-next btn-icon btn-sm bg-white ms-2" aria-label="Next">
-                                <i class="bx bx-chevron-right"></i>
-                            </button>
-                        </div>
-
-                        <!-- Card -->
-                        <div class="card bg-white shadow-sm p-3">
-                            <div class="card-body">
-                                <div class="swiper" data-swiper-options='{
-                                  "spaceBetween": 30,
-                                  "loop": true,
-                                  "tabs": true,
-                                  "pagination": {
-                                    "el": "#case-study-pagination",
-                                    "clickable": true
-                                  },
-                                  "navigation": {
-                                    "prevEl": "#case-study-prev",
-                                    "nextEl": "#case-study-next"
-                                  }
-                                }'>
-                                    <div class="swiper-wrapper">
-
-                                        <!-- Item -->
-                                        <div class="swiper-slide" data-swiper-tab="#image-1">
-                                            <img src="/assets/img/landing/software-agency-1/case-study-logo01.png" class="d-block mb-3" width="72" alt="Logo">
-                                            <h3 class="mb-2">Cashless payment case study</h3>
-                                            <p class="fs-sm text-muted border-bottom pb-3 mb-3">Payment Service Provider Company</p>
-                                            <p class="pb-2 pb-lg-3 mb-3">Aenean dolor elit tempus tellus imperdiet. Elementum, ac convallis morbi sit est feugiat ultrices. Cras tortor maecenas pulvinar nec ac justo. Massa sem eget semper...</p>
-                                            <a href="landing-software-dev-agency-v1.html#" class="btn btn-primary">View case study</a>
-                                        </div>
-
-                                        <!-- Item -->
-                                        <div class="swiper-slide" data-swiper-tab="#image-2">
-                                            <img src="/assets/img/landing/software-agency-1/case-study-logo02.png" class="d-block mb-3" width="72" alt="Logo">
-                                            <h3 class="mb-2">Smart tech case study</h3>
-                                            <p class="fs-sm text-muted border-bottom pb-3 mb-3">Data Analytics Company</p>
-                                            <p class="pb-2 pb-lg-3 mb-3">Adipiscing quis a at ligula. Gravida gravida diam rhoncus cursus in. Turpis sagittis tempor gravida phasellus sapien. Faucibus donec consectetur sed id sit nisl.</p>
-                                            <a href="landing-software-dev-agency-v1.html#" class="btn btn-primary">View case study</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Pagination (bullets) -->
-                        <div class="pt-4 mt-3" data-bs-theme="dark">
-                            <div id="case-study-pagination" class="swiper-pagination position-relative bottom-0"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section
         class="py-5"
         style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)"
@@ -117,8 +38,8 @@
 
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
-                        {{--TODO: Change all icons--}}
-                        <img src="/assets/img/landing/product/benefits/drone.svg" alt="Icon" class="d-inline-block mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-signal-high-icon lucide-signal-high mb-4"><path d="M2 20h.01"/><path d="M7 20v-4"/><path d="M12 20v-8"/><path d="M17 20V8"/></svg>
+
                         <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Fast data speeds</span>
                             High Performance
@@ -127,7 +48,8 @@
 
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
-                        <img src="/assets/img/landing/product/benefits/monitor.svg" alt="Icon" class="d-inline-block mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gift-icon lucide-gift mb-4"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg>
+
                         <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Affordable plans for calls & data</span>
                             Budget-Friendly
@@ -147,7 +69,8 @@
                     <div class="row row-cols-2 mt-md-5 mt-4 text-center">
                         <!-- Item -->
                         <div class="col">
-                            <img src="/assets/img/landing/product/benefits/thermometer.svg" alt="Icon" class="d-inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-banknote-arrow-up-icon lucide-banknote-arrow-up mb-4"><path d="M12 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5"/><path d="M18 12h.01"/><path d="M19 22v-6"/><path d="m22 19-3-3-3 3"/><path d="M6 12h.01"/><circle cx="12" cy="12" r="2"/></svg>
+
                             <h3 class="h4 mb-0 lh-1 text-white">
                                 <span class="d-block mb-2 fs-base fw-normal">Access to Microloans</span>
                                 Instant Credit
@@ -156,7 +79,8 @@
 
                         <!-- Item -->
                         <div class="col">
-                            <img src="/assets/img/landing/product/benefits/led-light.svg" alt="Icon" class="d-inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wallet-icon lucide-wallet mb-4"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg>
+
                             <h3 class="h4 mb-0 lh-1 text-white">
                                 <span class="d-block mb-2 fs-base fw-normal">Device financing</span>
                                 Easy Payments
@@ -170,7 +94,8 @@
 
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
-                        <img src="/assets/img/landing/product/benefits/zoom-in.svg" alt="Icon" class="d-inline-block mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-earth-icon lucide-earth mb-4"><path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"/><path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"/><path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"/><circle cx="12" cy="12" r="10"/></svg>
+
                         <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">One SIM, 10 Countries</span>
                             Seamless Roaming
@@ -179,7 +104,8 @@
 
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
-                        <img src="/assets/img/landing/product/benefits/computer-microprocessor.svg" alt="Icon" class="d-inline-block mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-between-horizontal-start-icon lucide-between-horizontal-start mb-4"><rect width="13" height="7" x="8" y="3" rx="1"/><path d="m2 9 3 3-3 3"/><rect width="13" height="7" x="8" y="14" rx="1"/></svg>
+
                         <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Access to Creative Hubs</span>
                             Innovation Spaces
@@ -188,7 +114,8 @@
 
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
-                        <img src="/assets/img/landing/product/benefits/audio.svg" alt="Icon" class="d-inline-block mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hand-coins-icon lucide-hand-coins mb-4"><path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"/><path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9"/><path d="m2 16 6 6"/><circle cx="16" cy="9" r="2.9"/><circle cx="6" cy="5" r="3"/></svg>
+
                         <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Unique bundle plan</span>
                             Exclusive Offers
