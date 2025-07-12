@@ -231,7 +231,7 @@
             <!-- Business category -->
             <div class="row align-items-center justify-content-center py-4 py-md-5">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <img src="{{ asset('screen-1.png') }}" width="400" alt="Businessman">
+                    <img src="{{ asset('screen-01.png') }}" width="400" alt="Businessman">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
                     <h1 class="mb-lg-4 text-white">Enterprise Services</h1>
