@@ -18,7 +18,7 @@
     </nav>
 
     <section class="container pb-5 mb-md-2 mb-lg-4">
-        <h1 class="border-bottom pb-4 text-chambray">We are Lebara</h1>
+        <h1 class="border-bottom pb-4 text-chambray-900">We are Lebara</h1>
         <div class="row pt-2 pt-md-3">
             <div class="col-md-6">
                 <p class="fs-lg pe-lg-4 mb-1 mb-lg-4">Beyond top-tier telecommunications, we have forged strategic partnerships to offer financial services designed to empower the creative industry. Through microloans, device funding, near free internet hubs, and culture-shaping events to boost the Art and tourism sector, we are committed to driving innovation, inclusion, and economic growth.
@@ -245,8 +245,8 @@
 
                                         <!-- Item -->
                                         <div class="swiper-slide" data-swiper-tab="#image-1">
-                                            {{--TODO: Change Icons: hands holding--}}
-                                            <img src="assets/img/landing/software-agency-1/case-study-logo01.png" class="d-block mb-3" width="72" alt="Logo">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-handshake-icon lucide-handshake text-primary mb-3"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg>
+
                                             <h3 class="mb-2">Partnership</h3>
                                             <p class="mb-2 pb-lg-3">At our core is the desire to provide great customer experiences, that’s why we have partnered with financial and government institutions to enhance your experience.
                                             </p>
@@ -260,8 +260,8 @@
 
                                         <!-- Item -->
                                         <div class="swiper-slide" data-swiper-tab="#image-2">
-                                            {{--TODO: Change Icons:--}}
-                                            <img src="assets/img/landing/software-agency-1/case-study-logo02.png" class="d-block mb-3" width="72" alt="Logo">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-boxes-icon lucide-boxes text-primary mb-3"><path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"/><path d="m7 16.5-4.74-2.85"/><path d="m7 16.5 5-3"/><path d="M7 16.5v5.17"/><path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"/><path d="m17 16.5-5-3"/><path d="m17 16.5 4.74-2.85"/><path d="M17 16.5v5.17"/><path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"/><path d="M12 8 7.26 5.15"/><path d="m12 8 4.74-2.85"/><path d="M12 13.5V8"/></svg>
+
                                             <h3 class="mb-2">More Value</h3>
                                             <p class="mb-2 pb-lg-3">We are about adding value, that’s why our product are designed to make you enjoy your interactions with family. friends or business partners.
                                             </p>
@@ -270,8 +270,8 @@
                                         </div>
 
                                         <div class="swiper-slide" data-swiper-tab="#image-3">
-                                            {{--TODO: Change Icons: hands holding--}}
-                                            <img src="assets/img/landing/software-agency-1/case-study-logo02.png" class="d-block mb-3" width="72" alt="Logo">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-network-icon lucide-network text-primary mb-3"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>
+
                                             <h3 class="mb-2">Networking</h3>
                                             <p class="mb-2 pb-lg-3">We are a network provider, who says your networking game can’t be our business, that’s why with a Lebara sim and the right bundle, you have access to government and creative hubs across the nation at subsidized rate.
                                             </p>
