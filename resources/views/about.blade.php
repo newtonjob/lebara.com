@@ -162,7 +162,7 @@
                         <div class="text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laugh-icon lucide-laugh text-primary d-block mb-4 mx-auto"><circle cx="12" cy="12" r="10"/><path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>
 
-                            <h4 class="mb-2 pb-1 text-chambray">Great Customer Experience</h4>
+                            <h4 class="mb-2 pb-1 text-chambray">Quality Service</h4>
                             <p class="mx-auto text-chambray" style="max-width: 336px;">
                                 Because you deserve to be treated like royalty, we are dedicated to offering you just that. From quick support, seamless service, and a brand that listens. For us, If we can give you coffee over the phone while you wait, we would.
                             </p>
@@ -190,83 +190,102 @@
         </div>
     </section>
 
-    <section class="container my-5 pt-xl-5 pt-lg-4 pt-md-3 pb-lg-5 pb-md-4 pb-3">
-        <h2 class="h1 mt-xl-3 mb-4 pb-3 text-center text-chambray">Why Lebara?</h2>
+    <section class="bg-secondary">
 
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs flex-nowrap justify-content-sm-center overflow-auto mb-lg-4 mb-3 pb-md-3 pb-2 text-nowrap" role="tablist">
-            <li class="nav-item" role="presentation">
-                <a href="#economic-analysis" class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="false" tabindex="-1">
-                    <i class="bx bx-star opacity-60 me-2 fs-lg"></i>
-                    Partnership
-                </a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a href="#investments" class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" tabindex="-1">
-                    <i class="bx bx-briefcase-alt-2 opacity-60 me-2 fs-lg"></i>
-                    More value
-                </a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a href="#corporate-finance" class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="true">
-                    <i class="bx bx-bar-chart-alt-2 opacity-60 me-2 fs-lg"></i>
-                    Networking boost
-                </a>
-            </li>
-        </ul>
+        <div class="position-relative py-lg-4 py-xl-5">
 
-        <!-- Tabs content -->
-        <div class="tab-content mb-xl-3 py-4 bg-primary rounded-3">
-
-            <!-- Partnership -->
-            <div class="tab-pane fade active show" id="economic-analysis" role="tabpanel">
-                <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
-                    <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
-                        <h3 class="h2 mb-lg-4 mb-3 text-light">Partnership</h3>
-                        <p class="mb-2 pb-lg-3 text-light">At our core is the desire to provide great customer experiences, that’s why we have partnered with financial and government institutions to enhance your experience.
-                        </p>
-                        <p class="mb-4 pb-lg-3 text-light">By owning a Lebara sim, <span style="filter: blur(5px)">you automatically get a prefunded wallet</span>, which grants you access to micro loans, device funding, discounted internet offer at designated creative hubs and access to exclusive events by our partners.
-                        </p>
-                        <p class="mb-4 pb-lg-3 text-light">
-                            For partnership enquiries, send an email to
-                            <a href="mailto:partnerships@lebara.ng" class="text-white">partnerships@lebara.ng</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-md-7 mt-4 pt-md-0 pt-2">
-                        <img src="{{ asset('partnership.jpg') }}" class="d-block my-lg-2 mx-auto me-md-0 rounded-5" width="595" alt="Image">
-                    </div>
+            <!-- Swiper tabs -->
+            <div class="swiper-tabs position-absolute top-0 start-0 w-100 h-100">
+                <div id="image-1" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab active" data-jarallax data-speed="0.4">
+                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
+                    <div class="jarallax-img" style="background-image: url('{{ asset('mou.jpg') }}');"></div>
+                </div>
+                <div id="image-2" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab" data-jarallax data-speed="0.4">
+                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
+                    <div class="jarallax-img" style="background-image: url('{{ asset('more-value.jpeg') }}');"></div>
+                </div>
+                <div id="image-3" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab" data-jarallax data-speed="0.4">
+                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
+                    <div class="jarallax-img" style="background-image: url('{{ asset('networking.jpg') }}');"></div>
                 </div>
             </div>
 
-            <!-- More value -->
-            <div class="tab-pane fade" id="investments" role="tabpanel">
-                <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
-                    <div class="col-lg-5 col-md-6 offset-lg-1 text-center text-md-start">
-                        <h3 class="h2 mb-lg-4 mb-3 text-light">More value</h3>
-                        <div class="d-sm-flex mb-4 pb-lg-3 text-sm-start">
-                            <p class="mb-2 pb-lg-3 text-light">We are about adding value, that’s why our product are designed to make you enjoy your interactions with family. friends or business partners.
-                            </p>
-                            <p class="mb-4 pb-lg-3 text-light">At Lebara we have a bundle that is designed just for you at an affordable price.
-                            </p>
+            <!-- Swiper slider -->
+            <div class="container position-relative zindex-5 py-5">
+                <div class="row py-2 py-md-3">
+                    <div class="col-xl-5 col-lg-7 col-md-9">
+
+                        <!-- Slider controls (Prev / next) -->
+                        <div class="d-flex justify-content-center justify-content-md-start pb-3 mb-3">
+                            <button type="button" id="case-study-prev" class="btn btn-prev btn-icon btn-sm bg-white me-2" aria-label="Previous">
+                                <i class="bx bx-chevron-left"></i>
+                            </button>
+                            <button type="button" id="case-study-next" class="btn btn-next btn-icon btn-sm bg-white ms-2" aria-label="Next">
+                                <i class="bx bx-chevron-right"></i>
+                            </button>
                         </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6 mt-4 pt-md-0 pt-2">
-                        <img src="{{ asset('more-value.jpeg') }}" class="d-block my-lg-2 mx-auto me-md-0 rounded-3" width="595" alt="Image">
-                    </div>
-                </div>
-            </div>
 
-            <!-- Networking boost -->
-            <div class="tab-pane fade" id="corporate-finance" role="tabpanel">
-                <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
-                    <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
-                        <h3 class="h2 mb-lg-4 mb-3 text-light">Networking boost</h3>
-                        <p class="mb-2 pb-lg-3 text-light">We are a network provider, who says your networking game can’t be our business, that’s why with a Lebara sim and the right bundle, you have access to government and creative hubs across the nation at subsidized rate.
-                        </p>
-                        <p class="mb-2 pb-lg-3 text-light"> Na who sabi go enjoy!</p>
-                    </div>
-                    <div class="col-lg-6 col-md-7 mt-4 pt-md-0 pt-2">
-                        <img src="{{ asset('networking.jpeg') }}" class="d-block my-lg-2 mx-auto me-md-0 rounded-3" width="595" alt="Image">
+                        <!-- Card -->
+                        <div class="card bg-white shadow-sm p-3">
+                            <div class="card-body">
+                                <div class="swiper" data-swiper-options='{
+                      "spaceBetween": 30,
+                      "loop": true,
+                      "tabs": true,
+                      "pagination": {
+                        "el": "#case-study-pagination",
+                        "clickable": true
+                      },
+                      "navigation": {
+                        "prevEl": "#case-study-prev",
+                        "nextEl": "#case-study-next"
+                      }
+                    }'>
+                                    <div class="swiper-wrapper">
+
+                                        <!-- Item -->
+                                        <div class="swiper-slide" data-swiper-tab="#image-1">
+                                            {{--TODO: Change Icons: hands holding--}}
+                                            <img src="assets/img/landing/software-agency-1/case-study-logo01.png" class="d-block mb-3" width="72" alt="Logo">
+                                            <h3 class="mb-2">Partnership</h3>
+                                            <p class="mb-2 pb-lg-3">At our core is the desire to provide great customer experiences, that’s why we have partnered with financial and government institutions to enhance your experience.
+                                            </p>
+                                            <p class="mb-4 pb-lg-3">By owning a Lebara sim, <span style="filter: blur(5px)">you automatically get a prefunded wallet</span>, which grants you access to micro loans, device funding, discounted internet offer at designated creative hubs and access to exclusive events by our partners.
+                                            </p>
+                                            <p class="mb-4 pb-lg-3">
+                                                For partnership enquiries, send an email to
+                                                <a href="mailto:partnerships@lebara.ng" class="">partnerships@lebara.ng</a>
+                                            </p>
+                                        </div>
+
+                                        <!-- Item -->
+                                        <div class="swiper-slide" data-swiper-tab="#image-2">
+                                            {{--TODO: Change Icons:--}}
+                                            <img src="assets/img/landing/software-agency-1/case-study-logo02.png" class="d-block mb-3" width="72" alt="Logo">
+                                            <h3 class="mb-2">More Value</h3>
+                                            <p class="mb-2 pb-lg-3">We are about adding value, that’s why our product are designed to make you enjoy your interactions with family. friends or business partners.
+                                            </p>
+                                            <p class="mb-4 pb-lg-3">At Lebara we have a bundle that is designed just for you at an affordable price.
+                                            </p>
+                                        </div>
+
+                                        <div class="swiper-slide" data-swiper-tab="#image-3">
+                                            {{--TODO: Change Icons: hands holding--}}
+                                            <img src="assets/img/landing/software-agency-1/case-study-logo02.png" class="d-block mb-3" width="72" alt="Logo">
+                                            <h3 class="mb-2">Networking</h3>
+                                            <p class="mb-2 pb-lg-3">We are a network provider, who says your networking game can’t be our business, that’s why with a Lebara sim and the right bundle, you have access to government and creative hubs across the nation at subsidized rate.
+                                            </p>
+                                            <p class="mb-2 pb-lg-3"> Na who sabi go enjoy!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pagination (bullets) -->
+                        <div class="pt-4 mt-3" data-bs-theme="dark">
+                            <div id="case-study-pagination" class="swiper-pagination position-relative bottom-0"></div>
+                        </div>
                     </div>
                 </div>
             </div>

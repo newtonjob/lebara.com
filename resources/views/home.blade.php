@@ -239,7 +239,7 @@
                         Running a business in Nigeria or staying in touch with clients abroad shouldn’t break the bank. Lebara Business Plans are designed for entrepreneurs, SMEs, and professionals who need reliable, cost-effective communication, locally and internationally.<br><br>
                         Whether you're in tech, trade, logistics or consulting, Lebara gives your business the communication tools it needs to thrive.
                     </p>
-                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                    <a href="javascript:soon()" class="btn rounded-pill btn-primary mt-1">
                         Learn more
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
                     </a>
@@ -254,7 +254,7 @@
             <div class="row align-items-center justify-content-center py-4 py-md-5">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 pb-2 pb-md-0 mb-4 mb-md-0">
                     <div class="pe-md-4 pe-xl-0">
-                        <img src="{{ asset('student-2.png') }}" width="400" alt="Startupper">
+                        <img src="{{ asset('student-01.png') }}" width="400" alt="Startupper">
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-5 text-center text-md-start">
@@ -263,7 +263,7 @@
                         Whether you're studying in Nigeria or recently returned from abroad, communication matters. Lebara understands student life: budget constraints, long-distance relationships, and the need to stay close to family and friends across borders.<br><br>
                         Lebara is your plug for quality calls, streaming, study time, and home time.
                     </p>
-                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                    <a href="javascript:soon()" class="btn rounded-pill btn-primary mt-1">
                         Buy now
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
                     </a>
@@ -285,7 +285,7 @@
                         Visiting home shouldn't come with telecom hassles. Whether it’s for the holidays, business, or a long-overdue reunion, Lebara offers SIMs made for Nigerians in the diaspora returning home.<br><br>
                         Your homecoming should feel like home. Lebara makes it easier to reconnect, recharge, and stay reachable on your terms.
                     </p>
-                    <a href="javascript:soon()" class="btn btn-primary mt-1">
+                    <a href="javascript:soon()" class="btn rounded-pill btn-primary mt-1">
                         Buy now
                         <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
                     </a>

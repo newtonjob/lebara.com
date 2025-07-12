@@ -96,17 +96,20 @@
         </div>
     </section>
 
-    <section class="container mb-5 pt-md-2 pt-lg-4 pt-xl-5">
-        <h2 class="h1 my-4 pt-2 text-center text-chambray">The Benefits of Lebara Sim</h2>
+    <section
+        class="py-5"
+        style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)"
+    >
+        <h2 class="h1 my-4 pt-2 text-center text-white">The Benefits of Lebara Sim</h2>
         <div class="row pb-4">
             <div class="col-md-3 col-6 order-md-1 order-2">
                 <div class="d-flex flex-column justify-content-between h-100 text-center">
 
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#b5b7c9" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe d-inline-block mb-4"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe d-inline-block mb-4"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
 
-                        <h3 class="h4 mb-0 lh-1 text-chambray">
+                        <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Reliable network coverage</span>
                             Strong Connectivity
                         </h3>
@@ -114,8 +117,9 @@
 
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
+                        {{--TODO: Change all icons--}}
                         <img src="/assets/img/landing/product/benefits/drone.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1 text-chambray">
+                        <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Fast data speeds</span>
                             High Performance
                         </h3>
@@ -124,7 +128,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/monitor.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1 text-chambray">
+                        <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Affordable plans for calls & data</span>
                             Budget-Friendly
                         </h3>
@@ -136,7 +140,7 @@
 
                     <!-- Image -->
                     <div class="mx-md-n5 mb-md-n5 text-center p-5">
-                        <img src="{{ asset('sim.png') }}" alt="Image">
+                        <img src="{{ asset('sim.png') }}" width="400" alt="Image">
                     </div>
 
                     <!-- Items row -->
@@ -144,7 +148,7 @@
                         <!-- Item -->
                         <div class="col">
                             <img src="/assets/img/landing/product/benefits/thermometer.svg" alt="Icon" class="d-inline-block mb-4">
-                            <h3 class="h4 mb-0 lh-1 text-chambray">
+                            <h3 class="h4 mb-0 lh-1 text-white">
                                 <span class="d-block mb-2 fs-base fw-normal">Access to Microloans</span>
                                 Instant Credit
                             </h3>
@@ -153,7 +157,7 @@
                         <!-- Item -->
                         <div class="col">
                             <img src="/assets/img/landing/product/benefits/led-light.svg" alt="Icon" class="d-inline-block mb-4">
-                            <h3 class="h4 mb-0 lh-1 text-chambray">
+                            <h3 class="h4 mb-0 lh-1 text-white">
                                 <span class="d-block mb-2 fs-base fw-normal">Device financing</span>
                                 Easy Payments
                             </h3>
@@ -167,7 +171,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/zoom-in.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1 text-chambray">
+                        <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">One SIM, 10 Countries</span>
                             Seamless Roaming
                         </h3>
@@ -176,7 +180,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/computer-microprocessor.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1 text-chambray">
+                        <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Access to Creative Hubs</span>
                             Innovation Spaces
                         </h3>
@@ -185,7 +189,7 @@
                     <!-- Item -->
                     <div class="mt-md-5 mt-4">
                         <img src="/assets/img/landing/product/benefits/audio.svg" alt="Icon" class="d-inline-block mb-4">
-                        <h3 class="h4 mb-0 lh-1 text-chambray">
+                        <h3 class="h4 mb-0 lh-1 text-white">
                             <span class="d-block mb-2 fs-base fw-normal">Unique bundle plan</span>
                             Exclusive Offers
                         </h3>
@@ -195,298 +199,8 @@
         </div>
     </section>
 
-    <section class="py-5" style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)">
-        <div class="container my-md-2 my-lg-4 my-xl-5">
-            <h2 class="h1 text-center pb-3 pb-md-4 text-white">Transparent Pricing for You</h2>
-            <div class="price-switch-wrapper mb-n2">
-                <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4 d-none" data-bs-toggle="price">
-                    <input type="checkbox" class="form-check-input" id="pricing">
-                    <label class="form-check-label" for="pricing">Monthly</label>
-                    <label class="form-check-label d-flex align-items-start" for="pricing">Annually <span class="text-danger fs-xs fw-semibold mt-n2 ms-2">-10%</span></label>
-                </div>
-
-                <div class="table-responsive-xxl pt-md-3">
-                    {{--TODO: Blur for now--}}
-                    <div class="row pb-4">
-                        <div class="col mb-4">
-                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body" style="filter: blur(6px)">
-                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                        <div class="flex-shrink-0 bg-secondary rounded-3">
-                                            <img src="assets/img/landing/saas-1/pricing/basic.png" width="84" alt="Icon">
-                                        </div>
-                                        <div class="ps-4" >
-                                            <h3 class="fs-lg fw-normal text-body mb-2">Basic</h3>
-                                            <h4 class="h3 lh-1 mb-0">
-                                                <span data-monthly-price="">N600.00</span>
-                                                <span class="d-none" data-annual-price="">N500.40</span>
-                                                <span class="text-body fs-sm fw-normal"> / per month</span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Aenean neque tortor, purus faucibus
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nullam augue vitae et volutpat sagittis
-                                        </li>
-                                        <li class="d-flex text-muted mb-2">
-                                            <i class="bx bx-x fs-xl me-1"></i>
-                                            Mauris massa penatibus enim elit quam
-                                        </li>
-                                        <li class="d-flex text-muted mb-2">
-                                            <i class="bx bx-x fs-xl me-1"></i>
-                                            Nec ac sagittis nunc bibendum
-                                        </li>
-                                        <li class="d-flex text-muted">
-                                            <i class="bx bx-x fs-xl me-1"></i>
-                                            Odio ut orci volutpat ultricies eleifend
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col d-none">
-                            <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body" style="filter: blur(6px)">
-                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                        <div class="flex-shrink-0 rounded-3" style="background-color: rgba(255,255,255, .1);">
-                                            <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
-                                        </div>
-                                        <div class="ps-4">
-                                            <h3 class="fs-lg fw-normal text-light opacity-70 mb-2">Standard</h3>
-                                            <h4 class="h3 text-light lh-1 mb-0">
-                                                <span data-monthly-price="">N1002.00</span>
-                                                <span class="d-none" data-annual-price="">N1000.80</span>
-                                                <span class="fs-sm fw-normal opacity-70"> / per month</span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                        <li class="d-flex text-light mb-2">
-                                            <i class="bx bx-check fs-xl me-1"></i>
-                                            <span class="opacity-70">Aenean neque tortor, purus faucibus</span>
-                                        </li>
-                                        <li class="d-flex text-light mb-2">
-                                            <i class="bx bx-check fs-xl me-1"></i>
-                                            <span class="opacity-70">Nullam augue vitae et volutpat sagittis</span>
-                                        </li>
-                                        <li class="d-flex text-light mb-2">
-                                            <i class="bx bx-check fs-xl me-1"></i>
-                                            <span class="opacity-70">Mauris massa penatibus enim elit quam</span>
-                                        </li>
-                                        <li class="d-flex text-light mb-2">
-                                            <i class="bx bx-check fs-xl me-1"></i>
-                                            <span class="opacity-70">Nec ac sagittis nunc bibendum</span>
-                                        </li>
-                                        <li class="d-flex text-light opacity-50">
-                                            <i class="bx bx-x fs-xl me-1"></i>
-                                            Odio ut orci volutpat ultricies eleifend
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:soon()" class="btn btn-light w-100">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col mb-4">
-                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body" style="filter: blur(6px)">
-                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                        <div class="flex-shrink-0 bg-secondary rounded-3">
-                                            <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
-                                        </div>
-                                        <div class="ps-4">
-                                            <h3 class="fs-lg fw-normal text-body mb-2">Standard</h3>
-                                            <h4 class="h3 lh-1 mb-0">
-                                                <span data-monthly-price="">N1002.00</span>
-                                                <span class="d-none" data-annual-price="">N1000.80</span>
-                                                <span class="fs-sm fw-normal opacity-70"> / per month</span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Aenean neque tortor, purus faucibus
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nullam augue vitae et volutpat sagittis
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Mauris massa penatibus enim elit quam
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nec ac sagittis nunc bibendum
-                                        </li>
-                                        <li class="d-flex">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Odio ut orci volutpat ultricies eleifend
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col mb-4">
-                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body" style="filter: blur(6px)">
-                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                        <div class="flex-shrink-0 bg-secondary rounded-3">
-                                            <img src="assets/img/landing/saas-1/pricing/ultimate.png" width="84" alt="Icon">
-                                        </div>
-                                        <div class="ps-4">
-                                            <h3 class="fs-lg fw-normal text-body mb-2">Ultimate</h3>
-                                            <h4 class="h3 lh-1 mb-0">
-                                                <span data-monthly-price="">N1008.00</span>
-                                                <span class="d-none" data-annual-price="">N1006.20</span>
-                                                <span class="text-body fs-sm fw-normal"> / per month</span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Aenean neque tortor, purus faucibus
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nullam augue vitae et volutpat sagittis
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Mauris massa penatibus enim elit quam
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nec ac sagittis nunc bibendum
-                                        </li>
-                                        <li class="d-flex">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Odio ut orci volutpat ultricies eleifend
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-center pb-4">
-                        <div class="col-sm-4 mb-4">
-                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body" style="filter: blur(6px)">
-                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                        <div class="flex-shrink-0 bg-secondary rounded-3">
-                                            <img src="assets/img/landing/saas-1/pricing/standard.png" width="84" alt="Icon">
-                                        </div>
-                                        <div class="ps-4">
-                                            <h3 class="fs-lg fw-normal text-body mb-2">Standard</h3>
-                                            <h4 class="h3 lh-1 mb-0">
-                                                <span data-monthly-price="">N1002.00</span>
-                                                <span class="d-none" data-annual-price="">N1000.80</span>
-                                                <span class="fs-sm fw-normal opacity-70"> / per month</span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Aenean neque tortor, purus faucibus
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nullam augue vitae et volutpat sagittis
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Mauris massa penatibus enim elit quam
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nec ac sagittis nunc bibendum
-                                        </li>
-                                        <li class="d-flex">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Odio ut orci volutpat ultricies eleifend
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4 mb-4">
-                            <div class="card h-100 border-0 shadow-sm p-xxl-3" style="min-width: 18rem;">
-                                <div class="card-body" style="filter: blur(6px)">
-                                    <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
-                                        <div class="flex-shrink-0 bg-secondary rounded-3">
-                                            <img src="assets/img/landing/saas-1/pricing/ultimate.png" width="84" alt="Icon">
-                                        </div>
-                                        <div class="ps-4">
-                                            <h3 class="fs-lg fw-normal text-body mb-2">Ultimate</h3>
-                                            <h4 class="h3 lh-1 mb-0">
-                                                <span data-monthly-price="">N1008.00</span>
-                                                <span class="d-none" data-annual-price="">N1006.20</span>
-                                                <span class="text-body fs-sm fw-normal"> / per month</span>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <ul class="list-unstyled fs-sm pb-md-3 mb-3">
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Aenean neque tortor, purus faucibus
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nullam augue vitae et volutpat sagittis
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Mauris massa penatibus enim elit quam
-                                        </li>
-                                        <li class="d-flex mb-2">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Nec ac sagittis nunc bibendum
-                                        </li>
-                                        <li class="d-flex">
-                                            <i class="bx bx-check fs-xl text-chambray me-1"></i>
-                                            Odio ut orci volutpat ultricies eleifend
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer border-0 pt-0 pb-4">
-                                    <a href="javascript:soon()" class="btn btn-primary w-100">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Benefits -->
-    <section class="bg-secondary pt-5">
+    <section class="py-5 bg-white">
         <div class="container pt-2 pt-sm-3 pt-md-4 pt-lg-5">
             <div class="row pt-xl-2 pt-xxl-4 pb-3 pb-sm-4 pb-md-5 mt-2">
                 <div class="col-md-6 col-xl-5 col-xxl-4">
@@ -519,69 +233,70 @@
         </div>
     </section>
 
-    <section class="bg-blue-50 pt-5">
-        <div class="container">
-            <!-- Business category -->
-            <div class="row align-items-center justify-content-center py-4 py-md-5">
-                <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <img src="{{ asset('business.png') }}" width="642" alt="Businessman">
-                </div>
-                <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
-                    <h2 class="mb-lg-4 text-chambray">For business services</h2>
-                    <p class="fs-lg pb-4 mb-0">
-                        Running a business in Nigeria or staying in touch with clients abroad shouldn’t break the bank. Lebara Business Plans are designed for entrepreneurs, SMEs, and professionals who need reliable, cost-effective communication, locally and internationally.<br><br>
-                        Whether you're in tech, trade, logistics or consulting, Lebara gives your business the communication tools it needs to thrive.
-                    </p>
-                    <a href="javascript:soon()" class="btn btn-primary mt-1">
-                        Buy now
-                        <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="bg-blue-50 py-5">
+        <div class="container mt-lg-5 my-md-4 my-3 py-xl-3">
+            <h2 class="h1 mb-md-4 mb-3 pb-lg-3 pb-2 text-center text-chambray-900">Transparent Pricing for You</h2>
+            <div class="price-switch-wrapper">
 
-    <section class="bg-chambray pt-5">
-        <div class="container">
-            <!-- Sturtups category -->
-            <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
-                <div class="col-10 col-sm-9 col-md-6 col-xl-7 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <div class="pe-md-4 pe-xl-0">
-                        <img src="{{ asset('startup.png') }}" width="636" alt="Startupper">
+                <!-- Price switch -->
+                <div class="form-check form-switch price-switch justify-content-center mb-md-4 mb-3 pb-lg-3 pb-2" data-bs-toggle="price">
+                    <input type="checkbox" class="form-check-input" id="pricing">
+                    <label class="form-check-label" for="pricing">Monthly</label>
+                    <label class="form-check-label d-flex align-items-start" for="pricing">Annually</label>
+                </div>
+
+                <!-- Price cards -->
+                <div class="table-responsive-lg pb-4">
+                    <div class="d-flex align-items-center">
+
+                        <!-- Pricing plan -->
+                        <div class="border rounded-3 rounded-end-0 shadow-sm me-n1" style="width: 32%; min-width: 16rem;">
+                            <div class="card bg-light h-100 border-0 border-end rounded-end-0 py-3 py-sm-4 py-lg-5">
+                                <div class="card-body text-center" style="filter: blur(8px)">
+                                    <h3 class="mb-2">Team</h3>
+                                    <div class="fs-lg pb-4 mb-3">Best for small teams</div>
+                                    <div class="display-5 text-dark mb-1" data-monthly-price>N15</div>
+                                    <div class="d-none display-5 text-dark mb-1" data-annual-price>N12</div>
+                                    <div class="text-muted mb-5">per month</div>
+                                </div>
+                                <div class="card-footer border-0 text-center pt-0 pb-4">
+                                    <a href="javascript:soon()" class="btn btn-primary btn-lg rounded-pill">Buy &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Featurd pricing plan -->
+                        <div class="bg-primary position-relative rounded-3 shadow-primary shadow-dark-mode-none zindex-2 p-4" style="width: 36%; min-width: 18rem;">
+                            <div class="card bg-transparent border-light py-3 py-sm-4 py-lg-5">
+                                <div class="card-body text-light text-center" style="filter: blur(8px)">
+                                    <h3 class="text-light mb-2">Company</h3>
+                                    <div class="fs-lg opacity-70 pb-4 mb-3">Best for growing teams</div>
+                                    <div class="display-5 mb-1" data-monthly-price>N25</div>
+                                    <div class="d-none display-5 mb-1" data-annual-price>N20</div>
+                                    <div class="opacity-50 mb-5">per month</div>
+                                </div>
+                                <div class="card-footer border-0 text-center pt-0 pb-4">
+                                    <a href="javascript:soon()" class="btn btn-primary btn-lg rounded-pill">Buy &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pricing plan -->
+                        <div class="border rounded-3 rounded-start-0 shadow-sm" style="width: 32%; min-width: 16rem;">
+                            <div class="card bg-light h-100 border-0 rounded-start-0 py-3 py-sm-4 py-lg-5">
+                                <div class="card-body text-center" style="filter: blur(8px)">
+                                    <h3 class="mb-2">Enterprise</h3>
+                                    <div class="fs-lg pb-4 mb-3">Best for large teams</div>
+                                    <div class="display-5 text-dark mb-1" data-monthly-price>N50</div>
+                                    <div class="d-none display-5 text-dark mb-1" data-annual-price>N40</div>
+                                    <div class="text-muted mb-5">per month</div>
+                                </div>
+                                <div class="card-footer border-0 text-center pt-0 pb-4">
+                                    <a href="javascript:soon()" class="btn btn-primary btn-lg rounded-pill">Buy &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-xl-5 text-center text-md-start">
-                    <h2 class="mb-lg-4 text-blue-50">Benefits for students</h2>
-                    <p class="fs-lg pb-4 mb-0 text-white">
-                        Whether you're studying in Nigeria or recently returned from abroad, communication matters. Lebara understands student life: budget constraints, long-distance relationships, and the need to stay close to family and friends across borders.<br><br>
-                        Lebara is your plug for quality calls, streaming, study time, and home time.
-                    </p>
-                    <a href="javascript:soon()" class="btn btn-primary mt-1">
-                        Buy now
-                        <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-light pt-5">
-        <div class="container">
-            <!-- Students category -->
-            <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
-                <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <img src="{{ asset('student3.png') }}" width="640" alt="Student">
-                </div>
-                <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
-                    <h2 class="mb-lg-4 text-chambray">Users in diaspora</h2>
-                    <p class="fs-lg pb-4 mb-0">
-                        Visiting home shouldn't come with telecom hassles. Whether it’s for the holidays, business, or a long-overdue reunion, Lebara offers SIMs made for Nigerians in the diaspora returning home.<br><br>
-                        Your homecoming should feel like home. Lebara makes it easier to reconnect, recharge, and stay reachable on your terms.
-                    </p>
-                    <a href="javascript:soon()" class="btn btn-primary mt-1">
-                        Buy now
-                        <i class="bx bx-chevron-right fs-lg ms-2 me-n2"></i>
-                    </a>
                 </div>
             </div>
         </div>
