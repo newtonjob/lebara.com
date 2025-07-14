@@ -41,7 +41,7 @@
                                 <!-- Item -->
                                 <div class="swiper-slide">
                                     <h6 class="from-start mb-lg-4 lh-1" style="font-size:calc(1.3875rem + 1.65vw);font-weight:200;line-height:1.3">WELCOME TO</h6>
-                                    <h2 class="display-1 from-start mb-lg-4 lh-1">LEBARA NIGERIA</h2>
+                                    <h2 class="display-1 from-start mb-lg-4 lh-1">LEBARA Nigeria</h2>
                                     {{--<div class="from-end">
                                         <p class="fs-xl text-white pb-2 mb-lg-5">
                                             Subscribe to get the insider gist of our launch and other premium offers.
@@ -61,8 +61,8 @@
 
                                 <div class="swiper-slide">
                                     <h6 class="from-start mb-lg-4 lh-1" style="font-size:calc(1.3875rem + 1.65vw);font-weight:200 !important;line-height:1.3">WE OFFER</h6>
-                                    <h2 class="display-1 from-start mb-lg-4 lh-1">
-                                        Reliable | Affordable | Quality service
+                                    <h2 class="display-3 from-start mb-lg-4 lh-1">
+                                        Reliable | <b class="text-primary">Affordable</b> | Quality
                                     </h2>
 
                                     <div class="from-end">
