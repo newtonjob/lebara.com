@@ -43,7 +43,7 @@
                             <div class="invalid-feedback">Please enter your message!</div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary shadow-primary btn-lg">Send request</button>
+                    <button type="submit" class="btn btn-primary shadow-primary btn-lg rounded-pill">Send request</button>
                 </form>
                 <grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents;"></grammarly-extension-vbars></div>
 
@@ -90,6 +90,160 @@
                         contact@lebara.ng
                     </li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social networks (Carousel on narrow screens) -->
+    <section class="container text-center py-5 my-2 my-md-4 my-lg-5">
+        <h2 class="h1 mb-4">We Have Social Networks</h2>
+        <p class="fs-lg text-muted pb-2 mb-5">Follow us and keep up to date with the freshest news!</p>
+        <div class="swiper" data-swiper-options='{
+          "slidesPerView": 2,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "clickable": true
+          },
+          "breakpoints": {
+            "500": {
+              "slidesPerView": 3
+            },
+            "650": {
+              "slidesPerView": 4
+            },
+            "900": {
+              "slidesPerView": 5
+            },
+            "1100": {
+              "slidesPerView": 6
+            }
+          }
+        }'>
+            <div class="swiper-wrapper">
+
+                <!-- Item -->
+                <div class="swiper-slide">
+                    <div class="position-relative text-center border-end mx-n1">
+                        <a href="about-v1.html#" class="btn btn-icon btn-secondary btn-facebook btn-lg stretched-link" aria-label="Facebook">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">Facebook</h6>
+                            <p class="fs-sm text-muted mb-0">silicon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide">
+                    <div class="position-relative text-center border-end mx-n1">
+                        <a href="about-v1.html#" class="btn btn-icon btn-secondary btn-instagram btn-lg stretched-link" aria-label="Instagram">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">Instagram</h6>
+                            <p class="fs-sm text-muted mb-0">@silicon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide">
+                    <div class="position-relative text-center border-end mx-n1">
+                        <a href="about-v1.html#" class="btn btn-icon btn-secondary btn-twitter btn-lg stretched-link" aria-label="Twitter">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">Twitter</h6>
+                            <p class="fs-sm text-muted mb-0">@silicon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide">
+                    <div class="position-relative text-center border-end mx-n1">
+                        <a href="about-v1.html#" class="btn btn-icon btn-secondary btn-linkedin btn-lg stretched-link" aria-label="LinkedIn">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">LinkedIn</h6>
+                            <p class="fs-sm text-muted mb-0">Silicon Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide">
+                    <div class="position-relative text-center border-end mx-n1">
+                        <a href="about-v1.html#" class="btn btn-icon btn-secondary btn-youtube btn-lg stretched-link" aria-label="Twitter">
+                            <i class="bx bxl-youtube"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">YouTube</h6>
+                            <p class="fs-sm text-muted mb-0">Silicon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="swiper-slide">
+                    <div class="position-relative text-center border-end mx-n1">
+                        <a href="about-v1.html#" class="btn btn-icon btn-secondary btn-dribbble btn-lg stretched-link" aria-label="Dribbble">
+                            <i class="bx bxl-dribbble"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">Dribbble</h6>
+                            <p class="fs-sm text-muted mb-0">Silicon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination (bullets) -->
+            <div class="swiper-pagination position-relative bottom-0 pt-3 mt-4"></div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="bg-dark bg-size-cover bg-position-center bg-repeat-0 position-relative overflow-hidden py-lg-3 py-xl-5 px-4 px-lg-5 px-xl-0" style="background-image: url('assets/img/landing/saas-3/cta-bg.jpg');" data-bs-theme="dark">
+            <div class="row position-relative zindex-2 py-5 my-1 my-md-3">
+                <div class="col-md-6">
+                    <div class="mx-auto" style="max-width: 440px;">
+                        <h2 class="h1 pb-1 pb-md-3 pb-lg-4">Let's start your investing easier now!</h2>
+                        <ul class="list-unstyled fs-lg d-md-none pb-3">
+                            <li class="d-flex text-body mb-2">
+                                <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
+                                Purus vestibulum pharetra amet tincidunt pretium
+                            </li>
+                            <li class="d-flex text-body mb-2">
+                                <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
+                                Haretra justo magna pharetra dui gravida sed nec
+                            </li>
+                            <li class="d-flex text-body">
+                                <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
+                                Venenatis risus faucibus volutpat amet feugiat a
+                            </li>
+                        </ul>
+                        <a href="javascript:soon()" class="btn btn-lg btn-primary shadow-primary w-100 w-sm-auto rounded-pill">Start trial now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-lg-3 pt-xl-4">
+                    <ul class="list-unstyled fs-lg d-none d-md-block">
+                        <li class="d-flex text-body mb-2">
+                            <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
+                            Purus vestibulum pharetra amet tincidunt pretium
+                        </li>
+                        <li class="d-flex text-body mb-2">
+                            <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
+                            Haretra justo magna pharetra dui gravida sed nec
+                        </li>
+                        <li class="d-flex text-body">
+                            <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
+                            Venenatis risus faucibus volutpat amet feugiat a
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
