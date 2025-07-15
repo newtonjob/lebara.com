@@ -648,7 +648,7 @@
         </section>
     @endif
 
-    <section class="py-5 bg-blue-50">
+    <section class="py-5 bg-blue-50" id="faq">
         <div class="container mb-lg-2">
             <div class="text-center pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
                 <h2 class="pb-3 mb-1 mb-lg-3 text-chambray-900">
@@ -678,7 +678,7 @@
 
             <div class="row py-2 py-md-4 py-lg-5">
                 <div class="col-md-6">
-                    <div class="accordion" id="faq">
+                    <div class="accordion">
                         <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
                             <h2 class="accordion-header" id="q1-heading">
                                 <button class="accordion-button shadow-none rounded-3 text-chambray" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">

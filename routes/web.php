@@ -26,12 +26,3 @@ Route::post('/join', function (Request $request) {
 })->middleware(PreventSpam::class);
 
 Route::get('/mail', fn () => (new \App\Notifications\Newsletter)->toMail(Subscriber::first()));
-
-// Globe or SIM
-// Building
-// Gift box
-// Phone
-// Money
-// Call/Telephone
-// Speed rocket
-// Satellite/Dish

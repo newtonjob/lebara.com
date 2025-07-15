@@ -1,4 +1,12 @@
 <style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    [id] {
+        scroll-margin-top: 80px;
+    }
+
     .page-loading {
         position: fixed;
         top: 0;
