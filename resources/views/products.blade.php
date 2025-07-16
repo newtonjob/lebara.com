@@ -57,7 +57,7 @@
 
                     <!-- Image -->
                     <div class="mx-md-n5 mb-md-n5 text-center p-5">
-                        <img src="{{ asset('sim.png') }}" width="400" alt="Image">
+                        <img src="{{ asset('sim-pebble.png') }}" width="400" alt="Image">
                     </div>
 
                     <!-- Items row -->

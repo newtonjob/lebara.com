@@ -183,7 +183,7 @@
             <!-- Business category -->
             <div class="row align-items-center justify-content-center py-4 py-md-5">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <img src="{{ asset('careers.png') }}" width="400" alt="Businessman">
+                    <img src="{{ asset('pebble-4.png') }}" width="400" alt="Businessman">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start">
                     <h1 class="mb-lg-4 text-white">We are Lebara</h1>
@@ -219,7 +219,7 @@
                         </div>
                     </div>
                     <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
-                        <img src="{{ asset('pebble-3.png') }}" width="500" alt="Image">
+                        <img src="{{ asset('pebble-1-new.png') }}" width="500" alt="Image">
                     </div>
                 </div>
             </div>
@@ -277,7 +277,7 @@
             <!-- Students category -->
             <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3">
                 <div class="col-10 col-sm-9 col-md-6 col-xl-7 d-flex justify-content-md-end order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                    <img src="{{ asset('pebble-3.png') }}" width="400" alt="Student">
+                    <img src="{{ asset('pebble-1-new.png') }}" width="400" alt="Student">
                 </div>
                 <div class="col-md-6 col-xl-5 order-md-1 text-center text-md-start text-white">
                     <h1 class="mb-lg-4 text-white">Users in diaspora</h1>

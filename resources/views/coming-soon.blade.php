@@ -341,7 +341,7 @@
                     </p>
                 </div>
                 <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
-                    <img src="{{ asset('pebble-3.png') }}" width="500" alt="Image">
+                    <img src="{{ asset('pebble-1-new.png') }}" width="500" alt="Image">
                 </div>
             </div>
         </div>
