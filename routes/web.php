@@ -26,3 +26,5 @@ Route::post('/join', function (Request $request) {
 })->middleware(PreventSpam::class);
 
 Route::get('/mail', fn () => (new \App\Notifications\Newsletter)->toMail(Subscriber::first()));
+
+// TODO

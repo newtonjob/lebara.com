@@ -402,4 +402,60 @@
             </div>
         </div>
     </section>
+
+    <section class="container pt-5 pb-4 pb-sm-5 mb-2 mb-sm-0 mb-lg-3 mb-xl-4 mt-md-2 mt-lg-4 mt-xl-5">
+        <div class="row row-cols-1 row-cols-sm-3 pt-sm-3 py-2">
+            <div class="col d-flex d-sm-block d-lg-flex align-items-start mb-3 mb-sm-0">
+                <div
+                    class="d-table shadow-primary rounded flex-shrink-0 p-2 mb-3"
+                    style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)"
+                >
+                    <img src="/assets/img/landing/app-showcase-2/icons/chat.svg" width="24" class="d-block m-1" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-0 ps-lg-4 ms-lg-2 me-xl-2 pe-xl-5">
+                    <h3 class="h4 mb-2 mb-md-3">24/7 Chat Help</h3>
+                    <p class="mb-1 mb-md-2">Chat support with our customer service specialists.</p>
+                    <a href="javascript:Tawk_API.maximize()" class="btn btn-link px-0">
+                        Talk to us
+                        <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col d-flex d-sm-block d-lg-flex align-items-start mb-3 mb-sm-0">
+                <div
+                    class="d-table shadow-primary rounded flex-shrink-0 p-2 mb-3"
+                    style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)"
+                >
+                    <img src="/assets/img/landing/app-showcase-2/icons/faq.svg" width="24" class="d-block m-1" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-0 ps-lg-4 ms-lg-2 pe-xl-5">
+                    <h3 class="h4 mb-2 mb-md-3">FAQ</h3>
+                    <p class="mb-1 mb-md-2">Find answers. Learn more about the features and services.</p>
+                    <a href="/home#faq" class="btn btn-link px-0">
+                        Learn more
+                        <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col d-flex d-sm-block d-lg-flex align-items-start">
+                <div
+                    class="d-table shadow-primary rounded flex-shrink-0 p-2 mb-3"
+                    style="background: linear-gradient(298.62deg, rgb(17, 195, 237) 0%, rgb(1, 94, 190) 121.22%)"
+                >
+                    <img src="/assets/img/landing/app-showcase-2/icons/email.svg" width="24" class="d-block m-1" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-0 ps-lg-4 ms-lg-2 pe-xl-5">
+                    <h3 class="h4 mb-2 mb-md-3">Email</h3>
+                    <p class="mb-1 mb-md-2">Please feel free to drop any questions to our email.</p>
+                    <a href="mailto:contact@lebara.ng" class="btn btn-link px-0">
+                        Drop us a line
+                        <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="container mb-md-2 mb-lg-4 d-none"><hr></div>
 </x-layouts.site>
